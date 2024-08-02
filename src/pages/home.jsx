@@ -6,6 +6,7 @@ import employeehome from "../images/icons/employeehome.png";
 import casestudyhome from "../images/icons/casestudyhome.png";
 import userhome from "../images/icons/userhome.png";
 import Testimonial from "../components/testimonial";
+import ContactForm from "../components/contactform";
 export default function Home() {
   return (
     <div className="home">
@@ -77,6 +78,7 @@ export default function Home() {
         </div>
       </div>
       <Testimonial />
+      <ContactForm />
     </div>
   );
 }
