@@ -1,0 +1,132 @@
+.homeheader {
+  background-color: #f8f9fa;
+  padding: 80px 40px;
+}
+
+.homeheader h1 {
+  color: #2f3031;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.headercentertext {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+.homeheaderbottom {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-top: 40px;
+}
+.homeheaderbottom button,
+.servicescardmain button {
+  background-color: #ff6833;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.homeheaderbottom button:hover,
+.servicescardmain button:hover {
+  background-color: #ff7e52;
+  transform: scale(1.1);
+}
+.homeheaderbottom p {
+  color: #ff6833;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.home h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.homeservices {
+  padding: 30px 40px;
+}
+.servicesrow {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+}
+.servicescard {
+  width: 100%;
+  max-width: calc(33.3333% - 30px);
+  min-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  background-color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.servicescard:hover {
+  scale: 1.1;
+}
+.servicescardtop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.servicescardtop h4 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.servicescardtop img {
+  width: 30px;
+  height: 30px;
+}
+.servicescardcontent p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+.servicescard hr {
+  margin: 20px 0px;
+  background-color: #dcdcdc;
+  height: 1px;
+  border: none;
+}
+.servicescardmain {
+  text-align: left;
+}
+.servicescardmain h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.servicescardmain ul {
+  list-style: circle;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+.servicescardmain ul li {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.servicescardmain button {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .servicesrow {
+    justify-content: center;
+  }
+  .servicescard {
+    max-width: calc(92%);
+  }
+}
