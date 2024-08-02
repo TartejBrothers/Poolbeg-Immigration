@@ -49,4 +49,34 @@
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+  width: 300px;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .contactform {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contactformleft {
+    width: 100%;
+    max-width: 100%;
+  }
+  .contactformleft p {
+    text-align: center;
+  }
+  .contactformright {
+    width: 100%;
+  }
+  .contactformright form input,
+  .contactformright form textarea {
+    width: 100%;
+  }
+  .inputdivhalf {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .contactformright form button {
+    width: 100%;
+  }
 }

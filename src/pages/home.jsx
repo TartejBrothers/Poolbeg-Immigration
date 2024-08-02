@@ -7,6 +7,7 @@ import casestudyhome from "../images/icons/casestudyhome.png";
 import userhome from "../images/icons/userhome.png";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
+import Footer from "../components/footer";
 export default function Home() {
   return (
     <div className="home">
@@ -79,6 +80,7 @@ export default function Home() {
       </div>
       <Testimonial />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
