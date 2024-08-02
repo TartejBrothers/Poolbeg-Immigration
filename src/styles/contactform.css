@@ -1,0 +1,82 @@
+.contactform {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+.contactformleft {
+  width: 30%;
+  max-width: 400px;
+}
+.contactformleft p {
+  text-align: left;
+}
+
+.contactformright {
+  width: calc(70% - 20px);
+  max-width: 1000px;
+}
+.contacttextorange {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+.contactformright form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contactformright form input,
+.contactformright form textarea {
+  width: calc(100%);
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #757575;
+  padding: 15px 10px;
+}
+.inputdivhalf {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.contactformright form button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .contactform {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contactformleft {
+    width: 100%;
+    max-width: 100%;
+  }
+  .contactformleft p {
+    text-align: center;
+  }
+  .contactformright {
+    width: 100%;
+  }
+  .contactformright form input,
+  .contactformright form textarea {
+    width: 100%;
+  }
+  .inputdivhalf {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .contactformright form button {
+    width: 100%;
+  }
+}

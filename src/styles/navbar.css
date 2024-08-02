@@ -7,7 +7,7 @@
 .navbartop {
   display: flex;
   margin-top: 20px;
-  justify-content: end;
+  justify-content: center;
 }
 .navbartop ul {
   display: flex;
@@ -69,4 +69,24 @@
   font-weight: 600;
   padding: 13px 40px;
   border-radius: 20px;
+}
+.navbarmobile {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .navbarmain {
+    padding: 20px 10px;
+  }
+  .navbarcenter {
+    display: none;
+  }
+  .navbarmobile {
+    display: flex;
+
+    align-items: center;
+    padding: 10px;
+  }
+  .navbarmobile img {
+    height: 40px;
+  }
 }

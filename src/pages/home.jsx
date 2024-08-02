@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/home.css";
 import Navbar from "../components/navbar";
-import ServicesCard from "../components/servicescard";
+import ServicesCard from "../components/elements/servicescard";
 import employeehome from "../images/icons/employeehome.png";
 import casestudyhome from "../images/icons/casestudyhome.png";
 import userhome from "../images/icons/userhome.png";
 import Testimonial from "../components/testimonial";
+import ContactForm from "../components/contactform";
+import Footer from "../components/footer";
 export default function Home() {
   return (
     <div className="home">
@@ -45,7 +47,7 @@ export default function Home() {
             link={"home"}
           />
           <ServicesCard
-            image={employeehome}
+            image={userhome}
             heading={"For Individuals"}
             content={
               "We provide advice and assistance to individuals with immigration support in Ireland."
@@ -60,7 +62,7 @@ export default function Home() {
             link={"home"}
           />
           <ServicesCard
-            image={employeehome}
+            image={casestudyhome}
             heading={"For Employers"}
             content={
               "We enable businesses to hire non-EU nationals by processing your work visa applications."
@@ -77,6 +79,8 @@ export default function Home() {
         </div>
       </div>
       <Testimonial />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/navbar.css";
 import logo from "../images/icons/logo.jpeg";
+import griplines from "../images/icons/griplines.png";
 export default function Navbar() {
   return (
     <div className="navbar">
@@ -25,6 +26,9 @@ export default function Navbar() {
         </div>
         <div className="navbarright">
           <button>Contact Us</button>
+          <div className="navbarmobile">
+            <img src={griplines} alt="Menu Bar" />
+          </div>
         </div>
       </div>
     </div>

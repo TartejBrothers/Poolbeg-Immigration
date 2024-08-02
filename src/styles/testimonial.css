@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 20px 80px 20px 60px;
   align-items: center;
-  max-width: 1500px;
+
   margin: 0 auto;
   width: 100%;
 }
@@ -133,6 +133,7 @@
   font-weight: 600;
   color: #000000;
   margin-top: 5px;
+  text-align: left;
   margin-bottom: 5px;
 }
 

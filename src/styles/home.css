@@ -24,7 +24,8 @@
   margin-top: 40px;
 }
 .homeheaderbottom button,
-.servicescardmain button {
+.servicescardmain button,
+.contactusbutton {
   background-color: #ff6833;
   color: white;
   padding: 10px 20px;
@@ -36,7 +37,8 @@
   transition: all 0.3s ease;
 }
 .homeheaderbottom button:hover,
-.servicescardmain button:hover {
+.servicescardmain button:hover,
+.contactusbutton:hover {
   background-color: #ff7e52;
   transform: scale(1.1);
 }
@@ -62,7 +64,7 @@
 .servicescard {
   width: 100%;
   max-width: calc(33.3333% - 30px);
-  min-width: 300px;
+  min-width: 285px;
   border-radius: 5px;
   border: 1px solid #f1f1f1;
   background-color: #ffffff;
@@ -123,6 +125,16 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .homeheader {
+    padding: 60px 20px;
+  }
+  .homeheader h1 {
+    font-size: 30px;
+  }
+  .homeheaderbottom {
+    flex-direction: column;
+    gap: 20px;
+  }
   .servicesrow {
     justify-content: center;
   }
