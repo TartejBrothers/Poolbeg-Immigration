@@ -1,0 +1,154 @@
+.workpageheader {
+  display: flex;
+  align-items: center;
+  background-color: #add1eb;
+  padding: 20px 40px;
+  gap: 20px;
+  color: #000000;
+}
+.workheaderleft {
+  width: 50%;
+}
+.workheaderright {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+.workheaderleft h1 {
+  color: #dc291c;
+  text-align: left;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.workheaderleft p {
+  font-size: 16px;
+  opacity: 0.8;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.workheaderright img {
+  width: 75%;
+  min-height: 400px;
+  max-height: 400px;
+  object-fit: contain;
+}
+.workpagemainbody {
+  padding: 40px 20px;
+}
+.workpagecontent {
+  display: flex;
+  gap: 20px;
+  padding: 20px 40px;
+}
+.workpagecomponentselector {
+  width: 100%;
+  display: flex;
+}
+.workpagecomponentselector ul {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.workpagecomponentselector ul li {
+  padding: 20px 20px;
+  background-color: #d0d0d0;
+  color: #000000;
+  border-radius: 5px;
+  width: calc(25% - 5px);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.selectedelement {
+  background-color: #dc291c !important;
+  color: #ffffff !important;
+}
+
+.workpagecomponentselector ul li:hover {
+  background-color: #dc6960;
+  color: #ffffff;
+}
+
+.workpagecontentelement h3 {
+  color: #3a3a3a;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.workpagecontentelement p {
+  color: #3a3a3a;
+  font-size: 16px;
+  opacity: 0.8;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.workpagecontentelement ol {
+  text-align: left !important;
+}
+.workpagecontentelement ol li {
+  color: #000000 !important;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 1;
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+.workpagecontentelement h4 {
+  color: #727272;
+}
+.workpagecontentelement ul {
+  text-align: left !important;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.workpagecontentelement ul li {
+  color: #000000 !important;
+  font-size: 16px;
+
+  opacity: 1;
+  text-align: left !important;
+}
+
+.workpagecontentelement ul li u {
+  font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+  .workpagecomponentselector ul {
+    flex-direction: column;
+  }
+  .workpagecomponentselector ul li {
+    width: 100%;
+  }
+  .workpagecontent {
+    padding: 20px;
+  }
+  .workpageheader {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .workheaderleft {
+    width: 100%;
+    padding: 20px;
+  }
+  .workheaderleft h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .workheaderleft p {
+    text-align: center;
+  }
+  .workheaderright {
+    width: 100%;
+  }
+  .workheaderright img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
