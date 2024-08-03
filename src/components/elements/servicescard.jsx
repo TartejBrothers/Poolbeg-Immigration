@@ -16,8 +16,10 @@ export default function ServicesCard({
 
   return (
     <div className="servicescard">
-      <div className="servicescardtop">
+      <div className="servicesimage">
         <img src={image} alt="Header" />
+      </div>
+      <div className="servicescardtop">
         <h4>{heading}</h4>
       </div>
       <div className="servicescardcontent">

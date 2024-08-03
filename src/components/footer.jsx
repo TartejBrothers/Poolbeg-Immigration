@@ -73,6 +73,7 @@ export default function Footer() {
           <button className="contactusbutton">Contact Us</button>
         </div>
       </div>
+      <hr />
       <div className="footerbottom">
         <div className="footerbottomleft">
           <img src={logo} alt="About" />

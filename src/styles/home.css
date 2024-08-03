@@ -1,16 +1,17 @@
 .homeheader {
-  background-color: #f8f9fa;
+  background-color: #212121;
   padding: 80px 40px;
 }
 
 .homeheader h1 {
-  color: #2f3031;
+  color: #dddddd;
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 .headercentertext {
   font-size: 16px;
+  color: #ffffff;
   font-weight: 400;
   margin-bottom: 20px;
   max-width: 1000px;
@@ -18,15 +19,32 @@
 }
 .homeheaderbottom {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 30px;
   align-items: center;
   margin-top: 40px;
 }
+.homeheaderdivider {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.homeheaderdivider p {
+  font-size: 14px !important;
+}
+.homeheaderdivider hr {
+  width: calc(200px);
+  border: none;
+  height: 1px;
+  background-color: #dcdcdc;
+}
 .homeheaderbottom button,
 .servicescardmain button,
 .contactusbutton {
-  background-color: #ff6833;
+  background-color: #db291c;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -39,11 +57,11 @@
 .homeheaderbottom button:hover,
 .servicescardmain button:hover,
 .contactusbutton:hover {
-  background-color: #ff7e52;
+  background-color: #ff2a1a;
   transform: scale(1.1);
 }
 .homeheaderbottom p {
-  color: #ff6833;
+  color: #db291c;
   font-size: 18px;
   font-weight: 500;
 }
@@ -63,12 +81,13 @@
 }
 .servicescard {
   width: 100%;
-  max-width: calc(33.3333% - 30px);
+  max-width: calc(50% - 20px);
   min-width: 285px;
   border-radius: 5px;
   border: 1px solid #f1f1f1;
-  background-color: #ffffff;
+  background-color: #212121;
   padding: 20px;
+  color: #ffffff;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -83,7 +102,10 @@
 }
 .servicescardtop h4 {
   display: flex;
-  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -108,6 +130,7 @@
 .servicescardmain h5 {
   font-size: 16px;
   font-weight: 700;
+
   margin-bottom: 10px;
 }
 .servicescardmain ul {
@@ -123,13 +146,18 @@
 .servicescardmain button {
   width: 100%;
 }
+.servicesimage img {
+  max-width: 100%;
+  height: 100px;
+  border-radius: 100%;
+}
 
 @media screen and (max-width: 1000px) {
   .homeheader {
     padding: 60px 20px;
   }
   .homeheader h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
   .homeheaderbottom {
     flex-direction: column;
@@ -140,5 +168,9 @@
   }
   .servicescard {
     max-width: calc(92%);
+  }
+  .homeheaderdivider hr {
+    width: calc(100px);
+    max-width: calc(50vw - 80px);
   }
 }
