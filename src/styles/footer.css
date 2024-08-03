@@ -1,10 +1,31 @@
 .footer {
-  background-color: #171f27;
+  background-color: #141414;
   padding: 40px 40px 20px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.footerabout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footeraboutheader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.footeraboutheader img {
+  height: 40px;
+}
+.footer ul li {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.footer ul li:hover {
+  color: #db291c;
 }
 .footer hr {
   width: 100%;
@@ -12,6 +33,7 @@
   margin: 20px 0;
 }
 .footertop {
+  padding-top: 20px;
   width: 100%;
   max-width: 1400px;
   display: flex;
