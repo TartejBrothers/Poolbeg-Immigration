@@ -1,13 +1,15 @@
 import React from "react";
 import "../styles/home.css";
+import "../styles/industry.css";
 import Navbar from "../components/navbar";
 import ServicesCard from "../components/elements/servicescard";
-import employeehome from "../images/icons/employeehome.png";
-import casestudyhome from "../images/icons/casestudyhome.png";
-import userhome from "../images/icons/userhome.png";
+import employeehome from "../images/employershome.jpg";
+import userhome from "../images/individualshome.png";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
 import Footer from "../components/footer";
+import logo from "../images/icons/logo.png";
+import IndustryCard from "../components/elements/industrycard";
 export default function Home() {
   return (
     <div className="home">
@@ -23,7 +25,12 @@ export default function Home() {
           individuals to secure their legal status in Ireland.
         </p>
         <div className="homeheaderbottom">
-          <button>Talk to our Consultants</button>
+          <button>Talk To Us</button>
+          <div className="homeheaderdivider">
+            <hr />
+            <p>or Call Us On</p>
+            <hr />
+          </div>
           <p>+353 (01) 234 5678</p>
         </div>
       </div>
@@ -61,20 +68,35 @@ export default function Home() {
             ]}
             link={"home"}
           />
-          <ServicesCard
-            image={casestudyhome}
-            heading={"For Employers"}
-            content={
-              "We enable businesses to hire non-EU nationals by processing your work visa applications."
-            }
-            headingservice={"Top Services"}
-            services={[
-              "Trusted Partnership Registration",
-              "Critical Skills Employment Permits",
-              "General Employment Permits",
-              "Visa Applications",
-            ]}
-            link={"home"}
+        </div>
+      </div>
+      <div className="homeindustries">
+        <h2>Industries We Serve</h2>
+        <div className="industriesrow">
+          <IndustryCard
+            image={logo}
+            name={"Lorem Ipsum"}
+            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+          />
+          <IndustryCard
+            image={logo}
+            name={"Lorem Ipsum"}
+            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+          />
+          <IndustryCard
+            image={logo}
+            name={"Lorem Ipsum"}
+            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+          />
+          <IndustryCard
+            image={logo}
+            name={"Lorem Ipsum"}
+            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+          />
+          <IndustryCard
+            image={logo}
+            name={"Lorem Ipsum"}
+            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
           />
         </div>
       </div>

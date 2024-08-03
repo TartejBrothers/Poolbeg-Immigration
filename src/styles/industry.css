@@ -1,0 +1,41 @@
+.homeindustries {
+  padding: 40px;
+  background-color: #f1f1f1;
+}
+.industriesrow {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.industrycard {
+  padding: 20px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.industrycard:hover {
+  transform: scale(1.1);
+}
+.industrycardheader {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dc291c;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.industrycardcontent p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.industrycardheader img {
+  height: 40px;
+}

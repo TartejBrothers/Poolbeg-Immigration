@@ -7,6 +7,19 @@ import linkedin from "../images/icons/linkedin.svg";
 export default function Footer() {
   return (
     <div className="footer">
+      <div className="footerabout">
+        <div className="footeraboutheader">
+          <img src={logo} alt="Logo" />
+          <h3>About Us</h3>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          dolorum quae, voluptates, quos, doloribus quia quod doloremque
+          voluptatem autem quidem fugit. Quisquam dolorum quae, voluptates,
+          quos, doloribus quia quod doloremque voluptatem autem quidem fugit.
+        </p>
+      </div>
+      <hr />
       <div className="footertop">
         <div className="footerchild">
           <h4>Work Permits</h4>
@@ -33,27 +46,20 @@ export default function Footer() {
           <h4>Immigration</h4>
           <div className="footerinnerchild">
             <div className="footerelement">
-              <h5>Entering Ireland</h5>
               <ul>
                 <li>Work Visas</li>
                 <li>Study Visas</li>
                 <li>Short-Term Visas</li>
                 <li>Family Visas</li>
               </ul>
-            </div>
-            <div className="footerelement">
-              <h5>Citizenship & Residency</h5>
+
               <ul>
                 <li>Stamp 4</li>
                 <li>Stamp 5</li>
                 <li>Stamp 6 (Irish Citizenship)</li>
                 <li>Other Irish Immigration Stamps</li>
               </ul>
-            </div>
-          </div>
-          <div className="footerinnerchild">
-            <div className="footerelement">
-              <h5>Status Change Within Ireland</h5>
+
               <ul>
                 <li>Spouse/Civil Partner Visa</li>
                 <li>Parent of an Irish Child</li>
@@ -73,6 +79,7 @@ export default function Footer() {
           <button className="contactusbutton">Contact Us</button>
         </div>
       </div>
+      <hr />
       <div className="footerbottom">
         <div className="footerbottomleft">
           <img src={logo} alt="About" />
