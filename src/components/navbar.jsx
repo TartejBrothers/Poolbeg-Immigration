@@ -14,7 +14,7 @@ export default function Navbar() {
     <div className="navbar">
       <div className="navbarmain">
         <div className="navbarleft">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" onClick={() => navigateTo("")} />
         </div>
         <div className="navbarcenter"></div>
         <div className="navbarright">

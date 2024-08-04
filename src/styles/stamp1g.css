@@ -5,3 +5,58 @@
   padding: 20px 40px;
   text-align: left;
 }
+
+.workheaderleft h5 {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #333;
+  cursor: pointer;
+}
+.stampbody {
+  padding: 40px 40px;
+  text-align: left;
+}
+.stampbody h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.stampbody p {
+  font-size: 16px;
+}
+.stampbody hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+.stampbody b {
+  font-weight: 600;
+}
+.stampbody ul {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.stampbody ul li {
+  margin-left: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .stampheader {
+    padding: 20px 20px;
+    flex-direction: column;
+  }
+
+  .workheaderleft h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .stampbody h2 {
+    font-size: 24px;
+  }
+}
