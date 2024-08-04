@@ -1,19 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/footer.css";
 import logo from "../images/icons/logo.jpeg";
 import instagram from "../images/icons/instagram.svg";
 import linkedin from "../images/icons/linkedin.svg";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 export default function Footer() {
   const [footercolumnone, setFootercolumnone] = useState(false);
   const [footercolumntwo, setFootercolumntwo] = useState(false);
   const [footercolumnthree, setFootercolumnthree] = useState(false);
   const [footercolumnfour, setFootercolumnfour] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
   const navigateTo = (path) => {
     navigate("/" + path);
   };
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <div className="footer">
       <div className="footerabout">
