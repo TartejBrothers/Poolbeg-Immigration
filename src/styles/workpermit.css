@@ -38,7 +38,32 @@
 .workpagecontent {
   display: flex;
   gap: 20px;
+
   padding: 20px 40px;
+}
+.workpagecontentelement table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.workpagecontentelement table thead {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.workpagecontentelement table tbody {
+  border: 1px solid #ddd;
+}
+.workpagecontentelement table th {
+  background-color: #ff655b;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 500;
+}
+.workpagecontentelement td {
+  width: 33%;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 .workpagecomponentselector {
   width: 100%;
@@ -70,7 +95,9 @@
   background-color: #dc6960;
   color: #ffffff;
 }
-
+.workpagecontentelement {
+  width: 100%;
+}
 .workpagecontentelement h3 {
   color: #3a3a3a;
   font-size: 32px;
@@ -150,5 +177,12 @@
   .workheaderright img {
     width: 100%;
     max-width: 400px;
+  }
+  .workpagecontentelement table th {
+    font-size: 14px;
+  }
+  .workpagecontentelement table td {
+    padding: 8px;
+    font-size: 14px;
   }
 }
