@@ -3,6 +3,7 @@ import "../styles/navbar.css";
 import logo from "../images/icons/logo.jpeg";
 import griplines from "../images/icons/griplines.png";
 import { useNavigate } from "react-router-dom";
+
 export default function Navbar() {
   const navigate = useNavigate();
   const navigateTo = (path) => {
@@ -13,17 +14,77 @@ export default function Navbar() {
     <div className="navbar">
       <div className="navbarmain">
         <div className="navbarleft">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" onClick={() => navigateTo("")} />
         </div>
         <div className="navbarcenter"></div>
         <div className="navbarright">
           <ul>
-            <li onClick={() => navigateTo("work-permit")}>Work Permits</li>
-            <li>Stamp 1G</li>
-            <li>Immigration</li>
-            <li>Our Services</li>
+            <li className="dropdown">
+              <span onClick={() => navigateTo("work-permit")}>
+                Work Permits <ion-icon name="chevron-down"></ion-icon>
+              </span>
+              <div className="dropdown-content">
+                <ul>
+                  <li>Critical Skills Employment Permit</li>
+                  <li>General Employment Permits</li>
+                  <li>Reactivation Employment Permit</li>
+                  <li>Other Employment Permit Types</li>
+                  <li>Partner/Spouse of Permit Holders</li>
+                  <li>Appeal Employment Permit Refusal</li>
+                  <li>Labor Market Need Test</li>
+                  <li>Trusted Partnership</li>
+                  <li>Critical Skills Occupation Lists</li>
+                </ul>
+              </div>
+            </li>
+            <li className="dropdown">
+              <span>
+                Stamp 1G <ion-icon name="chevron-down"></ion-icon>
+              </span>
+              <div className="dropdown-content">
+                <ul>
+                  <li onClick={() => navigateTo("stamp1g-overview")}>
+                    Stamp 1G Overview
+                  </li>
+                  <li>Stamp 1G Extension</li>
+                </ul>
+              </div>
+            </li>
+            <li className="dropdown">
+              <span>
+                Immigration <ion-icon name="chevron-down"></ion-icon>
+              </span>
+              <div className="dropdown-content">
+                <ul>
+                  <li>Work Visas</li>
+                  <li>Study Visas</li>
+                  <li>Short-Term Visas</li>
+                  <li>Family Visas</li>
+                  <li>Stamp 4</li>
+                  <li>Stamp 5</li>
+                  <li>Stamp 6 (Irish Citizenship)</li>
+                  <li>Other Irish Immigration Stamps</li>
+                  <li>Spouse/Civil Partner Visa</li>
+                  <li>Parent of an Irish Child</li>
+                  <li>De Facto Partner Visa</li>
+                  <li>Change of Immigration Permission</li>
+                </ul>
+              </div>
+            </li>
+            <li className="dropdown">
+              <span>
+                Our Services <ion-icon name="chevron-down"></ion-icon>
+              </span>
+              <div className="dropdown-content">
+                <ul>
+                  <li>For Employers</li>
+                  <li>For Individuals</li>
+                  <li>Case Studies</li>
+                </ul>
+              </div>
+            </li>
           </ul>
-          <button>Contact Us</button>
+          <button className="contactusbutton">Contact Us</button>
           <div className="navbarmobile">
             <img src={griplines} alt="Menu Bar" />
           </div>

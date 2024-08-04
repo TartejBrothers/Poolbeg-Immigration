@@ -31,7 +31,9 @@ export default function Home() {
             <p>or Call Us On</p>
             <hr />
           </div>
-          <p>+353 (01) 234 5678</p>
+          <p>
+            <ion-icon name="call"></ion-icon>+353 (01) 234 5678
+          </p>
         </div>
       </div>
 
