@@ -4,14 +4,25 @@ import stamp1g from "../images/stampoverview.png";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ContactForm from "../components/contactform";
+import { useNavigate } from "react-router-dom";
 export default function Stamp1GOverview() {
+  const navigate = useNavigate();
+  const navigateTo = (path) => {
+    navigate("/" + path);
+  };
   return (
     <div className="stampmain">
       <Navbar />
       <div className="stampheader">
         <div className="workheaderleft">
           <h1>Stamp 1G Overview</h1>
-          <h5>Click here for Stamp 1G Extension</h5>
+          <h5
+            onClick={() => {
+              navigateTo("stamp1g-extension");
+            }}
+          >
+            Click here for Stamp 1G Extension
+          </h5>
           <p>
             An international student finishing studies in Ireland is eligible to
             apply for Stamp 1G permission to seek employment without an
@@ -25,7 +36,7 @@ export default function Stamp1GOverview() {
         </div>
       </div>
       <div className="stampbody">
-        <h2>What is Stamp 1G?</h2>
+        <h2>What is Stamp 1G</h2>
         <p>
           Stamp 1G allows international students who hold level 8 or 9 awards
           from a recognised Irish awarding body to stay in Ireland after their

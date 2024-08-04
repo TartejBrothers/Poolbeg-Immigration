@@ -46,7 +46,9 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("stamp1g-overview")}>
                     Stamp 1G Overview
                   </li>
-                  <li>Stamp 1G Extension</li>
+                  <li onClick={() => navigateTo("stamp1g-extension")}>
+                    Stamp 1G Extension
+                  </li>
                 </ul>
               </div>
             </li>
