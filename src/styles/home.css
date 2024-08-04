@@ -55,10 +55,12 @@
   transition: all 0.3s ease;
 }
 .homeheaderbottom button:hover,
-.servicescardmain button:hover,
 .contactusbutton:hover {
   background-color: #ff2a1a;
   transform: scale(1.1);
+}
+.servicescardmain button:hover {
+  background-color: #ff2a1a;
 }
 .homeheaderbottom p {
   color: #db291c;
