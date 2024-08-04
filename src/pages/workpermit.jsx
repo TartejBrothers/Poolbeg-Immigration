@@ -141,23 +141,65 @@ export const WorkPermitComponentFour = () => {
   return (
     <div className="workpagecontentelement">
       <h3>Fees for Employment Permits</h3>
-      <p>
-        The Department of Enterprise, Trade and Employment (DETE) in Ireland
-        processes all employment permit applications. The employment permit
-        system was developed to allow non-EU/non-EEA nationals to work in
-        Ireland in jobs with a labour shortage in the market and where an
-        employer needs help finding an Irish or EU national to file for the
-        role. ​<br />
-        ​<br />
-        Non-EEA nationals currently in Ireland on a Working Holiday
-        Authorisation or a Van Der Elst Transfer Permission cannot apply for an
-        employment permit from within the State and must leave the State should
-        they wish to apply for a permit. ​​
-        <br />
-        ​<br />
-        Persons resident in the State on a valid visa (Stamp 1, 1G, 2, 2A or 3)
-        may apply for an employment permit.
-      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Employment permit category</th>
+            <th>First application fee</th>
+            <th>Renewal fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>General Employment Permit</td>
+            <td>€1,000 up to 24 months and €500 for six months or less</td>
+            <td>€750 for six months or less €1,500 up to 36 months</td>
+          </tr>
+          <tr>
+            <td>Critical Skills Employment Permit</td>
+            <td>€1,000 up to 24 month</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td>Dependant / Partner / Spouse Employment Permit</td>
+            <td>No fee</td>
+            <td>No fee</td>
+          </tr>
+          <tr>
+            <td>Intra-Company Transfer Employment Permit</td>
+            <td>€1,000 up to 24 months and €500 for six months or less</td>
+            <td>
+              €500 for six months or less €1,000 up to 24 months €1,500 up to 36
+              months
+            </td>
+          </tr>
+          <tr>
+            <td>Contract for Services Employment Permit</td>
+            <td>€1,000 up to 24 months and €500 for six months or less</td>
+            <td>€750 for six months or less €1,500 up to 36 months</td>
+          </tr>
+          <tr>
+            <td>Reactivation Employment Permit</td>
+            <td>€1,000 up to 24 months and €500 for six months or less</td>
+            <td>€750 for six months or less €1,500 up to 36 months</td>
+          </tr>
+          <tr>
+            <td>Sport and Cultural Employment Permit</td>
+            <td>€1,000 up to 24 months and €500 for six months or less</td>
+            <td>€750 for six months or less €1,500 up to 36 months</td>
+          </tr>
+          <tr>
+            <td>Exchange Agreement Employment Permit</td>
+            <td>No fee</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td>Internship Employment Permit</td>
+            <td>€1,000 up to 12 months and €500 for six months or less</td>
+            <td>N/A</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 };
