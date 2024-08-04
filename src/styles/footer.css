@@ -45,13 +45,13 @@
 .footerchild h4 {
   font-size: 20px;
   width: fit-content;
+  margin-bottom: 20px;
+  gap: 10px;
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
   cursor: pointer;
 }
-.footerchild h4 ion-icon {
+.footerchild span ion-icon {
   display: none;
 }
 .footerchild h4:hover {
@@ -88,8 +88,9 @@
   gap: 20px;
 }
 .footerbottomleft p {
-  font-size: 14px;
-  text-decoration: underline;
+  font-size: 17px;
+  font-weight: 500;
+
   cursor: pointer;
 }
 .footerbottomleft img {
@@ -123,6 +124,7 @@
   }
   .footerchild h4 {
     font-size: 18px;
+    margin-bottom: 0px;
   }
   .footerchild ul li {
     font-size: 12px;
@@ -138,7 +140,7 @@
   .footerbottomright {
     gap: 20px;
   }
-  .footerchild h4 ion-icon {
+  .footerchild span ion-icon {
     display: block;
     transition: all 0.3s ease;
   }
@@ -148,10 +150,24 @@
   .activefooter ul {
     display: block;
   }
-  .activefooter h4 ion-icon {
+  .activefooter span ion-icon {
     transform: rotate(180deg);
+    color: #db291c;
   }
+
   .footerinnerchild {
     margin-bottom: 0px;
+  }
+  .footerchild span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  .activefooter span {
+    margin-bottom: 20px;
+  }
+  .activefooter span h4 {
+    color: #db291c;
   }
 }

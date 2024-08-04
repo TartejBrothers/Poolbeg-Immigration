@@ -1,15 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/footer.css";
 import logo from "../images/icons/logo.jpeg";
 import instagram from "../images/icons/instagram.svg";
 import linkedin from "../images/icons/linkedin.svg";
-
+import { useNavigate, useLocation } from "react-router-dom";
 export default function Footer() {
   const [footercolumnone, setFootercolumnone] = useState(false);
   const [footercolumntwo, setFootercolumntwo] = useState(false);
   const [footercolumnthree, setFootercolumnthree] = useState(false);
   const [footercolumnfour, setFootercolumnfour] = useState(false);
-
+  const navigate = useNavigate();
+  const location = useLocation();
+  const navigateTo = (path) => {
+    navigate("/" + path);
+  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <div className="footer">
       <div className="footerabout">
@@ -31,13 +38,20 @@ export default function Footer() {
             footercolumnone ? "footerchild activefooter" : "footerchild"
           }
         >
-          <h4
+          <span
             onClick={() => {
               setFootercolumnone(!footercolumnone);
             }}
           >
-            Work Permits <ion-icon name="chevron-down"></ion-icon>
-          </h4>
+            <h4
+              onClick={() => {
+                navigateTo("work-permit");
+              }}
+            >
+              Work Permits{" "}
+            </h4>
+            <ion-icon name="chevron-down"></ion-icon>
+          </span>
           <ul>
             <li>Critical Skills Employment Permit</li>
             <li>General Employment Permits</li>
@@ -55,16 +69,21 @@ export default function Footer() {
             footercolumntwo ? "footerchild activefooter" : "footerchild"
           }
         >
-          <h4
+          <span
             onClick={() => {
               setFootercolumntwo(!footercolumntwo);
             }}
           >
-            Stamp 1G <ion-icon name="chevron-down"></ion-icon>
-          </h4>
+            <h4>Stamp 1G </h4>
+            <ion-icon name="chevron-down"></ion-icon>
+          </span>
           <ul>
-            <li>Stamp 1G Overview</li>
-            <li>Stamp 1G Extension</li>
+            <li onClick={() => navigateTo("stamp1g-overview")}>
+              Stamp 1G Overview
+            </li>
+            <li onClick={() => navigateTo("stamp1g-extension")}>
+              Stamp 1G Extension
+            </li>
           </ul>
         </div>
         <div
@@ -72,13 +91,14 @@ export default function Footer() {
             footercolumnthree ? "footerchild activefooter" : "footerchild"
           }
         >
-          <h4
+          <span
             onClick={() => {
               setFootercolumnthree(!footercolumnthree);
             }}
           >
-            Immigration <ion-icon name="chevron-down"></ion-icon>
-          </h4>
+            <h4>Immigration </h4>
+            <ion-icon name="chevron-down"></ion-icon>
+          </span>
           <div className="footerinnerchild">
             <div className="footerelement">
               <ul>
@@ -109,13 +129,16 @@ export default function Footer() {
             footercolumnfour ? "footerchild activefooter" : "footerchild"
           }
         >
-          <h4
-            onClick={() => {
-              setFootercolumnfour(!footercolumnfour);
-            }}
-          >
-            Our Services <ion-icon name="chevron-down"></ion-icon>
-          </h4>
+          <span>
+            <h4
+              onClick={() => {
+                setFootercolumnfour(!footercolumnfour);
+              }}
+            >
+              Our Services{" "}
+            </h4>
+            <ion-icon name="chevron-down"></ion-icon>
+          </span>
           <ul>
             <li>For Employers</li>
             <li>For Individuals</li>
@@ -131,7 +154,14 @@ export default function Footer() {
         <div className="footerbottomleft">
           <img src={logo} alt="About" />
           <span>
-            <p>Home</p>|<p>Updates</p> | <p>About Us</p>
+            <p
+              onClick={() => {
+                navigateTo("");
+              }}
+            >
+              Home
+            </p>
+            |<p>Updates</p> | <p>About Us</p>
           </span>
         </div>
         <div className="footerbottomright">
