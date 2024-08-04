@@ -1,0 +1,7 @@
+.stampheader {
+  display: flex;
+  align-items: center;
+  background-color: #ffcaae;
+  padding: 20px 40px;
+  text-align: left;
+}

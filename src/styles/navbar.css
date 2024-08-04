@@ -65,10 +65,20 @@
   transition: all 0.3s ease;
   position: relative;
 }
-
+.navbarright ul li ion-icon {
+  transition: rotate 0.3s ease;
+}
 .navbarright ul li:hover {
   color: #db291c;
   transform: scale(1.1);
+  ion-icon {
+    rotate: 180deg;
+  }
+}
+.navbarright ul li span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .navbarright ul li .dropdown-content {
@@ -76,12 +86,13 @@
 
   position: absolute;
   top: 100%;
-  padding: 30px 0px 10px;
-  left: -125px;
+
+  padding: 10px 0px 10px;
+  left: -75px;
   background-color: #141414;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  width: 350px;
+  width: 250px;
 }
 
 .navbarright ul li .dropdown-content ul {
@@ -96,6 +107,7 @@
 .navbarright ul li .dropdown-content ul li {
   padding: 8px 12px;
   padding: 15px;
+  font-size: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
 }

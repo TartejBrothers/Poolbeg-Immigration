@@ -21,7 +21,7 @@ export default function Navbar() {
           <ul>
             <li className="dropdown">
               <span onClick={() => navigateTo("work-permit")}>
-                Work Permits
+                Work Permits <ion-icon name="chevron-down"></ion-icon>
               </span>
               <div className="dropdown-content">
                 <ul>
@@ -38,16 +38,22 @@ export default function Navbar() {
               </div>
             </li>
             <li className="dropdown">
-              <span>Stamp 1G</span>
+              <span>
+                Stamp 1G <ion-icon name="chevron-down"></ion-icon>
+              </span>
               <div className="dropdown-content">
                 <ul>
-                  <li>Stamp 1G Overview</li>
+                  <li onClick={() => navigateTo("stamp1g-overview")}>
+                    Stamp 1G Overview
+                  </li>
                   <li>Stamp 1G Extension</li>
                 </ul>
               </div>
             </li>
             <li className="dropdown">
-              <span>Immigration</span>
+              <span>
+                Immigration <ion-icon name="chevron-down"></ion-icon>
+              </span>
               <div className="dropdown-content">
                 <ul>
                   <li>Work Visas</li>
@@ -66,7 +72,9 @@ export default function Navbar() {
               </div>
             </li>
             <li className="dropdown">
-              <span>Our Services</span>
+              <span>
+                Our Services <ion-icon name="chevron-down"></ion-icon>
+              </span>
               <div className="dropdown-content">
                 <ul>
                   <li>For Employers</li>
