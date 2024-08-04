@@ -18,9 +18,11 @@
 .stampbody {
   padding: 40px 40px;
   text-align: left;
+  color: #6c6c6c;
 }
 .stampbody h2 {
-  font-size: 32px;
+  font-size: 28px;
+  color: #3b3b3b;
   margin-bottom: 10px;
 }
 .stampbody p {
