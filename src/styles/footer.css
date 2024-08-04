@@ -44,7 +44,18 @@
 }
 .footerchild h4 {
   font-size: 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+.footerchild h4 ion-icon {
+  display: none;
+}
+.footerchild h4:hover {
+  color: #db291c;
 }
 .footerchild ul {
   list-style: none;
@@ -101,8 +112,8 @@
 }
 @media screen and (max-width: 1000px) {
   .footertop {
-    flex-wrap: wrap;
     justify-content: left;
+    flex-direction: column;
     column-gap: 80px;
     padding-bottom: 20px;
     row-gap: 20px;
@@ -126,5 +137,21 @@
   }
   .footerbottomright {
     gap: 20px;
+  }
+  .footerchild h4 ion-icon {
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footerchild ul {
+    display: none;
+  }
+  .activefooter ul {
+    display: block;
+  }
+  .activefooter h4 ion-icon {
+    transform: rotate(180deg);
+  }
+  .footerinnerchild {
+    margin-bottom: 0px;
   }
 }
