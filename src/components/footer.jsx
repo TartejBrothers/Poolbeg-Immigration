@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/footer.css";
 import logo from "../images/icons/logo.jpeg";
 import instagram from "../images/icons/instagram.svg";
 import linkedin from "../images/icons/linkedin.svg";
 
 export default function Footer() {
+  const [footercolumnone, setFootercolumnone] = useState(false);
+  const [footercolumntwo, setFootercolumntwo] = useState(false);
+  const [footercolumnthree, setFootercolumnthree] = useState(false);
+  const [footercolumnfour, setFootercolumnfour] = useState(false);
+
   return (
     <div className="footer">
       <div className="footerabout">
@@ -21,8 +26,18 @@ export default function Footer() {
       </div>
       <hr />
       <div className="footertop">
-        <div className="footerchild">
-          <h4>Work Permits</h4>
+        <div
+          className={
+            footercolumnone ? "footerchild activefooter" : "footerchild"
+          }
+        >
+          <h4
+            onClick={() => {
+              setFootercolumnone(!footercolumnone);
+            }}
+          >
+            Work Permits <ion-icon name="chevron-down"></ion-icon>
+          </h4>
           <ul>
             <li>Critical Skills Employment Permit</li>
             <li>General Employment Permits</li>
@@ -35,15 +50,35 @@ export default function Footer() {
             <li>Critical Skills Occupation Lists</li>
           </ul>
         </div>
-        <div className="footerchild">
-          <h4>Stamp 1G</h4>
+        <div
+          className={
+            footercolumntwo ? "footerchild activefooter" : "footerchild"
+          }
+        >
+          <h4
+            onClick={() => {
+              setFootercolumntwo(!footercolumntwo);
+            }}
+          >
+            Stamp 1G <ion-icon name="chevron-down"></ion-icon>
+          </h4>
           <ul>
             <li>Stamp 1G Overview</li>
             <li>Stamp 1G Extension</li>
           </ul>
         </div>
-        <div className="footerchild">
-          <h4>Immigration</h4>
+        <div
+          className={
+            footercolumnthree ? "footerchild activefooter" : "footerchild"
+          }
+        >
+          <h4
+            onClick={() => {
+              setFootercolumnthree(!footercolumnthree);
+            }}
+          >
+            Immigration <ion-icon name="chevron-down"></ion-icon>
+          </h4>
           <div className="footerinnerchild">
             <div className="footerelement">
               <ul>
@@ -69,14 +104,26 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="footerchild">
-          <h4>Our Services</h4>
+        <div
+          className={
+            footercolumnfour ? "footerchild activefooter" : "footerchild"
+          }
+        >
+          <h4
+            onClick={() => {
+              setFootercolumnfour(!footercolumnfour);
+            }}
+          >
+            Our Services <ion-icon name="chevron-down"></ion-icon>
+          </h4>
           <ul>
             <li>For Employers</li>
             <li>For Individuals</li>
             <li>Case Studies</li>
+            <li>
+              <button className="contactusbutton">Contact Us</button>
+            </li>
           </ul>
-          <button className="contactusbutton">Contact Us</button>
         </div>
       </div>
       <hr />
