@@ -43,7 +43,8 @@
 }
 .homeheaderbottom button,
 .servicescardmain button,
-.contactusbutton {
+.contactusbutton,
+.learnmorebutton {
   background-color: #db291c;
   color: white;
   padding: 10px 20px;
@@ -59,7 +60,8 @@
   background-color: #ff2a1a;
   transform: scale(1.1);
 }
-.servicescardmain button:hover {
+.servicescardmain button:hover,
+.learnmorebutton:hover {
   background-color: #ff2a1a;
 }
 .homeheaderbottom p {

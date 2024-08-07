@@ -1,5 +1,6 @@
 .workpageheader {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #add1eb;
   padding: 20px 40px;
@@ -7,10 +8,10 @@
   color: #000000;
 }
 .workheaderleft {
-  width: 50%;
+  width: 60%;
 }
 .workheaderright {
-  width: 50%;
+  width: 40%;
   justify-content: center;
   display: flex;
 }

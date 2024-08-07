@@ -53,7 +53,7 @@ export default function Navbar() {
               </div>
             </li>
             <li className="dropdown">
-              <span>
+              <span onClick={() => navigateTo("immigration")}>
                 Immigration <ion-icon name="chevron-down"></ion-icon>
               </span>
               <div className="dropdown-content">
