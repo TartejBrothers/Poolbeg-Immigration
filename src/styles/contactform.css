@@ -1,8 +1,14 @@
+.contactmain {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+}
 .contactform {
   display: flex;
   gap: 40px;
+  max-width: 1800px;
   justify-content: space-around;
-  background-color: #f1f1f1;
+  background-color: hsl(0, 0%, 95%);
   padding: 40px;
 }
 .contactformleft {

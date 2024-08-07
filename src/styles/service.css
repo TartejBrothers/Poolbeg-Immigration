@@ -1,0 +1,102 @@
+.servicemainform {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+.serviceform {
+  display: flex;
+  max-width: 1800px;
+  align-items: center;
+  padding: 100px 40px;
+}
+.serviceformleft {
+  width: 60% !important;
+  max-width: 600px;
+}
+.serviceformleft u {
+  color: #dc291c;
+}
+.serviceformleft h2 {
+  margin-top: 10px;
+}
+.servicemainbody {
+  padding: 40px;
+}
+
+.servicemainbody h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+.servicepoints {
+  max-width: 800px;
+  width: 70%;
+  margin: 40px auto 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.servicebodyelement {
+  display: flex;
+
+  align-items: stretch;
+}
+.servicebodyelementleft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circleelement {
+  background-color: #dc291c;
+  height: 30px;
+  border-radius: 100%;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innercircleelement {
+  background-color: #ffffff;
+  height: 15px;
+  border-radius: 100%;
+  width: 15px;
+}
+.lineelement {
+  background-color: #dedede;
+  height: calc(100% - 30px);
+  width: 2px;
+}
+.servicebodyelementright {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 50px;
+  text-align: left;
+}
+.servicebodyelementright h3 {
+  margin-bottom: 5px;
+  color: #4e4e4e;
+}
+.servicebodyelementright p {
+  color: #4e4e4e;
+}
+@media screen and (max-width: 1000px) {
+  .serviceform {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .serviceformleft {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .serviceformleft h2 {
+    font-size: 24px;
+    text-align: left !important;
+  }
+  .servicemainbody h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .servicepoints {
+    width: 100%;
+  }
+}

@@ -96,7 +96,13 @@ export default function Footer() {
               setFootercolumnthree(!footercolumnthree);
             }}
           >
-            <h4>Immigration </h4>
+            <h4
+              onClick={() => {
+                navigateTo("immigration");
+              }}
+            >
+              Immigration{" "}
+            </h4>
             <ion-icon name="chevron-down"></ion-icon>
           </span>
           <div className="footerinnerchild">
@@ -129,20 +135,22 @@ export default function Footer() {
             footercolumnfour ? "footerchild activefooter" : "footerchild"
           }
         >
-          <span>
-            <h4
-              onClick={() => {
-                setFootercolumnfour(!footercolumnfour);
-              }}
-            >
-              Our Services{" "}
-            </h4>
+          <span
+            onClick={() => {
+              setFootercolumnfour(!footercolumnfour);
+            }}
+          >
+            <h4>Our Services </h4>
             <ion-icon name="chevron-down"></ion-icon>
           </span>
           <ul>
-            <li>For Employers</li>
-            <li>For Individuals</li>
-            <li>Case Studies</li>
+            <li onClick={() => navigateTo("services/employee")}>
+              For Employers
+            </li>
+            <li onClick={() => navigateTo("services/individual")}>
+              For Individuals
+            </li>
+
             <li>
               <button className="contactusbutton">Contact Us</button>
             </li>

@@ -6,6 +6,8 @@ import WorkPermit from "./pages/workpermit";
 import Stamp1GOverview from "./pages/stamp1g-overview";
 import Stamp1GExtension from "./pages/stamp1g-extension";
 import Immigration from "./pages/immigration";
+import ServicesEmployee from "./pages/services-employee";
+import ServicesIndividual from "./pages/services-individual";
 function App() {
   return (
     <div className="App">
@@ -16,6 +18,8 @@ function App() {
           <Route path="/stamp1g-overview" element={<Stamp1GOverview />} />
           <Route path="/stamp1g-extension" element={<Stamp1GExtension />} />
           <Route path="/immigration" element={<Immigration />} />
+          <Route path="/services/employee" element={<ServicesEmployee />} />
+          <Route path="/services/individual" element={<ServicesIndividual />} />
         </Routes>
       </Router>
     </div>
