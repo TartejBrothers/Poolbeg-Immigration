@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import twitter from "../images/icons/twittercontact.svg";
 import linkedin from "../images/icons/linkedincontact.svg";
-
+import ServicePoints from "../components/elements/servicepoints";
 export default function ServicesIndividual() {
   return (
     <div className="servicemain">
@@ -60,7 +60,32 @@ export default function ServicesIndividual() {
           </div>
         </div>
       </div>
-
+      <div className="servicemainbody">
+        <h1>Let us help with your application</h1>
+        <p>
+          We focus on delivering positive results to our clients and dedicate to
+          offering quality services.
+        </p>
+        <div className="servicepoints">
+          <ServicePoints
+            header="Fast turnaround time"
+            content="Full-time focus to operate efficiently and effectively to deliver
+          results on time."
+          />
+          <ServicePoints
+            header="Dedicated account manager"
+            content="Access to the consultant on the phone for quick support without the barrier of a receptionist."
+          />
+          <ServicePoints
+            header="Seamless application supports"
+            content="Prepare files and manage immigration-related applications from start to finish for you."
+          />
+          <ServicePoints
+            header="Fast-track your application"
+            content="Follow up closely with the Irish department to track your application and liaise on your behalf."
+          />
+        </div>
+      </div>
       <Footer />
     </div>
   );

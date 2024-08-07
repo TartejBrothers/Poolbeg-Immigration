@@ -135,14 +135,12 @@ export default function Footer() {
             footercolumnfour ? "footerchild activefooter" : "footerchild"
           }
         >
-          <span>
-            <h4
-              onClick={() => {
-                setFootercolumnfour(!footercolumnfour);
-              }}
-            >
-              Our Services{" "}
-            </h4>
+          <span
+            onClick={() => {
+              setFootercolumnfour(!footercolumnfour);
+            }}
+          >
+            <h4>Our Services </h4>
             <ion-icon name="chevron-down"></ion-icon>
           </span>
           <ul>
