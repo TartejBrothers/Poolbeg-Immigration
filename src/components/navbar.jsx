@@ -79,9 +79,10 @@ export default function Navbar() {
               </span>
               <div className="dropdown-content">
                 <ul>
-                  <li>For Employers</li>
+                  <li onClick={() => navigateTo("services/employee")}>
+                    For Employers
+                  </li>
                   <li>For Individuals</li>
-                  <li>Case Studies</li>
                 </ul>
               </div>
             </li>

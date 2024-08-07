@@ -96,7 +96,13 @@ export default function Footer() {
               setFootercolumnthree(!footercolumnthree);
             }}
           >
-            <h4>Immigration </h4>
+            <h4
+              onClick={() => {
+                navigateTo("immigration");
+              }}
+            >
+              Immigration{" "}
+            </h4>
             <ion-icon name="chevron-down"></ion-icon>
           </span>
           <div className="footerinnerchild">
@@ -140,9 +146,11 @@ export default function Footer() {
             <ion-icon name="chevron-down"></ion-icon>
           </span>
           <ul>
-            <li>For Employers</li>
+            <li onClick={() => navigateTo("services/employee")}>
+              For Employers
+            </li>
             <li>For Individuals</li>
-            <li>Case Studies</li>
+
             <li>
               <button className="contactusbutton">Contact Us</button>
             </li>

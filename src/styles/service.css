@@ -1,0 +1,29 @@
+.serviceform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 40px;
+}
+.serviceformleft {
+  width: 60% !important;
+  max-width: 600px;
+}
+.serviceformleft u {
+  color: #dc291c;
+}
+.serviceformleft h2 {
+  margin-top: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .serviceform {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .serviceformleft {
+    width: 100% !important;
+  }
+  .serviceformleft h2 {
+    font-size: 24px;
+    text-align: left;
+  }
+}
