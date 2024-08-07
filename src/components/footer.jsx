@@ -149,7 +149,9 @@ export default function Footer() {
             <li onClick={() => navigateTo("services/employee")}>
               For Employers
             </li>
-            <li>For Individuals</li>
+            <li onClick={() => navigateTo("services/individual")}>
+              For Individuals
+            </li>
 
             <li>
               <button className="contactusbutton">Contact Us</button>

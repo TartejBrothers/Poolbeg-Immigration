@@ -82,7 +82,9 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("services/employee")}>
                     For Employers
                   </li>
-                  <li>For Individuals</li>
+                  <li onClick={() => navigateTo("services/individual")}>
+                    For Individuals
+                  </li>
                 </ul>
               </div>
             </li>
