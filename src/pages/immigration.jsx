@@ -5,6 +5,7 @@ import "../styles/immigration.css";
 // import { useNavigate } from "react-router-dom";
 import immigrationimage from "../images/icons/immigration.jpeg";
 import Immigrationcard from "../components/elements/immigrationcard";
+import TalkToUs from "../components/talktous";
 
 export default function Immigration() {
   // const navigate = useNavigate();
@@ -118,6 +119,7 @@ export default function Immigration() {
           />
         </div>
       </div>
+      <TalkToUs />
       <Footer />
     </div>
   );
