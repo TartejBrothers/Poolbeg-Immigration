@@ -98,7 +98,7 @@ export default function Navbar() {
       <div className="navbarbottom">
         <ul>
           <li onClick={() => navigateTo("")}>Home</li>
-          <li>News & Updates</li>
+          <li onClick={() => navigateTo("news-updates")}>News & Updates</li>
           <li>About Us</li>
         </ul>
       </div>
