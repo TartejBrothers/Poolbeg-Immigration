@@ -8,6 +8,7 @@ import Stamp1GExtension from "./pages/stamp1g-extension";
 import Immigration from "./pages/immigration";
 import ServicesEmployee from "./pages/services-employee";
 import ServicesIndividual from "./pages/services-individual";
+import NewsandUpdates from "./pages/news-updates";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
           <Route path="/immigration" element={<Immigration />} />
           <Route path="/services/employee" element={<ServicesEmployee />} />
           <Route path="/services/individual" element={<ServicesIndividual />} />
+          <Route path="/news-updates" element={<NewsandUpdates />} />
         </Routes>
       </Router>
     </div>

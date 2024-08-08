@@ -169,7 +169,15 @@ export default function Footer() {
             >
               Home
             </p>
-            |<p>Updates</p> | <p>About Us</p>
+            |
+            <p
+              onClick={() => {
+                navigateTo("news-updates");
+              }}
+            >
+              News and Updates
+            </p>{" "}
+            | <p>About Us</p>
           </span>
         </div>
         <div className="footerbottomright">
