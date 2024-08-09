@@ -9,6 +9,7 @@ import Immigration from "./pages/immigration";
 import ServicesEmployee from "./pages/services-employee";
 import ServicesIndividual from "./pages/services-individual";
 import NewsandUpdates from "./pages/news-updates";
+import AboutUs from "./pages/aboutus";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
           <Route path="/services/employee" element={<ServicesEmployee />} />
           <Route path="/services/individual" element={<ServicesIndividual />} />
           <Route path="/news-updates" element={<NewsandUpdates />} />
+          <Route path="/about-us" element={<AboutUs />} />
         </Routes>
       </Router>
     </div>

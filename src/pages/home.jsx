@@ -8,7 +8,6 @@ import userhome from "../images/individualshome.png";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
 import Footer from "../components/footer";
-
 import IndustriesServed from "../components/industriesserved";
 export default function Home() {
   return (
