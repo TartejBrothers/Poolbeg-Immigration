@@ -8,8 +8,7 @@ import userhome from "../images/individualshome.png";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
 import Footer from "../components/footer";
-import logo from "../images/icons/logo.png";
-import IndustryCard from "../components/elements/industrycard";
+import IndustriesServed from "../components/industriesserved";
 export default function Home() {
   return (
     <div className="home">
@@ -72,36 +71,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="homeindustries">
-        <h2>Industries We Serve</h2>
-        <div className="industriesrow">
-          <IndustryCard
-            image={logo}
-            name={"Lorem Ipsum"}
-            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
-          />
-          <IndustryCard
-            image={logo}
-            name={"Lorem Ipsum"}
-            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
-          />
-          <IndustryCard
-            image={logo}
-            name={"Lorem Ipsum"}
-            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
-          />
-          <IndustryCard
-            image={logo}
-            name={"Lorem Ipsum"}
-            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
-          />
-          <IndustryCard
-            image={logo}
-            name={"Lorem Ipsum"}
-            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
-          />
-        </div>
-      </div>
+      <IndustriesServed />
       <Testimonial />
       <ContactForm />
       <Footer />

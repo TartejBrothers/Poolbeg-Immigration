@@ -99,7 +99,7 @@ export default function Navbar() {
         <ul>
           <li onClick={() => navigateTo("")}>Home</li>
           <li onClick={() => navigateTo("news-updates")}>News & Updates</li>
-          <li>About Us</li>
+          <li onClick={() => navigateTo("about-us")}>About Us</li>
         </ul>
       </div>
     </div>

@@ -21,7 +21,6 @@ export default function Footer() {
     <div className="footer">
       <div className="footerabout">
         <div className="footeraboutheader">
-          <img src={logo} alt="Logo" />
           <h3>About Us</h3>
         </div>
         <p>
@@ -176,8 +175,15 @@ export default function Footer() {
               }}
             >
               News and Updates
-            </p>{" "}
-            | <p>About Us</p>
+            </p>
+            |{" "}
+            <p
+              onClick={() => {
+                navigateTo("about-us");
+              }}
+            >
+              About Us
+            </p>
           </span>
         </div>
         <div className="footerbottomright">
