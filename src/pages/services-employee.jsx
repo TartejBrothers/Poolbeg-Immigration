@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import twitter from "../images/icons/twittercontact.svg";
 import linkedin from "../images/icons/linkedincontact.svg";
 import ServicePoints from "../components/elements/servicepoints";
+import IndustriesServed from "../components/industriesserved";
 
 export default function ServicesEmployee() {
   return (
@@ -99,6 +100,7 @@ export default function ServicesEmployee() {
           />
         </div>
       </div>
+      <IndustriesServed />
       <Footer />
     </div>
   );
