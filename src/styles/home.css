@@ -108,7 +108,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .servicescard:hover {
-  scale: 1.1;
+  scale: 1.05;
 }
 .servicescardtop {
   display: flex;
