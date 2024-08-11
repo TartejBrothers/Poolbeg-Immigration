@@ -36,7 +36,7 @@ export default function Stamp1GOverview() {
         </div>
       </div>
       <div className="stampbody">
-        <h2>What is Stamp 1G</h2>
+        <h2>What is Stamp 1G?</h2>
         <p>
           Stamp 1G allows international students who hold level 8 or 9 awards
           from a recognised Irish awarding body to stay in Ireland after their

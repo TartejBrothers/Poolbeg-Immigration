@@ -10,6 +10,7 @@ import ServicesEmployee from "./pages/services-employee";
 import ServicesIndividual from "./pages/services-individual";
 import NewsandUpdates from "./pages/news-updates";
 import AboutUs from "./pages/aboutus";
+import CriticalSkills from "./pages/critical-skills";
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,10 @@ function App() {
           <Route path="/services/individual" element={<ServicesIndividual />} />
           <Route path="/news-updates" element={<NewsandUpdates />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route
+            path="/work-permit/critical-skills"
+            element={<CriticalSkills />}
+          />
         </Routes>
       </Router>
     </div>
