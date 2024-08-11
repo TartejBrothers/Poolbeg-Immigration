@@ -25,7 +25,9 @@ export default function Navbar() {
               </span>
               <div className="dropdown-content">
                 <ul>
-                  <li>Critical Skills Employment Permit</li>
+                  <li onClick={() => navigateTo("work-permit/critical-skills")}>
+                    Critical Skills Employment Permit
+                  </li>
                   <li>General Employment Permits</li>
                   <li>Reactivation Employment Permit</li>
                   <li>Other Employment Permit Types</li>

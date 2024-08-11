@@ -1,0 +1,67 @@
+.criticalskillsheader {
+  background-color: #1d284d;
+  color: #ffff;
+}
+.criticalskillsheader p u {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.criticalskillbody {
+  padding: 40px 30px;
+}
+
+.criticalskillsbodyelement {
+  text-align: left;
+  padding: 0px 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.criticalskillsbodyelement h2 {
+  color: #252525;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.criticalskillsbodyelement h4 {
+  color: #252525;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.criticalskillsbodyelement ul li,
+.criticalskillsbodyelement ol li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.criticalskillsbodyelement h3 {
+  color: #252525;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.criticalskillsbodyelement p {
+  color: #252525;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.criticalskillsbodyelement a {
+  color: #274091;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+  .criticalskillsheader h1 {
+    font-size: 24px;
+  }
+  .criticalskillsheader p {
+    text-align: left;
+  }
+}

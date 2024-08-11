@@ -83,8 +83,11 @@
   background-color: #d0d0d0;
   color: #000000;
   border-radius: 5px;
-  width: calc(25% - 5px);
+  flex: 1;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.3s;
 }
 .selectedelement {

@@ -52,7 +52,9 @@ export default function Footer() {
             <ion-icon name="chevron-down"></ion-icon>
           </span>
           <ul>
-            <li>Critical Skills Employment Permit</li>
+            <li onClick={() => navigateTo("work-permit/critical-skills")}>
+              Critical Skills Employment Permit
+            </li>
             <li>General Employment Permits</li>
             <li>Reactivation Employment Permit</li>
             <li>Other Employment Permit Types</li>
