@@ -153,7 +153,14 @@ export default function Footer() {
             </li>
 
             <li>
-              <button className="contactusbutton">Contact Us</button>
+              <button
+                className="contactusbutton"
+                onClick={() => {
+                  navigateTo("contact-us");
+                }}
+              >
+                Contact Us
+              </button>
             </li>
           </ul>
         </div>

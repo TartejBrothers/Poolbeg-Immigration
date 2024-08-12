@@ -1,0 +1,76 @@
+.contactusbody {
+  padding: 80px 40px;
+  background-color: #141414;
+  color: #fff;
+}
+
+.contactusbody h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #ecbe31;
+  text-decoration-thickness: 10px;
+  margin-bottom: 20px;
+}
+.contactusbody h4 {
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 400px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contactusmainbody {
+  color: #141414;
+  max-width: 1000px;
+  margin: 30px auto 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px 30px;
+}
+.contactusmainbody h6 {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.contactelements {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.contactleft {
+  margin-bottom: 30px;
+}
+.contacticonleft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactelements ion-icon {
+  font-size: 20px;
+}
+
+.contactusmainbody h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #db291c;
+}
+.contactusmainbody .contactformright {
+  width: 100%;
+}
+
+.contactformright h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: none;
+}
