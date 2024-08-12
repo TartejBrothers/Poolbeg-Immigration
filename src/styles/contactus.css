@@ -74,3 +74,79 @@
   margin: 0;
   text-transform: none;
 }
+.contactlocationmain {
+  margin: 0px auto 0px;
+  background-color: #ffffff;
+  display: flex;
+  padding: 30px 40px;
+  gap: 10px;
+}
+.contactlocation {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0px auto 0px;
+  background-color: #e3e3e3;
+  border-radius: 10px;
+  display: flex;
+  padding: 30px 40px;
+  gap: 10px;
+}
+.contactlocationleft {
+  width: calc(40% - 10px);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contactlocationelements {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.contactlocationelements h6 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #141414;
+}
+.contactlocationelements p {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 400;
+  margin: 0;
+}
+.contactlocationelements b {
+  font-size: 14px;
+}
+.contactlocationleft h3 {
+  font-size: 24px;
+  font-weight: 700;
+
+  text-transform: capitalize;
+  color: #db291c;
+  margin-top: 30px;
+}
+.contactlocationright {
+  width: calc(60%);
+}
+.contactlocationright iframe {
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contactlocation {
+    padding: 30px 25px;
+    flex-direction: column;
+  }
+  .contactlocationleft {
+    width: 100%;
+  }
+  .contactlocationright {
+    width: 100%;
+  }
+  .contactlocationleft h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
