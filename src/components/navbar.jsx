@@ -91,7 +91,14 @@ export default function Navbar() {
               </div>
             </li>
           </ul>
-          <button className="contactusbutton">Contact Us</button>
+          <button
+            className="contactusbutton"
+            onClick={() => {
+              navigateTo("contact-us");
+            }}
+          >
+            Contact Us
+          </button>
           <div className="navbarmobile">
             <img src={griplines} alt="Menu Bar" />
           </div>

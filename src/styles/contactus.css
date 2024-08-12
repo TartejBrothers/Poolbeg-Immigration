@@ -1,0 +1,152 @@
+.contactusbody {
+  padding: 80px 40px;
+  background-color: #141414;
+  color: #fff;
+}
+
+.contactusbody h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #ecbe31;
+  text-decoration-thickness: 10px;
+  margin-bottom: 20px;
+}
+.contactusbody h4 {
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 400px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contactusmainbody {
+  color: #141414;
+  max-width: 1000px;
+  margin: 30px auto 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px 30px;
+}
+.contactusmainbody h6 {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.contactelements {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.contactleft {
+  margin-bottom: 30px;
+}
+.contacticonleft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactelements ion-icon {
+  font-size: 20px;
+}
+
+.contactusmainbody h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #db291c;
+}
+.contactusmainbody .contactformright {
+  width: 100%;
+}
+
+.contactformright h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: none;
+}
+.contactlocationmain {
+  margin: 0px auto 0px;
+  background-color: #ffffff;
+  display: flex;
+  padding: 30px 40px;
+  gap: 10px;
+}
+.contactlocation {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0px auto 0px;
+  background-color: #e3e3e3;
+  border-radius: 10px;
+  display: flex;
+  padding: 30px 40px;
+  gap: 10px;
+}
+.contactlocationleft {
+  width: calc(40% - 10px);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contactlocationelements {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.contactlocationelements h6 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #141414;
+}
+.contactlocationelements p {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 400;
+  margin: 0;
+}
+.contactlocationelements b {
+  font-size: 14px;
+}
+.contactlocationleft h3 {
+  font-size: 24px;
+  font-weight: 700;
+
+  text-transform: capitalize;
+  color: #db291c;
+  margin-top: 30px;
+}
+.contactlocationright {
+  width: calc(60%);
+}
+.contactlocationright iframe {
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contactlocation {
+    padding: 30px 25px;
+    flex-direction: column;
+  }
+  .contactlocationleft {
+    width: 100%;
+  }
+  .contactlocationright {
+    width: 100%;
+  }
+  .contactlocationleft h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
