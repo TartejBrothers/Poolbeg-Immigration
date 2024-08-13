@@ -12,6 +12,7 @@ import NewsandUpdates from "./pages/news-updates";
 import ContactUs from "./pages/contactus";
 import AboutUs from "./pages/aboutus";
 import CriticalSkills from "./pages/critical-skills";
+import GeneralPemits from "./pages/generalpermits";
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,10 @@ function App() {
           <Route
             path="/work-permit/critical-skills"
             element={<CriticalSkills />}
+          />
+          <Route
+            path="/work-permit/general-permits"
+            element={<GeneralPemits />}
           />
         </Routes>
       </Router>
