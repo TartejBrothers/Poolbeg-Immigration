@@ -92,6 +92,7 @@ export default function ContactUs() {
               frameborder="0"
               marginheight="0"
               marginwidth="0"
+              title="Map"
             ></iframe>
             <br />
           </div>
