@@ -28,7 +28,9 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("work-permit/critical-skills")}>
                     Critical Skills Employment Permit
                   </li>
-                  <li>General Employment Permits</li>
+                  <li onClick={() => navigateTo("work-permit/general-permits")}>
+                    General Employment Permits
+                  </li>
                   <li>Reactivation Employment Permit</li>
                   <li>Other Employment Permit Types</li>
                   <li>Partner/Spouse of Permit Holders</li>

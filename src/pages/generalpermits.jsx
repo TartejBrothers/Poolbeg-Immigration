@@ -142,24 +142,38 @@ export const CriticalSkillsFour = () => {
   return (
     <div className="criticalskillsbodyelement">
       <h2>
-        What do Employers Need to Know About the Critical Skills Employment
-        Permit?{" "}
+        What do Employers Need to Know About the General Employment Permit?
       </h2>
       <p>
-        Applications will only be accepted from employers that are registered
-        with the Revenue Commissioners and with the Companies Registration
-        Office/Registry of Friendly Societies, if applicable, and which are
-        currently trading in the State. ​<br />​<br />
-        That an employer–employee relationship will exist in that the
-        prospective employee concerned will be employed, salaried and paid
-        directly by the employer. ​<br />
-        ​<br />
-        An employment permit will not be issued unless at the time of
-        application, at least 50% of the employees in a firm are EEA nationals
-        (50:50 rule). However, if the company is a start-up with no more than
-        two years of operation, this restriction could be waived. ​<br />​<br />
-        ​ Need immediate help and professional advice with your situation?{" "}
-        <a href="#">Contact us now.</a>
+        The Department of Enterprise, Trade and Employment has established a few
+        criteria for employers to apply for a General Employment Permit.
+      </p>
+      <ul>
+        <li>
+          Employers must be registered with the Revenue Commissioners and the
+          Companies Registration Office, which are currently trading in Ireland
+        </li>
+        <li>
+          The employee is being directly employed and paid directly by the
+          employer.
+        </li>
+        <li>
+          The organisation must have at least 50% of EEA national employees
+          unless the company is a start-up with no more than two years of
+          operation
+        </li>
+      </ul>
+      <p>
+        A Labour Market Needs Test is required in a General Skills Employment
+        Permit application unless
+      </p>
+      <ul>
+        <li>The occupation is on the critical skills occupations list.</li>
+        <li>The annual salary of the occupation is higher than €64,000.</li>
+      </ul>
+      <p>
+        If you are unsure if you are eligible for an Employment Permit, please
+        contact us now for instant help and assistance on your situation.
       </p>
     </div>
   );
@@ -167,33 +181,45 @@ export const CriticalSkillsFour = () => {
 export const CriticalSkillsFive = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h2>What are the benefits of the Critical Skills Employment Permit?</h2>
+      <h2>
+        What are the Application Procedure for General Employment Permit in
+        Ireland?
+      </h2>
       <p>
-        The Critical Skills Employment Permit provides permit holders and
-        companies with an array of benefits, including:
+        An application for any employment permit must be received at least 12
+        weeks before the proposed employment start date. The following are three
+        main stages of the General Employment Permit application:
       </p>
       <ul>
         <li>
-          Critical Skills Employment Permit holders can take up permanent
-          residence (Stamp 4) in Ireland after two years of employment.
+          Complete the application form with the required documentation,
+          including the labour market need test.
         </li>
-        ​
+        <li>The application is placed in the processing queue.</li>
         <li>
-          Critical Skills Employment Permit holders can apply for immediate
-          family reunification.​
-        </li>
-        ​
-        <li>
-          Spouses/De facto partners who come to Ireland through the unification
-          scheme can request the right to work for any employer.
-        </li>
-        ​
-        <li>
-          Employers are not required to complete a labour market test, which
-          shortens the recruitment process and lowers the administrative burden
-          and cost of overseas hiring.
+          Application is considered by an official with decision-making
+          authority. The official may request further information if they deem
+          it to be necessary in order to reach a decision.
         </li>
       </ul>
+      <p>
+        The application form must include a full description of the employee’s
+        proposed employment, remuneration (excluding bonuses) and start date.
+        Information on the educational qualifications, skills, or experience
+        required for the job will need to be included.
+      </p>
+      <p>
+        The application may only be granted for a maximum period of 24 months.
+        Therefore, permit holders will need to renew their general employment
+        permit. The renewal must be done within 16 weeks before the expiry of
+        the permit.
+      </p>
+      <p>
+        Need help with your work permit application?{" "}
+        <a href="#">Contact us now</a> for instant help and assistance on your
+        situation. Future Direct is here to take the stress out of you and
+        ensure you obtain your work permit without any concerns!
+      </p>
     </div>
   );
 };
