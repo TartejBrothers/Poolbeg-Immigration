@@ -6,6 +6,7 @@ import twitter from "../images/icons/twittercontact.svg";
 import linkedin from "../images/icons/linkedincontact.svg";
 import ServicePoints from "../components/elements/servicepoints";
 import IndustriesServed from "../components/industriesserved";
+import ContactFormRight from "../components/contactformright";
 export default function ServicesIndividual() {
   return (
     <div className="servicemain">
@@ -38,26 +39,7 @@ export default function ServicesIndividual() {
             </button>
           </div>
           <div className="contactformright serviceformright">
-            <h4>Fill In Your Details</h4>
-            <form>
-              <input
-                type="text"
-                placeholder="Enter Your Name"
-                name="name"
-                required
-              />
-              <div className="inputdivhalf">
-                <input type="email" placeholder="Enter Your Email" required />
-
-                <input
-                  type="number"
-                  placeholder="Enter Your Phone Number"
-                  required
-                />
-              </div>
-              <textarea placeholder="Enter Your Message" required></textarea>
-              <button>Submit</button>
-            </form>
+            <ContactFormRight />
           </div>
         </div>
       </div>

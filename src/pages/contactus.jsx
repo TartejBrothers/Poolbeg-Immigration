@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/contactus.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import ContactFormRight from "../components/contactformright";
 export default function ContactUs() {
   return (
     <div className="contactusmain">
@@ -33,26 +34,7 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="contactformright">
-            <h4>Fill In Your Details</h4>
-            <form>
-              <input
-                type="text"
-                placeholder="Enter Your Name"
-                name="name"
-                required
-              />
-              <div className="inputdivhalf">
-                <input type="email" placeholder="Enter Your Email" required />
-
-                <input
-                  type="number"
-                  placeholder="Enter Your Phone Number"
-                  required
-                />
-              </div>
-              <textarea placeholder="Enter Your Message" required></textarea>
-              <button>Submit</button>
-            </form>
+            <ContactFormRight />
           </div>
         </div>
       </div>

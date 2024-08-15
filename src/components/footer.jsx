@@ -23,12 +23,6 @@ export default function Footer() {
         <div className="footeraboutheader">
           <img src={logo} alt="Logo" />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorum quae, voluptates, quos, doloribus quia quod doloremque
-          voluptatem autem quidem fugit. Quisquam dolorum quae, voluptates,
-          quos, doloribus quia quod doloremque voluptatem autem quidem fugit.
-        </p>
       </div>
       <hr />
       <div className="footertop">
