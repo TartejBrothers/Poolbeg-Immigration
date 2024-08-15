@@ -64,4 +64,7 @@
   .criticalskillsheader p {
     text-align: left;
   }
+  .criticalskillsbodyelement {
+    padding: 0px 0;
+  }
 }

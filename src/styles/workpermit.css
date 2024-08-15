@@ -70,6 +70,7 @@
 .workpagecomponentselector {
   width: 100%;
   display: flex;
+  margin-bottom: 50px;
 }
 .workpagecomponentselector ul {
   display: flex;
@@ -192,4 +193,5 @@
   .workheaderright img {
     min-height: 250px;
   }
+
 }

@@ -61,7 +61,9 @@ export default function Footer() {
             <li onClick={() => navigateTo("work-permit/reactivation-permits")}>
               Reactivation Employment Permit
             </li>
-            <li>Other Employment Permit Types</li>
+            <li onClick={() => navigateTo("work-permit/other-permits")}>
+              Other Employment Permit Types
+            </li>
             <li>Partner/Spouse of Permit Holders</li>
             <li>Appeal Employment Permit Refusal</li>
             <li>Labor Market Need Test</li>

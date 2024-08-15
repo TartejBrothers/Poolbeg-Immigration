@@ -103,7 +103,7 @@ export const ReactivationEmploymentPermit = () => {
   );
 };
 
-export default function GeneralPermits() {
+export default function ReactivationPermits() {
   const navigate = useNavigate();
   return (
     <div className="criticalskillsmain">
