@@ -39,7 +39,8 @@
 .workpagecontent {
   display: flex;
   gap: 20px;
-
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 20px 40px;
 }
 .workpagecontentelement table {

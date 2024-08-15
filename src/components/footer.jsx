@@ -21,7 +21,7 @@ export default function Footer() {
     <div className="footer">
       <div className="footerabout">
         <div className="footeraboutheader">
-          <h3>About Us</h3>
+          <img src={logo} alt="Logo" />
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
