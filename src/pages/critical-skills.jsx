@@ -295,7 +295,12 @@ export default function CriticalSkills() {
             partner with you from start to finish to ensure the correct
             procedures are followed.
           </p>
-          <button className="contactusbutton">Know More</button>
+          <button
+            className="contactusbutton"
+            onClick={() => navigate("/contact-us")}
+          >
+            Know More
+          </button>
         </div>
         <div className="workheaderright">
           <img src={workpermit} alt="Work Permit" />
