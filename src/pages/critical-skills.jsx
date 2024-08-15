@@ -6,10 +6,6 @@ import workpermit from "../images/workpermit1.jpeg";
 import { useNavigate } from "react-router-dom";
 import ContactForm from "../components/contactform";
 export const CriticalSkillsOne = () => {
-  const navigate = useNavigate();
-  const navigatetoContact = () => {
-    navigate("/contact-us");
-  };
   return (
     <div className="criticalskillsbodyelement">
       <h4> What is the Critical Skills Employment Permit?</h4>

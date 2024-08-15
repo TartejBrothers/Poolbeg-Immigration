@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/critical-skills.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
@@ -104,7 +104,6 @@ export const ReactivationEmploymentPermit = () => {
 };
 
 export default function GeneralPermits() {
-  const [selectedMode, setSelectedMode] = useState(1);
   const navigate = useNavigate();
   return (
     <div className="criticalskillsmain">
