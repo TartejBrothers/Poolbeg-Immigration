@@ -10,21 +10,20 @@ export const WorkPermitComponentOne = () => {
     <div className="workpagecontentelement">
       <h3>Employment Permits in Ireland</h3>
       <p>
-        The Department of Enterprise, Trade and Employment (DETE) in Ireland
-        processes all employment permit applications. The employment permit
-        system was developed to allow non-EU/non-EEA nationals to work in
-        Ireland in jobs with a labour shortage in the market and where an
-        employer needs help finding an Irish or EU national to file for the
-        role. ​<br />
+        The Department of Enterprise, Trade, and Employment (DETE) oversees all
+        employment permit applications in Ireland. This system is designed to
+        enable non-EU/EEA nationals to work in Ireland in roles where there is a
+        labor shortage and where an employer has been unable to find an Irish or
+        EU national for the position. ​<br />
         ​<br />
         Non-EEA nationals currently in Ireland on a Working Holiday
-        Authorisation or a Van Der Elst Transfer Permission cannot apply for an
-        employment permit from within the State and must leave the State should
-        they wish to apply for a permit. ​​
+        Authorisation or Van Der Elst Transfer Permission cannot apply for an
+        employment permit while in the State and must leave Ireland to make
+        their application. ​​
         <br />
         ​<br />
-        Persons resident in the State on a valid visa (Stamp 1, 1G, 2, 2A or 3)
-        may apply for an employment permit.
+        However, individuals residing in Ireland with a valid visa (Stamp 1, 1G,
+        2, 2A, or 3) may apply for an employment permit.
       </p>
     </div>
   );
@@ -35,77 +34,63 @@ export const WorkPermitComponentTwo = () => {
       <h3>Types of Employment Permits</h3>
       <p>
         {" "}
-        There are nine different types of employment permits in Ireland. The
-        most common employment permits are:
+        Ireland offers nine different types of employment permits. The most
+        common are:
       </p>
       ​
       <ol>
         <li>Critical Skills Employment Permit (CSEP)</li>
         <p>
-          Critical Skills Employment Permit targets highly skilled people to
-          encourage them to reside in Ireland permanently. Only the Occupations
-          included on the Critical Skills Occupations List are catered under
-          this type of employment permit.​ Learn more
+          Targets highly skilled individuals to encourage permanent residency in
+          Ireland. Only occupations listed on the Critical Skills Occupations
+          List are eligible under this permit.
         </p>
         ​<li> General Employment Permit (GEP)</li>
         <p>
-          Critical Skills Employment Permit targets highly skilled people to
-          encourage them to reside in Ireland permanently. Only the Occupations
-          included on the Critical Skills Occupations List are catered under
-          this type of employment permit.​ Learn more
+          Designed for non-EU/EEA nationals who do not qualify for the Critical
+          Skills Employment Permit. This permit covers a broader range of
+          occupations.
         </p>
-        ​<h4>The other employment permits are:</h4>​
+        ​<h4>The remaining permits include:</h4>​
         <li>Dependant/Partner/Spouse Employment Permit</li>
         <p>
-          Spouses and de-facto partners of CSEP holders will be granted
-          eligibility under this permit. The permit allows the holder to reside
-          in Ireland under Stamp 1 Conditions, providing direct access to the
-          labour market without needing an employment permit. Learn more
+          Available to spouses and de-facto partners of CSEP holders, allowing
+          them to reside in Ireland under Stamp 1 conditions and access the
+          labor market without an additional employment permit.
         </p>
         ​<li>Intra-Company Transfer Employment Permit</li>
         <p>
-          The Intra-Company Transfer Employment Permit is designed to facilitate
-          the transfer of senior management, key personnel or trainees who are
-          foreign nationals from an overseas branch of a multinational
-          corporation to its Irish branch. Learn more ​
+          Facilitates the transfer of senior management, key personnel, or
+          trainees from a multinational corporation’s overseas branch to its
+          Irish branch.
         </p>
         <li>Contract for Services Employment Permit</li>
         <p>
-          Contract for Services Employment Permit is designed for situations
-          where a foreign undertaking (Contractor) has won a contract to provide
-          services to an Irish company (Relevant Person) on a contract for
-          services basis and to facilitate the transfer of their non-EEA
-          employees to work on the Irish contract in Ireland. Learn more
+          For foreign contractors who have secured a contract with an Irish
+          company, allowing their non-EEA employees to work in Ireland under
+          this contract.
         </p>
         ​<li>Reactivation Employment Permit</li>
         <p>
-          A reactivation Employment Permit is designed to permit a non-EEA
-          national who entered the State on a valid Employment Permit but fell
-          out of the system through no fault of their own or who has been badly
-          treated or exploited in the workplace to work legally again. Learn
-          more
+          Allows non-EEA nationals who previously held a valid employment permit
+          but have fallen out of the system or were exploited to return to legal
+          employment.
         </p>
         ​<li>Internship Employment Permit</li>
         <p>
-          Internship Employment Permit is designed to facilitate employment in
-          the State of non-EEA nationals who are full-time students studying in
-          a discipline relevant to the occupations included on the Critical
-          Skills Occupations List and enrolled at a third-level institution
-          outside the State to gain work experience.{" "}
+          For non-EEA students studying a relevant discipline at a third-level
+          institution outside Ireland, to gain work experience in Ireland.
         </p>
         ​<li>Sport and Cultural Employment Permit</li>
         <p>
-          The Sport and Cultural Employment Permit is designed to facilitate
-          employment in the State of non-EEA nationals with the relevant
-          qualifications, skills, experience or knowledge for the development,
-          operation and capacity of sporting and cultural activities. Learn more
+          Enables non-EEA nationals with specific qualifications, skills, or
+          experience to work in the development and operation of sporting and
+          cultural activities.
         </p>
         ​<li>Exchange Agreement Employment Permit</li>
         <p>
-          The Exchange Agreement Employment Permit is designed to facilitate
-          employment in the State of non-EEA nationals pursuant to prescribed
-          agreements or other international agreements to which the State is a
-          party.
+          Facilitates employment under prescribed or international agreements to
+          which Ireland is a party.
         </p>
       </ol>
     </div>
@@ -116,22 +101,20 @@ export const WorkPermitComponentThree = () => {
     <div className="workpagecontentelement">
       <h3>Occupation Lists</h3>
       <p>
-        The Department of Enterprise, Trade, and Employment(DETE) issues two
-        types of occupation lists. ​​
+        DETE issues two types of occupation lists:
         <ul>
           <li>
-            <u>Critical Skills Occupations List</u> contains a list of jobs{" "}
-            <b>eligible</b> for a Critical Skills Employment Permit.
+            <u>Critical Skills Occupations List:</u> Lists jobs eligible for the
+            Critical Skills Employment Permit.
           </li>
           <li>
-            <u>Ineligible List of Occupations</u> contains a list of jobs that
-            are <b>not eligible</b> for any Employment Permits in Ireland.
+            <u>Ineligible List of Occupations:</u> Lists jobs that are not
+            eligible for any Employment Permits in Ireland.
           </li>
         </ul>
-        ​ Please note that there is no list of eligible occupations list which
-        you can take up with the General Employment Permit. All occupations are
-        considered eligible unless they are on the list of Ineligible Lists of
-        Employment.
+        Please note, there is no specific list of eligible occupations for the
+        General Employment Permit; all occupations are considered eligible
+        unless they are on the Ineligible List of Occupations.
       </p>
     </div>
   );
@@ -211,12 +194,12 @@ export default function WorkPermit() {
       <Navbar />
       <div className="workpageheader">
         <div className="workheaderleft">
-          <h1>Work Permits Ireland</h1>
+          <h1>Work Permits </h1>
           <p>
-            Our consultancy services have secured hundreds of Employment Permits
-            for individuals and organisations. We are committed to working
-            closely with you throughout the application process to ensure
-            compliance regarding the necessary steps.
+            Our consultancy services have successfully secured hundreds of
+            Employment Permits for both individuals and organizations. We are
+            dedicated to guiding you through every step of the application
+            process to ensure full compliance with the necessary requirements.
           </p>
           <button className="contactusbutton">Know More</button>
         </div>

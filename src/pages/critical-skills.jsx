@@ -4,149 +4,126 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import workpermit from "../images/workpermit1.jpeg";
 import { useNavigate } from "react-router-dom";
+import ContactForm from "../components/contactform";
 export const CriticalSkillsOne = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h3>Employment Visa in Ireland</h3>
+      <h4> What is the Critical Skills Employment Permit?</h4>
       <p>
-        This permit is deemed to be the most sought-after employment permit to
-        obtain in Ireland. It is designed to attract highly skilled people into
-        the Irish labour market with the aim of encouraging them to take up
-        permanent residence in the State.
+        The Critical Skills Employment Permit is one of the most coveted permits
+        in Ireland. It is designed to attract highly skilled professionals to
+        the Irish labor market, with the aim of encouraging them to settle
+        permanently in Ireland.
         <br />
         <br />
-        Eligible occupations under this type of permit are deemed to be
-        critically important to growing Ireland’s economy, are highly demanded
-        and highly skilled, and are in a significant shortage of supply in our
-        labour market. The list of eligible occupations is set out in the
-        Critical Skills Occupations List. ​<br />
-        Jobs which are eligible under the{" "}
-        <u>Critical Skills Employment Permit</u> Ireland scheme do not need to
-        undergo the <u>Labour Market Needs Test.</u>
+        Occupations eligible for this permit are deemed crucial for Ireland's
+        economic growth, are in high demand, and face significant supply
+        shortages in the labor market. The eligible jobs are listed in the
+        Critical Skills Occupations List.
         <br />
         <br />
-        The Green Card type employment permit has been replaced by the Critical
-        Skills Employment Permit. This permit is deemed to be the most
-        sought-after employment permit to obtain in Ireland.
+        Unlike other permits, the Critical Skills Employment Permit does not
+        require a Labour Market Needs Test.
+        <br />
+        <br />
+        This permit has replaced the Green Card type permit and remains highly
+        sought after.
       </p>
     </div>
   );
 };
 export const CriticalSkillsTwo = () => {
+  const navigate = useNavigate();
+  const navigatetoContact = () => {
+    navigate("/contact-us");
+  };
+
   return (
     <div className="criticalskillsbodyelement">
-      <h2>
-        Who is eligible for a <u>Critical Skills Employment Permit</u>?
-      </h2>
+      <h2>Who qualifies for a Critical Skills Employment Permit?</h2>
       <p>
-        If you are from a country that is not in the European Economic Area
-        (non-EEA), the UK or Switzerland, you must apply for the permit before
-        you come to Ireland. You may also have to apply for a visa to come to
-        Ireland.
+        If you are from a non-EEA country, the UK, or Switzerland, you must
+        apply for the permit before arriving in Ireland. You may also need to
+        apply for a visa to enter Ireland.
       </p>
       <p>
-        If you already live in Ireland and have a valid Irish Residence Permit
-        (IRP) with stamp 1, 1A, 2, 2A or 3, and have been offered a job in an
-        occupation on the Critical Skills Occupations List will also be eligible
-        for the Critical Skills Employment Permit.
+        If you are already in Ireland with a valid Irish Residence Permit (IRP)
+        with stamps 1, 1A, 2, 2A, or 3, and you have a job offer in an
+        occupation listed on the Critical Skills Occupations List, you are
+        eligible to apply for the Critical Skills Employment Permit.
       </p>
 
-      <h2>
-        What jobs are eligible for <u>Critical Skills Employment Permit</u>?
-      </h2>
+      <h2>Eligible Occupations:</h2>
       <p>
-        Before jumping into more detail, please note that two types of
-        occupation lists are issued by The Department of Enterprise, Trade, and
-        Employment (DETE).
+        The Department of Enterprise, Trade, and Employment (DETE) issues two
+        types of occupation lists:
       </p>
       <ul>
         <li>
-          <b>Critical Skills Occupations List</b> contains a list of jobs{" "}
-          <b>eligible</b> for a Critical Skills Employment Permit.
+          <b>Critical Skills Occupations List:</b> Contains jobs eligible for
+          the Critical Skills Employment Permit.
         </li>
         <li>
-          <b>Ineligible List of Occupations for employment permits</b> contains
-          a list of jobs <b>not eligible</b> for any Employment Permits in
-          Ireland. This means that the occupations on this list are{" "}
-          <b>not eligible</b> for a Critical Skill Employment Permit or a
-          General Employment Permit.
+          <b>Ineligible List of Occupations:</b> Lists jobs that are not
+          eligible for any Employment Permits in Ireland, including both
+          Critical Skills and General Employment Permits.
         </li>
       </ul>
 
       <h4>
-        Eligibility for a Critical Skills Employment Permit is largely
-        determined by the type of occupation and proposed remuneration level.
-        There are generally two routes:
+        Eligibility for the Critical Skills Employment Permit is determined by
+        the type of occupation and proposed salary. Generally, there are two
+        pathways:
       </h4>
-      <p>
-        <b>The first route</b> to a Critical Skill Employment Permit must meet
-        all of the following requirements:
-      </p>
-      <ol>
+
+      <h5>Pathway 1:</h5>
+      <ul>
+        <li>The job must be on the Critical Skills Occupations List.</li>
         <li>
-          The job offered must belong to one of the occupations listed under the{" "}
-          <a href="#">Critical Skills Occupations List</a>.
+          The job must offer a minimum salary of <b>€38,000 per annum</b>{" "}
+          (€44,000 from 2025).
         </li>
         <li>
-          The job offered must have a minimum salary of <b>€38,000 per annum</b>
-          . (€44,000 per annum In 2025)
+          The job must be for at least <b>2 years</b> or permanent.
         </li>
         <li>
-          The job offered must be of at least <b>2-year duration</b> or on a
-          permanent basis.
+          The employee must have a relevant degree or higher qualification.
+        </li>
+      </ul>
+
+      <h5>Pathway 2:</h5>
+      <ul>
+        <li>
+          Occupations with a minimum salary of <b>€64,000 per annum</b>, not on
+          the Ineligible List of Occupations, and not contrary to public
+          interest.
         </li>
         <li>
-          The prospective employee must have a{" "}
-          <b>degree qualification or higher</b> and it must be relevant to the
-          job offered.
+          The employee must have a relevant degree or equivalent experience.
         </li>
-      </ol>
+        <li>
+          The job must be for at least <b>2 years</b> or permanent.
+        </li>
+      </ul>
+
+      <h4>Employer Criteria:</h4>
+      <ul>
+        <li>
+          Applications are only accepted from employers who are registered with
+          the Revenue Commissioners and the Companies Registration
+          Office/Registry of Friendly Societies, if applicable.
+        </li>
+        <li>Employers must be currently trading in Ireland.</li>
+        <li>
+          Employers must have at least 50% of their employees as EEA nationals
+          (the 50:50 rule). This requirement may be waived if the company is a
+          start-up with no more than two years of operation.
+        </li>
+      </ul>
 
       <p>
-        <b>The second route</b> to a Critical Skill Employment Permit must meet
-        all of the following requirements:
-      </p>
-      <ol>
-        <li>
-          All occupations with a minimum annual remuneration of over{" "}
-          <b>€64,000</b>, other than those on the{" "}
-          <a href="#">Ineligible List of Occupations for Employment Permits</a>{" "}
-          or which are contrary to the public interest.
-        </li>
-        <li>
-          The prospective employee must have a{" "}
-          <b>relevant degree qualification OR necessary level of experience</b>.
-        </li>
-        <li>
-          The job offered must be of at least <b>2-year duration</b> or on a
-          permanent basis.
-        </li>
-      </ol>
-
-      <h4>Employer Criteria</h4>
-      <ol>
-        <li>
-          Applications will only be accepted from employers that are registered
-          with the Revenue Commissioners and with the Companies Registration
-          Office/Registry of Friendly Societies, if applicable, and which are
-          currently trading in the State.
-        </li>
-        <li>
-          An employer–employee relationship will exist in that the prospective
-          employee concerned will be employed, salaried and paid directly by the
-          employer.
-        </li>
-        <li>
-          An employment permit will not be issued unless at the time of
-          application, at least 50% of the employees in a firm are EEA nationals
-          (50:50 rule). However, this restriction could be waived if the company
-          is a start-up with no more than two years of operation.
-        </li>
-      </ol>
-
-      <p>
-        <a href="#">Contact us now</a> for immediate help and professional
-        advice with your situation.
+        <a onClick={() => navigatetoContact()}>Contact us now</a> for immediate
+        help and professional advice with your situation.
       </p>
     </div>
   );
@@ -154,81 +131,50 @@ export const CriticalSkillsTwo = () => {
 export const CriticalSkillsThree = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h2>
-        What are the requirements for employees to apply for{" "}
-        <u>Critical Skills Employment Permit</u>?
-      </h2>
-      <p>
-        There are certain conditions regarding the qualification and job offer
-        that employees need to meet in order to be eligible under the Critical
-        Skills Employment Permit scheme.
-      </p>
-
-      <h2>Qualification:</h2>
-      <p>
-        The relevant educational qualifications, skills, and experience are
-        required depending on the job type and the proposed annual salary.
-      </p>
-      <ul>
+      <h2>Employee Requirements:</h2>
+      <ol>
         <li>
-          For eligible jobs with an annual salary of <b>€38,000</b> or more, a{" "}
-          <b>relevant degree or higher qualification</b> is required.
+          Have a job offer from a Revenue Commissioners-registered and trading
+          company.
+        </li>
+        <li>Have a job offer of at least two years.</li>
+        <li>Be directly employed and paid by the employer in Ireland.</li>
+        <li>
+          Meet educational and experience requirements depending on the job type
+          and salary.
         </li>
         <li>
-          For eligible jobs with an annual salary of <b>€64,000</b> or over, a{" "}
-          <b>relevant degree or equivalent experience</b> is required.
+          For salaries of <b>€38,000</b> or more, a relevant degree is required.
         </li>
         <li>
-          In the case of <b>nurses and midwives</b>, a degree/diploma
-          qualification recognised by the Nursing and Midwifery Board of Ireland
-          (NMBI) is required.
-        </li>
-      </ul>
-
-      <h2>Job Offer:</h2>
-      <ul>
-        <li>
-          Job offer must be from a{" "}
-          <b>Revenue Commissioners-registered and trading company</b> (or
-          employer).
+          For salaries of <b>€64,000</b> or more, a relevant degree or
+          equivalent experience is required.
         </li>
         <li>
-          Job offer of at least <b>two years</b>.
+          For nurses and midwives, a qualification recognized by the Nursing and
+          Midwifery Board of Ireland (NMBI) is necessary.
         </li>
-        <li>
-          The employee must be directly employed and paid by the employer in
-          Ireland.
-        </li>
-      </ul>
-
-      <p>
-        <b>Important:</b> Any jobs offered through recruitment agencies and
-        other intermediaries will not be acceptable for this permit.
-      </p>
+      </ol>
     </div>
   );
 };
 export const CriticalSkillsFour = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h2>
-        What do Employers Need to Know About the Critical Skills Employment
-        Permit?{" "}
-      </h2>
+      <h2>Employer Responsibilities:</h2>
+      <ol>
+        <li>
+          Ensure that at least 50% of their employees are EEA nationals (unless
+          the company is a start-up).
+        </li>
+        <li>
+          Be registered with the necessary authorities and currently trading in
+          Ireland.
+        </li>
+      </ol>
+
       <p>
-        Applications will only be accepted from employers that are registered
-        with the Revenue Commissioners and with the Companies Registration
-        Office/Registry of Friendly Societies, if applicable, and which are
-        currently trading in the State. ​<br />​<br />
-        That an employer–employee relationship will exist in that the
-        prospective employee concerned will be employed, salaried and paid
-        directly by the employer. ​<br />
-        ​<br />
-        An employment permit will not be issued unless at the time of
-        application, at least 50% of the employees in a firm are EEA nationals
-        (50:50 rule). However, if the company is a start-up with no more than
-        two years of operation, this restriction could be waived. ​<br />​<br />
-        ​ Need immediate help and professional advice with your situation?{" "}
+        Need immediate help and professional advice with your situation?{" "}
         <a href="#">Contact us now.</a>
       </p>
     </div>
@@ -237,31 +183,24 @@ export const CriticalSkillsFour = () => {
 export const CriticalSkillsFive = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h2>What are the benefits of the Critical Skills Employment Permit?</h2>
-      <p>
-        The Critical Skills Employment Permit provides permit holders and
-        companies with an array of benefits, including:
-      </p>
+      <h2>Benefits:</h2>
       <ul>
         <li>
-          Critical Skills Employment Permit holders can take up permanent
+          Critical Skills Employment Permit holders can apply for permanent
           residence (Stamp 4) in Ireland after two years of employment.
         </li>
-        ​
         <li>
           Critical Skills Employment Permit holders can apply for immediate
-          family reunification.​
+          family reunification.
         </li>
-        ​
         <li>
-          Spouses/De facto partners who come to Ireland through the unification
-          scheme can request the right to work for any employer.
+          Spouses and de facto partners of permit holders can work for any
+          employer.
         </li>
-        ​
         <li>
-          Employers are not required to complete a labour market test, which
-          shortens the recruitment process and lowers the administrative burden
-          and cost of overseas hiring.
+          Employers are not required to conduct a labor market test,
+          streamlining the recruitment process and reducing the administrative
+          burden and costs associated with overseas hiring.
         </li>
       </ul>
     </div>
@@ -270,37 +209,27 @@ export const CriticalSkillsFive = () => {
 export const CriticalSkillsSix = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h2>
-        What are the Application Procedure for{" "}
-        <u>Critical Skills Employment Permit in Ireland</u>?
-      </h2>
+      <h2>Application Procedure:</h2>
       <p>
-        An application for any employment permit must be received at least 12
-        weeks before the proposed employment start date. The following are three
-        main stages of the Critical Skills Employment Permit application:
+        Applications for the Critical Skills Employment Permit must be submitted
+        at least 12 weeks before the proposed employment start date. The
+        application process involves:
       </p>
       <ol>
-        <li>Complete the application form with the required documentation.</li>
-        <li>The application is placed in the processing queue.</li>
         <li>
-          An official with decision-making authority considers the application.
-          The official may request further information if they deem it to be
-          necessary to reach a decision.
+          Completing the application form with the required documentation.
+        </li>
+        <li>The application entering the processing queue.</li>
+        <li>
+          Review and decision by an official, who may request additional
+          information if needed.
         </li>
       </ol>
 
       <p>
-        The application form must include a full description of the employee’s
-        proposed employment, remuneration (excluding bonuses) and start date.
-        Information on the educational qualifications, skills, or experience
-        required for the job will need to be included.
-      </p>
-
-      <p>
-        Does it sound like a long and complicated process? That’s why Future
-        Direct is here for you! With our exceptional service in this area, we
-        are committed to working closely with you throughout the application
-        process and ensuring compliance with every requirement.
+        The application must include details about the job offer, remuneration
+        (excluding bonuses), start date, and the employee’s qualifications,
+        skills, or experience.
       </p>
 
       <p>
@@ -311,31 +240,32 @@ export const CriticalSkillsSix = () => {
   );
 };
 export const CriticalSkillsSeven = () => {
+  const navigate = useNavigate();
+  const navigatetoContact = () => {
+    navigate("/contact-us");
+  };
   return (
     <div className="criticalskillsbodyelement">
-      <h2>
-        What is the processing time for the Critical Skills Employment Permit in
-        Ireland?
-      </h2>
+      <h2>Processing Time:</h2>
       <p>
-        The current processing time for a critical skill employment permit
-        application is within 4 to 6 weeks. However, if your employer is a
-        trusted partner, the process will be shortened to 1 to 2 weeks. ​​​
-        <br />
-        ​​
-        <br />
-        We understand that a long waiting time is always frustrating and
-        anxious. Future Direct is committed to following up closely with the
-        department to ensure a faster turnaround time in each case. ​​
-        <br />
-        ​​
-        <br />
-        Need immediate help and professional advice with your situation?
-        <a href="#">Contact us now.</a>
+        Current processing times for a Critical Skills Employment Permit are 4
+        to 6 weeks. However, if the employer is a trusted partner, this can be
+        reduced to 1 to 2 weeks.
+      </p>
+      <p>
+        We understand that delays can be stressful. Future Direct is committed
+        to ensuring a faster turnaround time and providing exceptional support
+        throughout the process.
+      </p>
+      <p>
+        Need immediate help and professional advice?{" "}
+        <a onClick={() => navigatetoContact()}>Contact us now.</a> for expert
+        assistance with your Critical Skills Employment Permit application.
       </p>
     </div>
   );
 };
+
 export default function CriticalSkills() {
   const [selectedMode, setSelectedMode] = useState(1);
   const navigate = useNavigate();
@@ -356,11 +286,17 @@ export default function CriticalSkills() {
           </p>
           <h1>Critical Skills Employment Permit</h1>
           <p>
-            Our Employment Permit Consultancy Service has secured hundreds of
-            Employment Permits for our clients. We will work closely with you
-            from start to finish to ensure the right processes are followed.
+            Our Employment Permit Consultancy Service has successfully secured
+            hundreds of Critical Skills Employment Permits for clients. We
+            partner with you from start to finish to ensure the correct
+            procedures are followed.
           </p>
-          <button className="contactusbutton">Know More</button>
+          <button
+            className="contactusbutton"
+            onClick={() => navigate("/contact-us")}
+          >
+            Know More
+          </button>
         </div>
         <div className="workheaderright">
           <img src={workpermit} alt="Work Permit" />
@@ -424,6 +360,7 @@ export default function CriticalSkills() {
         {selectedMode === 6 && <CriticalSkillsSix />}
         {selectedMode === 7 && <CriticalSkillsSeven />}
       </div>
+      <ContactForm />
       <Footer />
     </div>
   );

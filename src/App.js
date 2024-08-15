@@ -13,6 +13,8 @@ import ContactUs from "./pages/contactus";
 import AboutUs from "./pages/aboutus";
 import CriticalSkills from "./pages/critical-skills";
 import GeneralPemits from "./pages/generalpermits";
+import ReactivationPermits from "./pages/reactivationpermits";
+import OtherPermits from "./pages/otherpermits";
 function App() {
   return (
     <div className="App">
@@ -36,6 +38,11 @@ function App() {
             path="/work-permit/general-permits"
             element={<GeneralPemits />}
           />
+          <Route
+            path="/work-permit/reactivation-permits"
+            element={<ReactivationPermits />}
+          />
+          <Route path="/work-permit/other-permits" element={<OtherPermits />} />
         </Routes>
       </Router>
     </div>

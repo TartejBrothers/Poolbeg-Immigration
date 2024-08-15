@@ -76,16 +76,26 @@ export default function Testimonial() {
       <div className="wrapper">
         <div className="card-wrapper" ref={cardWrapperRef}>
           <TestimonialCard
-            name="Lorem Ipsum"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            name="Damien Abraham"
+            content="I am very grateful for the exceptional service provided by CareerIreland. Their team managed my work permit application with such professionalism and efficiency that the process felt remarkably stress-free.
+            
+Being an aspiring immigrant contibuting to the economy it is very important for us to manage our legalities in the country in order to work and function stress free. Team handled all the intricacies of the application, provided clear guidance, and were always available for support. I would also like to extend my thanks to Raghav Dixit - MBA,PMP® for guiding and mentoring. Their efforts have made my transition to working in Ireland seamless. If you're in need of reliable immigration assistance, I strongly recommend Career Ireland for their outstanding service and expertise."
           />
           <TestimonialCard
-            name="Lorem Ipsum"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            name="Yashvee Choubey"
+            content="I want to extend my heartfelt gratitude to the CareerIreland
+team for
+their exceptional assistance with my work permit application. Initially, I was overwhelmed and disheartened by the criticality of my application. However, the Careerreland team stepped in and provided invaluable support.
+They meticulously reviewed my application, identified its weaknesses, and pinpointed the errors that led to the initial criticality.
+Through their expert guidance, we were able to address the issues effectively and submit a robust appeal. Thanks to their dedication and expertise, my application was ultimately approved.
+The team's professionalism, thoroughness, and unwavering support made a significant difference in my journey. I cannot thank CareerIreland enough for their help and highly recommend their services to anyone facing similar challenges."
           />
           <TestimonialCard
-            name="Lorem Ipsum"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            name="Snehal Kathare"
+            content="I'm thrilled to share that l've recently obtained my work permit with the invaluable assistance of the Career Ireland team. Their unwavering support and expertise guided me through every step of the application process.
+My special thanks to Raghav Dixit - MBA,PMP® for the guidance and motivation he gave me through out my job search journey. More then a mentor you are a wonderful friends with whom I can resolve anything. Without you this journey could be impossible for many of ous C. Thank you again for everything.
+Career Ireland's dedicated professionals not only provided me with crucial advice and assistance but also ensured that my application was completed accurately and efficiently. Their commitment to helping individuals navigate the complexities of work permits is truly commendable.
+I wholeheartedly recommend CareerIreland to anyone in need of assistance with their work permit application."
           />
           <TestimonialCard
             name="Lorem Ipsum"

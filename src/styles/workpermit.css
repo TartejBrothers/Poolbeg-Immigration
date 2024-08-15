@@ -39,7 +39,8 @@
 .workpagecontent {
   display: flex;
   gap: 20px;
-
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 20px 40px;
 }
 .workpagecontentelement table {
@@ -69,6 +70,7 @@
 .workpagecomponentselector {
   width: 100%;
   display: flex;
+  margin-bottom: 50px;
 }
 .workpagecomponentselector ul {
   display: flex;
@@ -191,4 +193,5 @@
   .workheaderright img {
     min-height: 250px;
   }
+
 }

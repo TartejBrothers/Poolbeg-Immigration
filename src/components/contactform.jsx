@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/contactform.css";
 import twitter from "../images/icons/twittercontact.svg";
 import linkedin from "../images/icons/linkedincontact.svg";
 import phonecontact from "../images/icons/phonecontact.png";
 import emailcontact from "../images/icons/emailcontact.png";
+import ContactFormRight from "./contactformright";
+
 export default function ContactForm() {
   return (
     <div className="contactmain">
@@ -46,26 +48,7 @@ export default function ContactForm() {
           </div>
         </div>
         <div className="contactformright">
-          <h4>Fill In Your Details</h4>
-          <form>
-            <input
-              type="text"
-              placeholder="Enter Your Name"
-              name="name"
-              required
-            />
-            <div className="inputdivhalf">
-              <input type="email" placeholder="Enter Your Email" required />
-
-              <input
-                type="number"
-                placeholder="Enter Your Phone Number"
-                required
-              />
-            </div>
-            <textarea placeholder="Enter Your Message" required></textarea>
-            <button>Submit</button>
-          </form>
+          <ContactFormRight />
         </div>
       </div>
     </div>

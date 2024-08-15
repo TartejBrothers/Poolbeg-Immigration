@@ -21,14 +21,8 @@ export default function Footer() {
     <div className="footer">
       <div className="footerabout">
         <div className="footeraboutheader">
-          <h3>About Us</h3>
+          <img src={logo} alt="Logo" />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorum quae, voluptates, quos, doloribus quia quod doloremque
-          voluptatem autem quidem fugit. Quisquam dolorum quae, voluptates,
-          quos, doloribus quia quod doloremque voluptatem autem quidem fugit.
-        </p>
       </div>
       <hr />
       <div className="footertop">
@@ -58,8 +52,12 @@ export default function Footer() {
             <li onClick={() => navigateTo("work-permit/general-permits")}>
               General Employment Permits
             </li>
-            <li>Reactivation Employment Permit</li>
-            <li>Other Employment Permit Types</li>
+            <li onClick={() => navigateTo("work-permit/reactivation-permits")}>
+              Reactivation Employment Permit
+            </li>
+            <li onClick={() => navigateTo("work-permit/other-permits")}>
+              Other Employment Permit Types
+            </li>
             <li>Partner/Spouse of Permit Holders</li>
             <li>Appeal Employment Permit Refusal</li>
             <li>Labor Market Need Test</li>
