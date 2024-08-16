@@ -5,6 +5,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ContactForm from "../components/contactform";
 import TalkToUs from "../components/talktous";
+import { useNavigate } from "react-router-dom";
 export const WorkPermitComponentOne = () => {
   return (
     <div className="workpagecontentelement">
@@ -188,6 +189,7 @@ export const WorkPermitComponentFour = () => {
 };
 
 export default function WorkPermit() {
+  const navigateTo = useNavigate();
   const [selectedMode, setSelectedMode] = useState(1);
   return (
     <div className="workpage">
@@ -201,7 +203,14 @@ export default function WorkPermit() {
             dedicated to guiding you through every step of the application
             process to ensure full compliance with the necessary requirements.
           </p>
-          <button className="contactusbutton">Know More</button>
+          <button
+            className="contactusbutton"
+            onClick={() => {
+              navigateTo("/contact-us");
+            }}
+          >
+            Know More
+          </button>
         </div>
         <div className="workheaderright">
           <img src={workpermit} alt="Work Permit" />

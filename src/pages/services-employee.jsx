@@ -7,8 +7,9 @@ import linkedin from "../images/icons/linkedincontact.svg";
 import ServicePoints from "../components/elements/servicepoints";
 import IndustriesServed from "../components/industriesserved";
 import ContactFormRight from "../components/contactformright";
-
+import { useNavigate } from "react-router-dom";
 export default function ServicesEmployee() {
+  const navigateTo = useNavigate();
   return (
     <div className="servicemain">
       <Navbar />
@@ -39,7 +40,12 @@ export default function ServicesEmployee() {
                 </li>
               </ul>
             </div>
-            <button className="talktousbutton">
+            <button
+              className="talktousbutton"
+              onClick={() => {
+                navigateTo("/contact-us");
+              }}
+            >
               Talk To Us <ion-icon name="arrow-forward-outline"></ion-icon>
             </button>
           </div>

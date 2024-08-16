@@ -9,6 +9,9 @@
   font-weight: 700;
   margin-bottom: 30px;
 }
+.homeheader h3 {
+  font-size: 30px;
+}
 .headercentertext {
   font-size: 16px;
   color: #000000;
@@ -188,5 +191,8 @@
   .homeheaderdivider hr {
     width: calc(100px);
     max-width: calc(50vw - 80px);
+  }
+  .homeheader h3 {
+    font-size: 20px;
   }
 }
