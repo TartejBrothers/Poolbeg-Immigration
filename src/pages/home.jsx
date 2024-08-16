@@ -9,22 +9,32 @@ import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
 import Footer from "../components/footer";
 import IndustriesServed from "../components/industriesserved";
+import { useNavigate } from "react-router-dom";
 export default function Home() {
+  const navigateTo = useNavigate();
+
   return (
     <div className="home">
       <Navbar />
 
       <div className="homeheader">
-        <h1>Irish Employment Permit and Immigration Specialists</h1>
+        <h1> Poolbeg Immigration</h1>
+        <h3>Irish Employment Permit and Immigration Specialists</h3>
         <p className="headercentertext">
-          We specialise in Critical Skills Employment Permits, General
-          Employment Permits, and Visa Applications.
+          At Poolbeg Immigration, we specialise in Critical Skills Employment
+          Permits, General Employment Permits, and Visa Applications.
           <br />
           Our services enable businesses to hire non-EEA nationals and
           individuals to secure their legal status in Ireland.
         </p>
         <div className="homeheaderbottom">
-          <button>Talk To Us</button>
+          <button
+            onClick={() => {
+              navigateTo("contact-us");
+            }}
+          >
+            Contact Us
+          </button>
           <div className="homeheaderdivider">
             <hr />
             <p>or Call Us On</p>

@@ -22,6 +22,14 @@ export default function Footer() {
       <div className="footerabout">
         <div className="footeraboutheader">
           <img src={logo} alt="Logo" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            illum sit. Repellendus aspernatur cumque, corrupti hic provident
+            unde neque sequi! Placeat ea earum libero tenetur alias nihil eaque
+            repellat qui architecto optio id, ipsum nam magnam necessitatibus,
+            sequi doloremque autem repudiandae aperiam vero consequuntur!
+            Deleniti vero adipisci exercitationem sed nemo!
+          </p>
         </div>
       </div>
       <hr />
