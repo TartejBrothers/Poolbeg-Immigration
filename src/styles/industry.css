@@ -4,10 +4,10 @@
 }
 .industriesrow {
   display: flex;
-  column-gap: 40px;
-  row-gap: 30px;
+  margin: 30px auto 10px;
+  max-width: 1400px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 .industrycard {
   padding: 20px;
@@ -38,4 +38,20 @@
 }
 .industrycardheader img {
   height: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .industriesrow {
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .industrycard {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .industriesrow {
+    flex-direction: column;
+  }
 }

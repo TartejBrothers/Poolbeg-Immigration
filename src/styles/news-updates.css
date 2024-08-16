@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background-color: #212121;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #212121;
 }
 .newscard {
   display: flex;

@@ -8,7 +8,7 @@ export default function IndustryCard({ image, name, content }) {
       </div>
       <div className="industrycardcontent">
         <h4>{name}</h4>
-        <p>{content}</p>
+        {/* <p>{content}</p> */}
       </div>
     </div>
   );

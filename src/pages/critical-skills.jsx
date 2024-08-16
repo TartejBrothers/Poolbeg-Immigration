@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import workpermit from "../images/workpermit1.jpeg";
 import { useNavigate } from "react-router-dom";
 import ContactForm from "../components/contactform";
+
 export const CriticalSkillsOne = () => {
   return (
     <div className="criticalskillsbodyelement">
@@ -360,6 +361,7 @@ export default function CriticalSkills() {
         {selectedMode === 6 && <CriticalSkillsSix />}
         {selectedMode === 7 && <CriticalSkillsSeven />}
       </div>
+
       <ContactForm />
       <Footer />
     </div>
