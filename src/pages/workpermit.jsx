@@ -4,7 +4,7 @@ import workpermit from "../images/workpermithome.png";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ContactForm from "../components/contactform";
-
+import TalkToUs from "../components/talktous";
 export const WorkPermitComponentOne = () => {
   return (
     <div className="workpagecontentelement">
@@ -244,6 +244,7 @@ export default function WorkPermit() {
           {selectedMode === 4 && <WorkPermitComponentFour />}
         </div>
       </div>
+      <TalkToUs />
       <ContactForm />
       <Footer />
     </div>
