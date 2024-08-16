@@ -28,7 +28,7 @@ export default function AboutUs() {
       <div className="servicemainbody">
         <h1>Our Approach</h1>
         <p>
-          Poolberg Immigration focuses on delivering positive results to our
+          Poolbeg Immigration focuses on delivering positive results to our
           clients and is dedicated to offering quality services
         </p>
         <div className="servicepoints">

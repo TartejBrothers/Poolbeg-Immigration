@@ -29,7 +29,7 @@ export default function ContactUs() {
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
               <div className="contactright">
-                <h5>help@poolberg.com</h5>
+                <h5>help@poolbeg.com</h5>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function ContactUs() {
             <div className="contactlocationelements">
               <h6>Visit Us At</h6>
               <p>
-                109 Windmill Park , Crumlin , Dublin
+                109 Windmill Park , Crumlin , Dublin, 12
                 <br />
                 Ireland
                 <br />
