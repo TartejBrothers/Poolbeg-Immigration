@@ -254,9 +254,9 @@ export const CriticalSkillsSeven = () => {
         reduced to 1 to 2 weeks.
       </p>
       <p>
-        We understand that delays can be stressful. Future Direct is committed
-        to ensuring a faster turnaround time and providing exceptional support
-        throughout the process.
+        We understand that delays can be stressful. Poolbeg Immigration
+        committed to ensuring a faster turnaround time and providing exceptional
+        support throughout the process.
       </p>
       <p>
         Need immediate help and professional advice?{" "}

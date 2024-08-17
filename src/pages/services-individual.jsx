@@ -21,10 +21,11 @@ export default function ServicesIndividual() {
             </p>
             <h2>Speak to us about your personal Immigration needs</h2>
             <p>
-              Future Direct provides assistance to private clients on various
-              applications, such as General Employment Permits, Critical Skill
-              Employment Permit, Stamp 1G Extension, Visa Extension, Entry Visa,
-              Citizenship, Family Reunification, Stamp 4, Stamp 0, and more.
+              Poolbeg Immigration provides assistance to private clients on
+              various applications, such as General Employment Permits, Critical
+              Skill Employment Permit, Stamp 1G Extension, Visa Extension, Entry
+              Visa, Citizenship, Family Reunification, Stamp 4, Stamp 0, and
+              more.
             </p>
             <div className="contactsocials">
               <ul>
