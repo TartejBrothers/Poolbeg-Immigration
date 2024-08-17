@@ -29,7 +29,7 @@ export default function ContactUs() {
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
               <div className="contactright">
-                <h5>help@poolbeg.com</h5>
+                <h5>info@poolbegimmigration.com</h5>
               </div>
             </div>
           </div>

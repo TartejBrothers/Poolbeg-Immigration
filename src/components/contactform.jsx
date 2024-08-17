@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/contactform.css";
 import twitter from "../images/icons/twittercontact.svg";
 import linkedin from "../images/icons/linkedincontact.svg";
@@ -42,7 +42,7 @@ export default function ContactForm() {
               </div>
               <div className="rightcontactelement">
                 <h3>Email Us</h3>
-                <p>info@careerireland</p>
+                <p>info@poolbegimmigration.com</p>
               </div>
             </div>
           </div>
