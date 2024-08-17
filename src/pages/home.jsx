@@ -41,7 +41,7 @@ export default function Home() {
             <hr />
           </div>
           <p>
-            <ion-icon name="call"></ion-icon>+353 (01) 234 5678
+            <ion-icon name="call"></ion-icon> +353 89 947 1396
           </p>
         </div>
       </div>

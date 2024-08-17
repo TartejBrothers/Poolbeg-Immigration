@@ -21,7 +21,7 @@ export default function ContactUs() {
                 <ion-icon name="call-outline"></ion-icon>
               </div>
               <div className="contactright">
-                <h5>+353 1 123 4567</h5>
+                <h5>+353 89 947 1396 </h5>
               </div>
             </div>
             <div className="contactelements">
