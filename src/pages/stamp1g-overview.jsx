@@ -38,114 +38,65 @@ export default function Stamp1GOverview() {
       <div className="stampbody">
         <h2>What is Stamp 1G?</h2>
         <p>
-          Stamp 1G allows international students who hold level 8 or 9 awards
-          from a recognised Irish awarding body to stay in Ireland after their
-          studies for some time. Those who get Stamp 1G have the right to remain
-          in Ireland and work full-time in accordance with employment law
-          requirements without further authorisation. However, you cannot
-          operate a business or be self-employed under your Stamp 1G status. ​
-          <br />
-          <br />
-          If you wish to continue working after Stamp 1G expires, you will
-          require an employment permit from the Department of Enterprise, Trade
-          and Employment to continue to stay in Ireland.
+          Stamp 1G permits international students who have earned a Level 8 or 9
+          qualification from a recognized Irish institution to remain in Ireland
+          after their studies. This permission allows them to work full-time but
+          does not authorize self-employment or business operations. To continue
+          working beyond the validity of Stamp 1G, an employment permit is
+          needed.
         </p>
         <hr />
         <h2>How long is a Stamp 1G valid for?</h2>
-        <b>
-          Persons qualifying for Stamp 1G permission of up to 12 Months of
-          Permission
-        </b>
         <p>
-          Graduates with an award at Level 8 on the National Framework of
-          Qualifications will be granted a 12-month permission. This applies
-          primarily to undergraduate students.
-        </p>
-        ​<br />
-        <b>
-          Persons qualifying for Stamp 1G permission of up to 24 Months of
-          Permission
-        </b>
-        <p>
-          Graduates with an award at Level 9 or above on the National Framework
-          of Qualifications qualify for the Programme and will be granted
-          permission for 24 months permission. This applies mainly to master's
-          and PhD students. ​
+          12 Months: For graduates with a Level 8 qualification, generally
+          covering undergraduate studies.
           <br />
-          <br />
-          Graduates will be granted permission for twelve months initially. This
-          will be renewed for a further period of twelve months where the
-          graduate satisfies the immigration authorities that they have taken
-          appropriate steps to access suitable graduate-level employment (e.g.
-          attendance at job interviews, signing up with graduate employment
-          agencies, etc.).
+          24 Months: For graduates with a Level 9 or higher qualification,
+          typically for master's and PhD studies.
         </p>
         <hr />
-        <h2>Who is Eligible For Stamp 1G?</h2>
-        <p>
-          To be eligible for Stamp 1G permission, Applicants need to meet the
-          following requirements:
-        </p>
+        <h2>Who is eligible for Stamp 1G?</h2>
+        <p>To qualify for Stamp 1G, applicants must:</p>
         <ul>
-          <li>Hold a current Stamp 2</li>
-          <li>Have an up-to-date immigration registration card</li>
+          <li>Have a current Stamp 2.</li>
+          <li>Possess an up-to-date immigration registration card.</li>
+          <li>Apply within six months of receiving their degree.</li>
           <li>
-            Submit their application within six months of obtaining their degree
-          </li>
-          <li>
-            Not have exceeded the seven-year limit to remain in Ireland as a
-            non-EEA student
+            Not have exceeded the seven-year limit for remaining in Ireland as a
+            non-EEA student.
           </li>
         </ul>
-        <p>Additional rules surrounding Stamp 1G are:</p>
+        <p>Additional Rules:</p>
         <ul>
           <li>
-            Graduates are not allowed to access the Third Level Graduate
-            Programme on more than two separate occasions
+            The Third Level Graduate Programme can be accessed up to two times.
           </li>
           <li>
-            Graduates who achieve level 8 or level 9 awards and have previously
-            obtained Stamp 1G can apply for the Third Level Graduate Programme
-            again if they have not exceeded the 7-year limit to remain in
-            Ireland.
+            Graduates with Level 8 or Level 9 awards who have previously held
+            Stamp 1G can reapply if they have not surpassed the seven-year
+            limit.
           </li>
-          <li>
-            Those whose permission to remain in Ireland has lapsed cannot apply
-            for the Third Level Graduate Programme.
-          </li>
-          <li>
-            Graduates who obtained Stamp 1G can be hired to work for up to 40
-            hours per week.
-          </li>
+          <li>Those whose permission to stay has lapsed are ineligible.</li>
+          <li>Graduates with Stamp 1G can work up to 40 hours per week.</li>
         </ul>
-        <p>
-          If you are an international student in Ireland on Stamp 2 and are
-          wondering whether you qualify for Stamp 1G, contact us now for
-          immediate help and advice.
-        </p>
         <hr />
-        <h2>How to apply for Stamp 1G?</h2>
+        <h2>How to Apply for Stamp 1G?</h2>
         <p>
-          Students from outside the EU/EEA who have previously registered with
-          the Irish Immigration Service for Stamp 2 permission must apply for
-          their Stamp 1G through the Irish Immigration website for visa renewal
-          and set up an account.
-          <br />
-          <br />
-          You will be requested to pay a €300 registration fee and will need
-          copies of the following documents when submitting your first-time
-          Stamp 1G application:
+          International students with Stamp 2 must apply for Stamp 1G through
+          the Irish Immigration website. An account must be created, and a €300
+          registration fee paid. Required documents include:
         </p>
         <ul>
-          <li>Valid Passport</li>
-          <li>IRP card indicating the Stamp 2 permission</li>
-          <li>A Statement of Final Results</li>
+          <li>A valid passport.</li>
+          <li>An IRP card showing Stamp 2.</li>
+          <li>A Statement of Final Results.</li>
         </ul>
         <p>
-          If the application is successful, a new IRP card will be posted to the
-          address provided. The applicant is not required to attend the Burgh
-          Quay office in person. Processing times are usually 3-5 weeks.
+          If approved, a new IRP card will be sent by post, and applicants are
+          not required to visit the Burgh Quay office. Processing typically
+          takes 3-5 weeks.
         </p>
+
         <br />
       </div>
       <ContactForm />

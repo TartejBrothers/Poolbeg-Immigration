@@ -11,18 +11,16 @@ export default function AboutUs() {
       <div className="aboutheader">
         <h1>About Us</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-          aspernatur dignissimos beatae harum ipsam. Harum vitae laboriosam eos
-          non accusamus cum nobis possimus iste voluptatibus ducimus provident,
-          natus obcaecati vero sint hic deleniti eaque velit molestias
-          aspernatur perferendis maiores debitis incidunt consequatur! Accusamus
-          officiis sint consectetur facilis dolores excepturi rerum quaerat nemo
-          minus? Debitis laboriosam magnam dolore vitae pariatur voluptatibus
-          reiciendis, eligendi, modi harum minus dolorum, porro perferendis.
-          Ipsam optio nam eum voluptatibus aut modi, laborum cupiditate harum
-          quo quibusdam fugit magnam. Excepturi in quis quisquam, dolore
-          laudantium, porro voluptate sint dolorum dicta sequi aspernatur
-          tempore officiis blanditiis possimus ipsam.
+          At Poolbeg Immigration, we specialize in navigating all aspects of
+          immigration to Ireland, from visas and work permits to residency and
+          citizenship.
+          <br />
+          <br />
+          Why choose us? Our expert team offers personalized solutions tailored
+          to your unique needs, ensuring a smooth and stress-free process. We
+          are always available for our clients at every step of the process.
+          With years of experience and a commitment to exceptional service,
+          we’re here to make your immigration journey seamless and successful.
         </p>
       </div>
       <div className="servicemainbody">
