@@ -13,13 +13,13 @@ export const CriticalSkillsOne = () => {
       <p>
         The Critical Skills Employment Permit is one of the most coveted permits
         in Ireland. It is designed to attract highly skilled professionals to
-        the Irish labor market, with the aim of encouraging them to settle
+        the Irish labour market, with the aim of encouraging them to settle
         permanently in Ireland.
         <br />
         <br />
         Occupations eligible for this permit are deemed crucial for Ireland's
         economic growth, are in high demand, and face significant supply
-        shortages in the labor market. The eligible jobs are listed in the
+        shortages in the labour market. The eligible jobs are listed in the
         Critical Skills Occupations List.
         <br />
         <br />
@@ -199,7 +199,7 @@ export const CriticalSkillsFive = () => {
           employer.
         </li>
         <li>
-          Employers are not required to conduct a labor market test,
+          Employers are not required to conduct a labour market test,
           streamlining the recruitment process and reducing the administrative
           burden and costs associated with overseas hiring.
         </li>

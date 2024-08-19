@@ -63,9 +63,15 @@ export default function Footer() {
             <li onClick={() => navigateTo("work-permit/other-permits")}>
               Other Employment Permit Types
             </li>
-            <li>Partner/Spouse of Permit Holders</li>
-            <li>Appeal Employment Permit Refusal</li>
-            <li>Labor Market Need Test</li>
+            <li onClick={() => navigateTo("work-permit/dependant-permits")}>
+              Partner/Spouse of Permit Holders
+            </li>
+            <li onClick={() => navigateTo("work-permit/appeal-permits")}>
+              Appeal Employment Permit Refusal
+            </li>
+            <li onClick={() => navigateTo("work-permit/labour-permits")}>
+              Labour Market Need Test
+            </li>
             <li>Trusted Partnership</li>
             <li>Critical Skills Occupation Lists</li>
           </ul>
