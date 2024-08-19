@@ -15,6 +15,9 @@ import CriticalSkills from "./pages/critical-skills";
 import GeneralPemits from "./pages/generalpermits";
 import ReactivationPermits from "./pages/reactivationpermits";
 import OtherPermits from "./pages/otherpermits";
+import DependantPermits from "./pages/dependantpermits";
+import AppealPermits from "./pages/appealpermit";
+import LabourPermits from "./pages/labourpermit";
 function App() {
   return (
     <div className="App">
@@ -43,6 +46,18 @@ function App() {
             element={<ReactivationPermits />}
           />
           <Route path="/work-permit/other-permits" element={<OtherPermits />} />
+          <Route
+            path="/work-permit/dependant-permits"
+            element={<DependantPermits />}
+          />
+          <Route
+            path="/work-permit/appeal-permits"
+            element={<AppealPermits />}
+          />
+          <Route
+            path="/work-permit/labour-permits"
+            element={<LabourPermits />}
+          />
         </Routes>
       </Router>
     </div>

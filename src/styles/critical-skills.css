@@ -37,12 +37,14 @@
   margin-bottom: 10px;
   margin-left: 20px;
 }
+
 .criticalskillsbodyelement h3 {
   color: #252525;
+
   font-size: 32px;
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .criticalskillsbodyelement p {

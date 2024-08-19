@@ -13,7 +13,8 @@ export default function ContactForm() {
         <div className="contactformleft">
           <h2>Get In Touch With Us</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            We are here to help you with your queries. Please feel free to reach
+            out to us.
           </p>
           <div className="contactsocials">
             <ul>

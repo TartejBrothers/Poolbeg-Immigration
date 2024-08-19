@@ -14,7 +14,7 @@ export const WorkPermitComponentOne = () => {
         The Department of Enterprise, Trade, and Employment (DETE) oversees all
         employment permit applications in Ireland. This system is designed to
         enable non-EU/EEA nationals to work in Ireland in roles where there is a
-        labor shortage and where an employer has been unable to find an Irish or
+        labour shortage and where an employer has been unable to find an Irish or
         EU national for the position. ​<br />
         ​<br />
         Non-EEA nationals currently in Ireland on a Working Holiday
@@ -57,7 +57,7 @@ export const WorkPermitComponentTwo = () => {
         <p>
           Available to spouses and de-facto partners of CSEP holders, allowing
           them to reside in Ireland under Stamp 1 conditions and access the
-          labor market without an additional employment permit.
+          labour market without an additional employment permit.
         </p>
         ​<li>Intra-Company Transfer Employment Permit</li>
         <p>
