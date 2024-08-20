@@ -66,7 +66,13 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("work-permit/labour-permits")}>
                     Labour Market Need Test
                   </li>
-                  <li>Trusted Partnership</li>
+                  <li
+                    onClick={() =>
+                      navigateTo("work-permit/trusted-partnership")
+                    }
+                  >
+                    Trusted Partnership
+                  </li>
                   <li>Critical Skills Occupation Lists</li>
                 </ul>
               </div>
@@ -201,7 +207,13 @@ export default function Navbar() {
                       >
                         Labour Market Need Test
                       </li>
-                      <li>Trusted Partnership</li>
+                      <li
+                        onClick={() =>
+                          navigateTo("work-permit/trusted-partnership")
+                        }
+                      >
+                        Trusted Partnership
+                      </li>
                       <li>Critical Skills Occupation Lists</li>
                     </ul>
                   </div>
@@ -327,7 +339,11 @@ export default function Navbar() {
                 <li onClick={() => navigateTo("work-permit/labour-permits")}>
                   Labour Market Need Test
                 </li>
-                <li>Trusted Partnership</li>
+                <li
+                  onClick={() => navigateTo("work-permit/trusted-partnership")}
+                >
+                  Trusted Partnership
+                </li>
                 <li>Critical Skills Occupation Lists</li>
               </ul>
             </div>
