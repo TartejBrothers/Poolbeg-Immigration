@@ -130,7 +130,9 @@ export default function Footer() {
                 <li onClick={() => navigateTo("immigration/study-visa")}>
                   Study Visas
                 </li>
-                <li>Short-Term Visas</li>
+                <li onClick={() => navigateTo("immigration/short-term-visa")}>
+                  Short-Term Visas
+                </li>
                 <li>Family Visas</li>
               </ul>
 

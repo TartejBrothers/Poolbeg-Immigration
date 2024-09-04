@@ -110,7 +110,9 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("immigration/study-visa")}>
                     Study Visas
                   </li>
-                  <li>Short-Term Visas</li>
+                  <li onClick={() => navigateTo("immigration/short-term-visa")}>
+                    Short-Term Visas
+                  </li>
                   <li>Family Visas</li>
                   <li>Stamp 4</li>
                   <li>Stamp 5</li>
@@ -255,7 +257,13 @@ export default function Navbar() {
                       <li onClick={() => navigateTo("immigration/study-visa")}>
                         Study Visas
                       </li>
-                      <li>Short-Term Visas</li>
+                      <li
+                        onClick={() =>
+                          navigateTo("immigration/short-term-visa")
+                        }
+                      >
+                        Short-Term Visas
+                      </li>
                       <li>Family Visas</li>
                       <li>Stamp 4</li>
                       <li>Stamp 5</li>
@@ -421,7 +429,11 @@ export default function Navbar() {
                     <li onClick={() => navigateTo("immigration/study-visa")}>
                       Study Visas
                     </li>
-                    <li>Short-Term Visas</li>
+                    <li
+                      onClick={() => navigateTo("immigration/short-term-visa")}
+                    >
+                      Short-Term Visas
+                    </li>
                     <li>Family Visas</li>
                   </ul>
 
