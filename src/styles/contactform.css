@@ -126,6 +126,7 @@
   .contactform {
     flex-direction: column;
     gap: 20px;
+    width: 100%;
   }
   .contactformleft {
     width: 100%;

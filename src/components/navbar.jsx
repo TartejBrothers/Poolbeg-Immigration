@@ -73,7 +73,13 @@ export default function Navbar() {
                   >
                     Trusted Partnership
                   </li>
-                  <li>Critical Skills Occupation Lists</li>
+                  <li
+                    onClick={() =>
+                      navigateTo("work-permit/critical-occupation")
+                    }
+                  >
+                    Critical Skills Occupation Lists
+                  </li>
                 </ul>
               </div>
             </li>
@@ -98,7 +104,9 @@ export default function Navbar() {
               </span>
               <div className="dropdown-content">
                 <ul>
-                  <li>Work Visas</li>
+                  <li onClick={() => navigateTo("immigration/work-visa")}>
+                    Work Visas
+                  </li>
                   <li>Study Visas</li>
                   <li>Short-Term Visas</li>
                   <li>Family Visas</li>
@@ -344,7 +352,11 @@ export default function Navbar() {
                 >
                   Trusted Partnership
                 </li>
-                <li>Critical Skills Occupation Lists</li>
+                <li
+                  onClick={() => navigateTo("work-permit/critical-occupation")}
+                >
+                  Critical Skills Occupation Lists
+                </li>
               </ul>
             </div>
             <div
@@ -397,7 +409,9 @@ export default function Navbar() {
               <div className="footerinnerchild">
                 <div className="footerelement">
                   <ul>
-                    <li>Work Visas</li>
+                    <li onClick={() => navigateTo("immigration/work-visa")}>
+                      Work Visas
+                    </li>
                     <li>Study Visas</li>
                     <li>Short-Term Visas</li>
                     <li>Family Visas</li>
