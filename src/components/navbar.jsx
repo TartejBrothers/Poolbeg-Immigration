@@ -107,7 +107,9 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("immigration/work-visa")}>
                     Work Visas
                   </li>
-                  <li>Study Visas</li>
+                  <li onClick={() => navigateTo("immigration/study-visa")}>
+                    Study Visas
+                  </li>
                   <li>Short-Term Visas</li>
                   <li>Family Visas</li>
                   <li>Stamp 4</li>
@@ -247,8 +249,12 @@ export default function Navbar() {
                   </span>
                   <div className="dropdown-content">
                     <ul>
-                      <li>Work Visas</li>
-                      <li>Study Visas</li>
+                      <li onClick={() => navigateTo("immigration/work-visa")}>
+                        Work Visas
+                      </li>
+                      <li onClick={() => navigateTo("immigration/study-visa")}>
+                        Study Visas
+                      </li>
                       <li>Short-Term Visas</li>
                       <li>Family Visas</li>
                       <li>Stamp 4</li>
@@ -412,7 +418,9 @@ export default function Navbar() {
                     <li onClick={() => navigateTo("immigration/work-visa")}>
                       Work Visas
                     </li>
-                    <li>Study Visas</li>
+                    <li onClick={() => navigateTo("immigration/study-visa")}>
+                      Study Visas
+                    </li>
                     <li>Short-Term Visas</li>
                     <li>Family Visas</li>
                   </ul>
