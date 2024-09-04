@@ -19,6 +19,7 @@ import DependantPermits from "./pages/dependantpermits";
 import AppealPermits from "./pages/appealpermit";
 import LabourPermits from "./pages/labourpermit";
 import TrustedPermits from "./pages/trustedpartnership";
+import CriticalSkillOccupation from "./pages/criticalskill-occupation";
 function App() {
   return (
     <div className="App">
@@ -62,6 +63,10 @@ function App() {
           <Route
             path="/work-permit/trusted-partnership"
             element={<TrustedPermits />}
+          />
+          <Route
+            path="/work-permit/critical-occupation"
+            element={<CriticalSkillOccupation />}
           />
         </Routes>
       </Router>

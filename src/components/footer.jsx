@@ -75,7 +75,9 @@ export default function Footer() {
             <li onClick={() => navigateTo("work-permit/trusted-partnership")}>
               Trusted Partnership
             </li>
-            <li>Critical Skills Occupation Lists</li>
+            <li onClick={() => navigateTo("work-permit/critical-occupation")}>
+              Critical Skills Occupation Lists
+            </li>
           </ul>
         </div>
         <div
