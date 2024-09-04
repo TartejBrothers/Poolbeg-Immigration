@@ -124,7 +124,9 @@ export default function Footer() {
           <div className="footerinnerchild">
             <div className="footerelement">
               <ul>
-                <li>Work Visas</li>
+                <li onClick={() => navigateTo("immigration/work-visa")}>
+                  Work Visas
+                </li>
                 <li>Study Visas</li>
                 <li>Short-Term Visas</li>
                 <li>Family Visas</li>

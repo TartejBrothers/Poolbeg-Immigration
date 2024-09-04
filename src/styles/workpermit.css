@@ -70,7 +70,7 @@
 .workpagecomponentselector {
   width: 100%;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .workpagecomponentselector ul {
   display: flex;
@@ -107,8 +107,8 @@
 .workpagecontentelement h3 {
   color: #3a3a3a;
   font-size: 32px;
-  margin-top: 20px;
-  
+  margin-top: 0px;
+
   margin-bottom: 20px;
 }
 
