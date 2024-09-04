@@ -113,7 +113,9 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("immigration/short-term-visa")}>
                     Short-Term Visas
                   </li>
-                  <li>Family Visas</li>
+                  <li onClick={() => navigateTo("immigration/family-visa")}>
+                    Family Visas
+                  </li>
                   <li>Stamp 4</li>
                   <li>Stamp 5</li>
                   <li>Stamp 6 (Irish Citizenship)</li>
@@ -264,7 +266,9 @@ export default function Navbar() {
                       >
                         Short-Term Visas
                       </li>
-                      <li>Family Visas</li>
+                      <li onClick={() => navigateTo("immigration/family-visa")}>
+                        Family Visas
+                      </li>
                       <li>Stamp 4</li>
                       <li>Stamp 5</li>
                       <li>Stamp 6 (Irish Citizenship)</li>
@@ -434,7 +438,9 @@ export default function Navbar() {
                     >
                       Short-Term Visas
                     </li>
-                    <li>Family Visas</li>
+                    <li onClick={() => navigateTo("immigration/family-visa")}>
+                      Family Visas
+                    </li>
                   </ul>
 
                   <ul>
