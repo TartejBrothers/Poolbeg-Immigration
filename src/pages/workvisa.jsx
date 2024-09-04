@@ -63,11 +63,6 @@ export const CriticalSkillsThree = () => {
         provide biometric information. This process can be detailed and
         time-consuming.
       </p>
-      <p>
-        Need help with your work visa? <a href="#">Contact us now</a> for expert
-        assistance. Future Direct is dedicated to guiding you through the entire
-        process and handling it for you.
-      </p>
     </div>
   );
 };

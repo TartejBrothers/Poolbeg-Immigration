@@ -39,11 +39,6 @@ export const EmploymentPermitAppeal = () => {
         The processing time for an appeal is generally 4 to 6 weeks. During this
         period, the department will review the appeal and make a decision.
       </p>
-
-      <p>
-        Need help with your appeal? Contact Future Direct today for expert
-        assistance in reviewing and resubmitting your employment permit appeal!
-      </p>
     </div>
   );
 };
@@ -69,10 +64,6 @@ export default function AppealPermits() {
           <p>
             If your employment permit application is refused, it’s important to
             understand that there’s an opportunity to appeal the decision.
-            Future Direct is here to assist you in reviewing and resubmitting an
-            appeal to the Department of Enterprise, Trade, and Employment
-            (DETE), provided the appeal is lodged within the 28-day timeframe
-            from the date of your refusal letter.
           </p>
           <button
             className="contactusbutton"
