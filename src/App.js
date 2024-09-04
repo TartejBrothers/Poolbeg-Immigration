@@ -21,6 +21,9 @@ import LabourPermits from "./pages/labourpermit";
 import TrustedPermits from "./pages/trustedpartnership";
 import CriticalSkillOccupation from "./pages/criticalskill-occupation";
 import WorkVisa from "./pages/workvisa";
+import StudyVisa from "./pages/studyvisa";
+import ShortTermVisa from "./pages/shorttemvisa";
+import FamilyVisa from "./pages/familyvisa";
 function App() {
   return (
     <div className="App">
@@ -70,6 +73,13 @@ function App() {
             element={<CriticalSkillOccupation />}
           />
           <Route path="/immigration/work-visa" element={<WorkVisa />} />
+          <Route path="/immigration/study-visa" element={<StudyVisa />} />
+          <Route
+            path="/immigration/short-term-visa"
+            element={<ShortTermVisa />}
+          />
+          <Route path="/immigration/family-visa" element={<FamilyVisa />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </Router>
     </div>

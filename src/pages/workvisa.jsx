@@ -63,11 +63,6 @@ export const CriticalSkillsThree = () => {
         provide biometric information. This process can be detailed and
         time-consuming.
       </p>
-      <p>
-        Need help with your work visa? <a href="#">Contact us now</a> for expert
-        assistance. Future Direct is dedicated to guiding you through the entire
-        process and handling it for you.
-      </p>
     </div>
   );
 };
@@ -194,10 +189,10 @@ export default function WorkVisa() {
           </p>
           <h1>Work Visa</h1>
           <p>
-            Our Employment Permit Consultancy Service has successfully secured
-            hundreds of Critical Skills Employment Permits for clients. We
-            partner with you from start to finish to ensure the correct
-            procedures are followed.
+            If you want to work in Ireland, you must obtain an Employment Permit
+            from the Department of Enterprise, Trade and Employment (DETE). Here
+            you can find detailed information on how to apply for the necessary
+            visa to work in Ireland.
           </p>
           <button
             className="contactusbutton"
