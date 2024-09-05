@@ -24,6 +24,13 @@ import WorkVisa from "./pages/workvisa";
 import StudyVisa from "./pages/studyvisa";
 import ShortTermVisa from "./pages/shorttemvisa";
 import FamilyVisa from "./pages/familyvisa";
+import Stamp4 from "./pages/stamp4";
+import Stamp5 from "./pages/stamp5";
+import Stamp6 from "./pages/stamp6";
+import OtherStamps from "./pages/otherstamps";
+import SpouseVisa from "./pages/spousevisa";
+import PartnerVisa from "./pages/partnervisa";
+import ChildVisa from "./pages/childvisa";
 function App() {
   return (
     <div className="App">
@@ -79,6 +86,13 @@ function App() {
             element={<ShortTermVisa />}
           />
           <Route path="/immigration/family-visa" element={<FamilyVisa />} />
+          <Route path="/immigration/stamp4" element={<Stamp4 />} />
+          <Route path="/immigration/stamp5" element={<Stamp5 />} />
+          <Route path="/immigration/stamp6" element={<Stamp6 />} />
+          <Route path="/immigration/other-stamps" element={<OtherStamps />} />
+          <Route path="/immigration/spouse-visa" element={<SpouseVisa />} />
+          <Route path="/immigration/partner-visa" element={<PartnerVisa />} />
+          <Route path="/immigration/child-visa" element={<ChildVisa />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Router>

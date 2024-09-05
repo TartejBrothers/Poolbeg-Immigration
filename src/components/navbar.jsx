@@ -116,10 +116,18 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("immigration/family-visa")}>
                     Family Visas
                   </li>
-                  <li>Stamp 4</li>
-                  <li>Stamp 5</li>
-                  <li>Stamp 6 (Irish Citizenship)</li>
-                  <li>Other Irish Immigration Stamps</li>
+                  <li onClick={() => navigateTo("immigration/stamp4")}>
+                    Stamp 4
+                  </li>
+                  <li onClick={() => navigateTo("immigration/stamp5")}>
+                    Stamp 5
+                  </li>
+                  <li onClick={() => navigateTo("immigration/stamp6")}>
+                    Stamp 6 (Irish Citizenship)
+                  </li>
+                  <li onClick={() => navigateTo("immigration/other-stamps")}>
+                    Other Irish Immigration Stamps
+                  </li>
                   <li>Spouse/Civil Partner Visa</li>
                   <li>Parent of an Irish Child</li>
                   <li>De Facto Partner Visa</li>
@@ -269,10 +277,20 @@ export default function Navbar() {
                       <li onClick={() => navigateTo("immigration/family-visa")}>
                         Family Visas
                       </li>
-                      <li>Stamp 4</li>
-                      <li>Stamp 5</li>
-                      <li>Stamp 6 (Irish Citizenship)</li>
-                      <li>Other Irish Immigration Stamps</li>
+                      <li onClick={() => navigateTo("immigration/stamp4")}>
+                        Stamp 4
+                      </li>
+                      <li onClick={() => navigateTo("immigration/stamp5")}>
+                        Stamp 5
+                      </li>
+                      <li onClick={() => navigateTo("immigration/stamp6")}>
+                        Stamp 6 (Irish Citizenship)
+                      </li>
+                      <li
+                        onClick={() => navigateTo("immigration/other-stamps")}
+                      >
+                        Other Irish Immigration Stamps
+                      </li>
                       <li>Spouse/Civil Partner Visa</li>
                       <li>Parent of an Irish Child</li>
                       <li>De Facto Partner Visa</li>
