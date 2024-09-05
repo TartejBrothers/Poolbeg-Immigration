@@ -85,7 +85,7 @@ export default function Immigration() {
           <Immigrationcard
             header="Change of Immigration Permission"
             content="Allows people who holds a valid permission, represented by a current Irish Residence Permit (IRP card) to change the type of immigration permission or stamp they have if their circumstances change."
-            link="/immigration/change-of-immigration-permission"
+            link="/immigration/immigration-permission"
           />
         </div>
         <div className="immigrationbodyelement">
@@ -110,7 +110,7 @@ export default function Immigration() {
           <Immigrationcard
             header="Stamp 6 (Irish Citizenship)"
             content="Stamp 6 is the permission to remain in Ireland without condition if the holder has dual nationality or citizenship."
-            link="/immigration/stam6"
+            link="/immigration/stamp6"
           />
           <Immigrationcard
             header="Other Irish Immigration Stamps"

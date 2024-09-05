@@ -154,10 +154,22 @@ export default function Footer() {
               </ul>
 
               <ul>
-                <li>Spouse/Civil Partner Visa</li>
-                <li>Parent of an Irish Child</li>
-                <li>De Facto Partner Visa</li>
-                <li>Change of Immigration Permission</li>
+                <li onClick={() => navigateTo("immigration/spouse-visa")}>
+                  Spouse/Civil Partner Visa
+                </li>
+                <li onClick={() => navigateTo("immigration/child-visa")}>
+                  Parent of an Irish Child
+                </li>
+                <li onClick={() => navigateTo("immigration/partner-visa")}>
+                  De Facto Partner Visa
+                </li>
+                <li
+                  onClick={() =>
+                    navigateTo("immigration/immigration-permission")
+                  }
+                >
+                  Change of Immigration Permission
+                </li>
               </ul>
             </div>
           </div>

@@ -31,6 +31,7 @@ import OtherStamps from "./pages/otherstamps";
 import SpouseVisa from "./pages/spousevisa";
 import PartnerVisa from "./pages/partnervisa";
 import ChildVisa from "./pages/childvisa";
+import ImmigrationPermission from "./pages/immigiration-permission";
 function App() {
   return (
     <div className="App">
@@ -93,6 +94,10 @@ function App() {
           <Route path="/immigration/spouse-visa" element={<SpouseVisa />} />
           <Route path="/immigration/partner-visa" element={<PartnerVisa />} />
           <Route path="/immigration/child-visa" element={<ChildVisa />} />
+          <Route
+            path="/immigration/immigration-permission"
+            element={<ImmigrationPermission />}
+          />
           <Route path="*" element={<Home />} />
         </Routes>
       </Router>
