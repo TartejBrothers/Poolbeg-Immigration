@@ -116,14 +116,34 @@ export default function Navbar() {
                   <li onClick={() => navigateTo("immigration/family-visa")}>
                     Family Visas
                   </li>
-                  <li>Stamp 4</li>
-                  <li>Stamp 5</li>
-                  <li>Stamp 6 (Irish Citizenship)</li>
-                  <li>Other Irish Immigration Stamps</li>
-                  <li>Spouse/Civil Partner Visa</li>
-                  <li>Parent of an Irish Child</li>
-                  <li>De Facto Partner Visa</li>
-                  <li>Change of Immigration Permission</li>
+                  <li onClick={() => navigateTo("immigration/stamp4")}>
+                    Stamp 4
+                  </li>
+                  <li onClick={() => navigateTo("immigration/stamp5")}>
+                    Stamp 5
+                  </li>
+                  <li onClick={() => navigateTo("immigration/stamp6")}>
+                    Stamp 6 (Irish Citizenship)
+                  </li>
+                  <li onClick={() => navigateTo("immigration/other-stamps")}>
+                    Other Irish Immigration Stamps
+                  </li>
+                  <li onClick={() => navigateTo("immigration/spouse-visa")}>
+                    Spouse/Civil Partner Visa
+                  </li>
+                  <li onClick={() => navigateTo("immigration/child-visa")}>
+                    Parent of an Irish Child
+                  </li>
+                  <li onClick={() => navigateTo("immigration/partner-visa")}>
+                    De Facto Partner Visa
+                  </li>
+                  <li
+                    onClick={() =>
+                      navigateTo("immigration/immigration-permission")
+                    }
+                  >
+                    Change of Immigration Permission
+                  </li>
                 </ul>
               </div>
             </li>
@@ -269,10 +289,20 @@ export default function Navbar() {
                       <li onClick={() => navigateTo("immigration/family-visa")}>
                         Family Visas
                       </li>
-                      <li>Stamp 4</li>
-                      <li>Stamp 5</li>
-                      <li>Stamp 6 (Irish Citizenship)</li>
-                      <li>Other Irish Immigration Stamps</li>
+                      <li onClick={() => navigateTo("immigration/stamp4")}>
+                        Stamp 4
+                      </li>
+                      <li onClick={() => navigateTo("immigration/stamp5")}>
+                        Stamp 5
+                      </li>
+                      <li onClick={() => navigateTo("immigration/stamp6")}>
+                        Stamp 6 (Irish Citizenship)
+                      </li>
+                      <li
+                        onClick={() => navigateTo("immigration/other-stamps")}
+                      >
+                        Other Irish Immigration Stamps
+                      </li>
                       <li>Spouse/Civil Partner Visa</li>
                       <li>Parent of an Irish Child</li>
                       <li>De Facto Partner Visa</li>
@@ -444,17 +474,34 @@ export default function Navbar() {
                   </ul>
 
                   <ul>
-                    <li>Stamp 4</li>
-                    <li>Stamp 5</li>
-                    <li>Stamp 6 (Irish Citizenship)</li>
-                    <li>Other Irish Immigration Stamps</li>
-                  </ul>
-
-                  <ul>
-                    <li>Spouse/Civil Partner Visa</li>
-                    <li>Parent of an Irish Child</li>
-                    <li>De Facto Partner Visa</li>
-                    <li>Change of Immigration Permission</li>
+                    <li onClick={() => navigateTo("immigration/stamp4")}>
+                      Stamp 4
+                    </li>
+                    <li onClick={() => navigateTo("immigration/stamp5")}>
+                      Stamp 5
+                    </li>
+                    <li onClick={() => navigateTo("immigration/stamp6")}>
+                      Stamp 6 (Irish Citizenship)
+                    </li>
+                    <li onClick={() => navigateTo("immigration/other-stamps")}>
+                      Other Irish Immigration Stamps
+                    </li>
+                    <li onClick={() => navigateTo("immigration/spouse-visa")}>
+                      Spouse/Civil Partner Visa
+                    </li>
+                    <li onClick={() => navigateTo("immigration/child-visa")}>
+                      Parent of an Irish Child
+                    </li>
+                    <li onClick={() => navigateTo("immigration/partner-visa")}>
+                      De Facto Partner Visa
+                    </li>
+                    <li
+                      onClick={() =>
+                        navigateTo("immigration/immigration-permission")
+                      }
+                    >
+                      Change of Immigration Permission
+                    </li>
                   </ul>
                 </div>
               </div>

@@ -75,17 +75,17 @@ export default function Immigration() {
           <Immigrationcard
             header="De Facto Partner Visa"
             content="Allows a De Facto partner who is in a relationship with an Irish citizen or employment permit holder to stay in Ireland. "
-            link="/immigration/de-facto-partner-visa"
+            link="/immigration/partner-visa"
           />
           <Immigrationcard
             header="Parent of an Irish Child"
             content="If you are the parent of an Irish citizen child, you may be eligible for permission to remain in Ireland on this basis. All applications for permission to remain as the parent of an Irish citizen child are examined on a case-by-case basis."
-            link="/immigration/parent-of-an-irish-child-visa"
+            link="/immigration/child-visa"
           />
           <Immigrationcard
             header="Change of Immigration Permission"
             content="Allows people who holds a valid permission, represented by a current Irish Residence Permit (IRP card) to change the type of immigration permission or stamp they have if their circumstances change."
-            link="/immigration/change-of-immigration-permission"
+            link="/immigration/immigration-permission"
           />
         </div>
         <div className="immigrationbodyelement">
@@ -100,22 +100,22 @@ export default function Immigration() {
           <Immigrationcard
             header="Stamp 4"
             content="Stamp 4 permission enable non-EEA nationals to live, work, invest, do business, and study in Ireland. "
-            link="/immigration/stamp-4"
+            link="/immigration/stamp4"
           />
           <Immigrationcard
             header="Stamp 5"
             content="Stamp 5, also known as ‘Without condition as to time’ permission, allows minimum 8 years of legal residency to live and work in Ireland."
-            link="/immigration/stamp-5"
+            link="/immigration/stamp5"
           />
           <Immigrationcard
             header="Stamp 6 (Irish Citizenship)"
             content="Stamp 6 is the permission to remain in Ireland without condition if the holder has dual nationality or citizenship."
-            link="/immigration/stamp-6"
+            link="/immigration/stamp6"
           />
           <Immigrationcard
             header="Other Irish Immigration Stamps"
             content="Discover Stamp 0, Stamp 1, Stamp 1H, Stamp 1A, Stamp 2, Stamp 2A, Stamp 3, and Stamp 4D."
-            link="/immigration/other-irish-immigration-stamps"
+            link="/immigration/other-stamps"
           />
         </div>
       </div>
