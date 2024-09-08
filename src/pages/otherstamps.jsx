@@ -5,263 +5,276 @@ import Footer from "../components/footer";
 import immigrationImage from "../images/immigrationpages.jpeg";
 import { useNavigate } from "react-router-dom";
 import ContactForm from "../components/contactform";
-const SpouseCivilPartnerVisa = () => {
+
+const Stamp0 = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h3>Spouse/Civil Partner Visa</h3>
-      <h4>Introduction</h4>
+      <h3>Stamp 0</h3>
       <p>
-        If you are married to or in a civil partnership with an Irish, UK, EEA,
-        or Swiss national, or a non-EEA national holding a work permit in
-        Ireland, you might be eligible to live in Ireland with your spouse or
-        partner. For those from visa-required countries wanting to stay for more
-        than three months, a long-stay visa or preclearance is necessary. If you
-        are from a non-visa-required country, no visa or preclearance is needed
-        unless your sponsor is a UK national.
+        Stamp 0 indicates permission to stay in Ireland for a temporary period,
+        subject to conditions.
       </p>
-      <p>
-        The processing time for this visa typically ranges from four to six
-        months. It is advisable to wait for the visa decision before making any
-        travel arrangements.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
+      <h4>Summary of conditions</h4>
       <ul>
-        <li>Your spouse or partner qualifies as a sponsor for this visa.</li>
         <li>
-          Your sponsor meets the required minimum earnings threshold, which
-          varies based on their status.
+          You must be of independent means, fully financially self-sufficient.
         </li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are of good character and standing.</li>
-        <li>You intend to live together permanently with your sponsor.</li>
-      </ul>
-      <p>
-        The application process is completed online. After filling out the
-        online form, print, sign, and date it, then submit it along with your
-        supporting documents. Biometrics may also be required.
-      </p>
-      <p>
-        <strong>Important:</strong> Providing false or misleading information
-        may result in visa refusal and could bar you from obtaining an Irish
-        visa for up to five years.
-      </p>
-      <h4>Eligibility & Work Permission</h4>
-      <p>
-        Sponsored by an Irish National: If your sponsor is an Irish national,
-        you can apply for this visa immediately and, if approved, receive a
-        Stamp 4, allowing you to live and work in Ireland without an employment
-        permit.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        You can apply immediately and will receive a Stamp 1G, permitting you to
-        live and work in Ireland without an employment permit.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        You may apply only after the sponsor has held the permit for one year.
-        If approved, you will receive a Stamp 3, which requires you to obtain a
-        separate work permit to work in Ireland.
-      </p>
-      <p>
-        Sponsored by a UK National: You can apply immediately and, if approved,
-        receive a Stamp 4, allowing you to live and work in Ireland without an
-        employment permit.
-      </p>
-      <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 4 if approved, allowing you to live and work in Ireland without an
-        employment permit.
-      </p>
-    </div>
-  );
-};
-
-const DeFactoPartner = () => {
-  return (
-    <div className="criticalskillsbodyelement">
-      <h3>De Facto Partner Visa</h3>
-      <h4>Introduction</h4>
-      <p>
-        A de facto partner is someone with whom you have a committed
-        relationship similar to marriage or civil partnership, but without legal
-        status. To qualify, your relationship must:
-      </p>
-      <ul>
-        <li>Be genuine and ongoing.</li>
-        <li>Have lasted at least two years of cohabitation.</li>
-        <li>Not be a familial relationship.</li>
-      </ul>
-      <p>
-        If you are a de facto partner of an Irish, UK, EEA, or Swiss national,
-        or a non-EEA national with a work permit in Ireland, you may be allowed
-        to live in Ireland with your partner. Visa requirements are similar to
-        those for spouses and civil partners.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
-      <ul>
-        <li>Your partner qualifies as a sponsor.</li>
-        <li>The sponsor meets the minimum earnings requirement.</li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are of good character.</li>
-        <li>You have lived together for at least two years.</li>
-      </ul>
-      <p>
-        Submit your application online, print, sign, and date the form, and
-        provide all required documentation. Biometrics may be necessary.
-      </p>
-      <p>
-        <strong>Important:</strong> Providing false information can lead to visa
-        refusal and a potential five-year ban from obtaining an Irish visa.
-      </p>
-      <h4>Eligibility & Work Permission</h4>
-      <p>
-        Sponsored by an Irish National: Apply immediately and, if approved,
-        receive a Stamp 4 to live and work in Ireland.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        Apply immediately and receive a Stamp 1G, permitting you to live and
-        work in Ireland.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        Apply only after the sponsor has held the permit for one year. If
-        approved, you will get a Stamp 3, requiring a separate work permit.
-      </p>
-      <p>
-        Sponsored by a UK National: Apply immediately and receive a Stamp 4 if
-        approved, allowing you to live and work in Ireland.
-      </p>
-      <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 4, allowing you to live and work in Ireland.
-      </p>
-    </div>
-  );
-};
-
-const ElderlyParent = () => {
-  return (
-    <div className="criticalskillsbodyelement">
-      <h3>Elderly Parent Visa</h3>
-      <h4>Introduction</h4>
-      <p>
-        If you are an elderly relative of an Irish, UK, EEA, or Swiss national,
-        or a non-EEA national with a work permit in Ireland, you may be eligible
-        to live with your children in Ireland. If you are from a visa-required
-        country and wish to stay for more than three months, you must apply for
-        a long-stay visa. Non-visa-required country nationals do not need a visa
-        or preclearance unless the sponsor is a UK National.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
-      <ul>
-        <li>Your children qualify as sponsors.</li>
-        <li>The sponsor meets the minimum earnings requirement.</li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are of good character.</li>
         <li>
-          The sponsor has been legally resident in Ireland for at least three
-          years.
+          You cannot receive any benefits or use publicly funded services, like
+          public hospitals.
+        </li>
+        <li>You must have private medical insurance.</li>
+        <li>
+          You must not work or engage in any business, trade, or profession
+          unless specified in a letter of permission from Immigration Service
+          Delivery.
         </li>
       </ul>
+      <h4>Examples when used</h4>
+      <ul>
+        <li>Retire to or live in Ireland as a person of independent means.</li>
+        <li>Be a visiting academic at an Irish university or college.</li>
+        <li>
+          Live in Ireland as the elderly, dependent relative of an Irish
+          National, or a non-EU/EEA or Swiss citizen.
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const Stamp1 = () => {
+  return (
+    <div className="criticalskillsbodyelement">
+      <h3>Stamp 1</h3>
       <p>
-        Submit your application online, print, sign, and date the form, and
-        provide necessary documentation. Biometrics may be required.
+        Stamp 1 indicates permission to work or operate a business in Ireland,
+        subject to conditions.
       </p>
+      <h4>Summary of conditions</h4>
+      <ul>
+        <li>
+          You must not start a job or enter employment unless you or your
+          employer has obtained an employment permit for you, or if your letter
+          of permission clearly states you do not require an employment permit.
+        </li>
+        <li>
+          You cannot engage in any business, trade, or profession unless
+          specified in a letter of permission from ISD.
+        </li>
+        <li>
+          Stamp 1 is reckonable as residence when applying for citizenship by
+          naturalisation.
+        </li>
+      </ul>
+      <h4>Examples when used</h4>
+      <ul>
+        <li>Work here based on an employment permit.</li>
+        <li>Operate a business here.</li>
+        <li>
+          Work here based on a Working Holiday Authorisation (not renewable or
+          variable).
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const Stamp1H = () => {
+  return (
+    <div className="criticalskillsbodyelement">
+      <h3>Stamp 1H</h3>
       <p>
-        <strong>Important:</strong> Misleading information can result in visa
-        refusal and a potential five-year ban.
+        Stamp 1H indicates permission for doctors in receipt of a two-year
+        General Employment Permit to work as an NCHD (Non Consultant Hospital
+        Doctor) in any public hospital or health care facility during the
+        two-year validity period of their permit.
       </p>
-      <h4>Eligibility & Work Permission</h4>
+      <h4>Summary of conditions</h4>
+      <ul>
+        <li>
+          Doctors will still only have a six-month contract with the initial
+          hospital, which must be provided at registration/renewal stage.
+        </li>
+        <li>
+          Doctors are permitted to move to a different hospital within the HSE
+          group, subject to valid contracts monitored by DETE.
+        </li>
+        <li>
+          Stamp 1H is reckonable as residence when applying for citizenship by
+          naturalisation.
+        </li>
+      </ul>
+      <h4>Examples when used</h4>
+      <ul>
+        <li>
+          Work as a doctor in receipt of a two-year General Employment Permit as
+          an NCHD in any public hospital or health care facility during the
+          permit's validity period.
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const Stamp1A = () => {
+  return (
+    <div className="criticalskillsbodyelement">
+      <h3>Stamp 1A</h3>
       <p>
-        Sponsored by an Irish National: Apply immediately and, if approved,
-        receive a Stamp 0, allowing you to live in Ireland without being
-        involved in employment.
+        Stamp 1A indicates permission to participate in full-time, paid
+        accountancy training for a specified period, subject to conditions.
       </p>
+      <h4>Summary of conditions</h4>
+      <ul>
+        <li>
+          You must not engage in any other business, trade, or profession unless
+          specified in a letter of permission from ISD.
+        </li>
+        <li>
+          This permission is time-bound, and you must complete your accountancy
+          course within 4 years.
+        </li>
+        <li>
+          If you wish to stay in Ireland past the expiry date of your
+          immigration permission, you must apply to renew your permission and
+          registration before they expire, or apply for an alternative
+          permission, such as an employment permit.
+        </li>
+      </ul>
+      <h4>Examples when used</h4>
+      <ul>
+        <li>
+          Study accountancy as a trainee and be employed as a trainee
+          accountant.
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const Stamp2 = () => {
+  return (
+    <div className="criticalskillsbodyelement">
+      <h3>Stamp 2</h3>
       <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        Apply immediately and receive a Stamp 0 if approved, permitting you to
-        live in Ireland without employment.
+        Stamp 2 indicates permission to study a full-time course on the official
+        Interim List of Eligible Programmes (ILEP) for a specified period,
+        subject to conditions.
       </p>
+      <h4>Summary of conditions</h4>
+      <ul>
+        <li>
+          You cannot receive any benefits or use publicly funded services unless
+          you have an entitlement via other means.
+        </li>
+        <li>
+          You can work in casual employment for a maximum of 20 hours per week
+          during school term and 40 hours per week during holidays.
+        </li>
+        <li>You must not engage in any other business or trade.</li>
+        <li>
+          Students can only study in the State for a maximum of 7 years and must
+          show progression each year in their course.
+        </li>
+        <li>
+          English language students must have an attendance of at least 85%.
+        </li>
+      </ul>
+      <h4>Examples when used</h4>
+      <ul>
+        <li>
+          Study English language, higher national diploma, degree
+          (undergraduate), master’s degree (postgraduate), PhD, or other
+          eligible courses.
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const Stamp2A = () => {
+  return (
+    <div className="criticalskillsbodyelement">
+      <h3>Stamp 2A</h3>
       <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        Apply only after the sponsor has held the permit for one year. If
-        approved, you will receive a Stamp 0.
+        Stamp 2A indicates permission for full-time study in Ireland for a
+        course that is not on the official Interim List of Eligible Programmes
+        (ILEP), for a specified period. It may also be granted to spouses of
+        certain financially independent students in limited circumstances.
       </p>
+      <h4>Summary of conditions</h4>
+      <ul>
+        <li>
+          You cannot receive any benefits or use publicly funded services, such
+          as public hospitals.
+        </li>
+        <li>You must have private medical insurance.</li>
+        <li>
+          You must not work or engage in any business, trade, or profession.
+        </li>
+        <li>
+          If you wish to stay in Ireland past the expiry date of your
+          immigration permission, you must apply to renew your permission and
+          registration before they expire.
+        </li>
+      </ul>
+      <h4>Examples when used</h4>
+      <ul>
+        <li>
+          Semester abroad at an Irish university/college, study at a private
+          secondary school in Ireland, or be the spouse of a financially
+          independent student.
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const Stamp3 = () => {
+  return (
+    <div className="criticalskillsbodyelement">
+      <h3>Stamp 3</h3>
       <p>
-        Sponsored by a UK National: Apply immediately and receive a Stamp 0 if
-        approved, allowing you to live in Ireland.
+        Stamp 3 indicates permission to stay in Ireland for a specified period,
+        subject to conditions.
       </p>
+      <h4>Summary of conditions</h4>
+      <ul>
+        <li>
+          You cannot work or engage in any business, trade, or profession.
+        </li>
+        <li>
+          If you wish to stay in Ireland past the expiry date of your
+          immigration permission, you must apply to renew your permission and
+          registration before they expire.
+        </li>
+      </ul>
+      <h4>Examples when used</h4>
+      <ul>
+        <li>
+          Volunteer with a charity or non-profit organisation, be a minister of
+          religion, or join your non-EEA/EU/Swiss spouse/civil partner or family
+          member who is here based on a work permit.
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const Stamp4D = () => {
+  return (
+    <div className="criticalskillsbodyelement">
+      <h3>Stamp 4D</h3>
       <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 0 if approved, allowing you to live in Ireland.
+        Stamp 4D is for eligible non-EEA family members of UK citizens who are
+        seeking to reside in Ireland after 01/01/2021. For further information,
+        please read the Brexit policy document.
       </p>
     </div>
   );
 };
 
-const DependentChildren = () => {
-  return (
-    <div className="criticalskillsbodyelement">
-      <h3>Dependent Children Visa</h3>
-      <h4>Introduction</h4>
-      <p>
-        If you are a dependent child of an Irish, UK, EEA, or Swiss national, or
-        a non-EEA national work permit holder in Ireland, you may be eligible to
-        live with your parent in Ireland. If you are from a visa-required
-        country and wish to stay for more than three months, you need a
-        long-stay visa. If you are from a non-visa-required country, no visa or
-        preclearance is needed unless your sponsor is a UK National.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
-      <ul>
-        <li>Your parent qualifies as a sponsor.</li>
-        <li>The sponsor meets the minimum earnings requirement.</li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are under 18 or under 23 if in full-time education.</li>
-      </ul>
-      <p>
-        Submit your application online, print, sign, and date the form, and
-        provide required documentation. Biometrics may be required.
-      </p>
-      <p>
-        <strong>Important:</strong> Misleading information can result in visa
-        refusal and a potential five-year ban.
-      </p>
-      <h4>Eligibility & Work Permission</h4>
-      <p>
-        Sponsored by an Irish National: Apply immediately and, if approved,
-        receive a Stamp 3, allowing you to live in Ireland, but you will need a
-        separate work permit to work.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        Apply immediately and receive a Stamp 3 if approved, permitting you to
-        live in Ireland, though a separate work permit is needed to work.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        Apply only after the sponsor has held the permit for one year. If
-        approved, you will receive a Stamp 3, requiring a separate work permit.
-      </p>
-      <p>
-        Sponsored by a UK National: Apply immediately and receive a Stamp 3 if
-        approved, allowing you to live in Ireland, though a separate work permit
-        is required.
-      </p>
-      <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 3 if approved, permitting you to live in Ireland with a separate
-        work permit required.
-      </p>
-    </div>
-  );
-};
 export default function OtherStamps() {
   const [selectedMode, setSelectedMode] = useState(1);
   const navigate = useNavigate();
@@ -272,72 +285,83 @@ export default function OtherStamps() {
         <div className="workheaderleft">
           <p
             onClick={() => {
-              navigate("/immigration");
+              navigate("/"); // Navigate to homepage or desired route
             }}
           >
-            <u>
-              <ion-icon name="arrow-back-outline"></ion-icon>
-              Back to Immigration
-            </u>
+            &lt; Back
           </p>
-          <h1>Other Irish Immigration Stamps</h1>
-
-          <p>
-            If you are married to, in a civil partnership with, or a dependent
-            relative of an Irish, UK, EEA, or Swiss national, or a non-EEA
-            national work permit holder in Ireland, you may be eligible to live
-            in Ireland with your family member. Here’s what you need to know
-            about the application process and requirements for various family
-            visas.
-          </p>
-          <button
-            className="contactusbutton"
-            onClick={() => navigate("/contact-us")}
-          >
-            Know More
-          </button>
+          <h1>Other Stamps</h1>
         </div>
         <div className="workheaderright">
           <img src={immigrationImage} alt="Immigration" />
         </div>
       </div>
-      <div className="criticalskillbody">
-        <div className="workpagecomponentselector">
-          <ul>
-            <li
-              onClick={() => setSelectedMode(1)}
-              className={selectedMode === 1 ? "selectedelement" : ""}
-            >
-              Spouse/ Civil Partner Visa
-            </li>
-            <li
-              onClick={() => setSelectedMode(2)}
-              className={selectedMode === 2 ? "selectedelement" : ""}
-            >
-              De Factor Partner
-            </li>
-            <li
-              onClick={() => setSelectedMode(3)}
-              className={selectedMode === 3 ? "selectedelement" : ""}
-            >
-              Elderly Parent
-            </li>
-            <li
-              onClick={() => setSelectedMode(4)}
-              className={selectedMode === 4 ? "selectedelement" : ""}
-            >
-              Dependant Childern
-            </li>
-          </ul>
+      <div className="workpagecontainer">
+        <div className="criticalskillbody">
+          <div className="workpagecomponentselector">
+            <ul>
+              <li
+                onClick={() => setSelectedMode(1)}
+                className={selectedMode === 1 ? "selectedelement" : ""}
+              >
+                Stamp 0
+              </li>
+              <li
+                onClick={() => setSelectedMode(2)}
+                className={selectedMode === 2 ? "selectedelement" : ""}
+              >
+                Stamp 1
+              </li>
+              <li
+                onClick={() => setSelectedMode(3)}
+                className={selectedMode === 3 ? "selectedelement" : ""}
+              >
+                Stamp 1H
+              </li>
+              <li
+                onClick={() => setSelectedMode(4)}
+                className={selectedMode === 4 ? "selectedelement" : ""}
+              >
+                Stamp 1A
+              </li>
+              <li
+                onClick={() => setSelectedMode(5)}
+                className={selectedMode === 5 ? "selectedelement" : ""}
+              >
+                Stamp 2
+              </li>
+              <li
+                onClick={() => setSelectedMode(6)}
+                className={selectedMode === 6 ? "selectedelement" : ""}
+              >
+                Stamp 2A
+              </li>
+              <li
+                onClick={() => setSelectedMode(7)}
+                className={selectedMode === 7 ? "selectedelement" : ""}
+              >
+                Stamp 3
+              </li>
+              <li
+                onClick={() => setSelectedMode(8)}
+                className={selectedMode === 8 ? "selectedelement" : ""}
+              >
+                Stamp 4D
+              </li>
+            </ul>
+          </div>
         </div>
+        {selectedMode === 1 && <Stamp0 />}
+        {selectedMode === 2 && <Stamp1 />}
+        {selectedMode === 3 && <Stamp1H />}
+        {selectedMode === 4 && <Stamp1A />}
+        {selectedMode === 5 && <Stamp2 />}
+        {selectedMode === 6 && <Stamp2A />}
+        {selectedMode === 7 && <Stamp3 />}
+        {selectedMode === 8 && <Stamp4D />}
+
+        <ContactForm />
       </div>
-      <div className="criticalpagecontent">
-        {selectedMode === 1 && <SpouseCivilPartnerVisa />}
-        {selectedMode === 2 && <DeFactoPartner />}
-        {selectedMode === 3 && <ElderlyParent />}
-        {selectedMode === 4 && <DependentChildren />}
-      </div>
-      <ContactForm />
       <Footer />
     </div>
   );
