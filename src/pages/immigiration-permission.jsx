@@ -5,263 +5,250 @@ import Footer from "../components/footer";
 import immigrationImage from "../images/immigrationpages.jpeg";
 import { useNavigate } from "react-router-dom";
 import ContactForm from "../components/contactform";
-const SpouseCivilPartnerVisa = () => {
+
+// New Components
+const ChangeInCircumstances = () => (
+  <div className="criticalskillsbodyelement">
+    <h3>Change in Circumstances</h3>
+    <p>
+      Some people may need to change the type of immigration permission or stamp
+      they have if their circumstances change. If you hold a valid permission,
+      represented by a current Irish Residence Permit (IRP card), you may be
+      able to apply to change, extend, or vary your permission.
+    </p>
+    <p>
+      For example, if you have held a Critical Skills Employment Permit for at
+      least two years, you may be able to apply for a different type of
+      permission that offers greater benefits. If your permission is expired,
+      you cannot apply to change it. Applying does not extend your current
+      permission, so be sure to apply in plenty of time if you meet the
+      criteria.
+    </p>
+    <p>
+      Each immigration stamp or permission requires different criteria and
+      offers different conditions, for example, the ability to study, work or
+      retire in Ireland. If your circumstances change while living in Ireland,
+      this may impact your immigration permission.
+    </p>
+    <p>
+      Please note that if you are here on a visitor’s permission for up to 90
+      days or if you are here on foot of a Working Holiday Authorisation (on
+      Stamp 1), you are not permitted to change your permission. You are
+      required to leave the State on or before the expiry of your permission. It
+      would remain open to you to apply for another permission from outside the
+      State after your departure.
+    </p>
+    <p>
+      We have listed out a few most common changes that you will find in the
+      later section. Do note that the list is not exhaustive and are always
+      subject to change due to policy changes.
+    </p>
+  </div>
+);
+
+const ChangeOfImmigrationFromStamp1 = () => (
+  <div className="criticalskillsbodyelement">
+    <h3>Change of Immigration from Stamp 1</h3>
+    <h4>Stamp 2</h4>
+    <p>
+      If you wish to change your current permission to allow you to study in
+      Ireland you can apply online. You will need to upload some documents to
+      support your application including:
+    </p>
+    <ul>
+      <li>An acceptance letter from the school/college</li>
+      <li>Evidence of private medical insurance and financial resources</li>
+    </ul>
+    <h4>Stamp 3</h4>
+    <p>
+      If you wish to change your current permission to that of a dependent of an
+      Irish resident you must visit your local immigration office with that
+      person to apply for a Stamp 3. A dependent means a spouse, civil partner,
+      or dependent child (between the age of 16 and 18).
+    </p>
+    <p>
+      If you have been in a relationship similar to marriage (De Facto) with an
+      Irish resident, and cohabiting with that person for at least two years,
+      you may apply to ISD’s Domestic Residence Division for a change of Status
+      to a Stamp 3.
+    </p>
+    <h4>Stamp 4</h4>
+    <p>
+      If you have employment permits and residence permissions and stamps for
+      the previous five (5) years, you may apply for a Stamp 4 for one year.
+    </p>
+    <p>
+      If you become a spouse or civil partner of an Irish national who is
+      resident in the State, you may attend at ISD Burgh Quay or your local
+      immigration office with your Irish national spouse or civil partner to
+      apply for a change of status to Stamp 4.
+    </p>
+    <p>
+      If you have been in a relationship akin to marriage (De Facto) with an
+      Irish national, and cohabiting with that person for at least two years,
+      you may apply to ISD’s Domestic Residence Division for a change of status
+      to a Stamp 4.
+    </p>
+    <p>
+      If you become the parent of a child who is an Irish citizen, you may apply
+      for a change of status.
+    </p>
+    <h4>Stamp 5</h4>
+    <p>
+      If you have 96 months reckonable residence (that means you have had a
+      series of permissions that added up to 96 months in the State and qualify
+      as counting towards the time required to apply for citizenship) you may
+      apply to Domestic Residence Division for a Stamp 5.
+    </p>
+    <h4>Stamp 6</h4>
+    <p>
+      If you are granted citizenship, you may apply to Domestic Residence
+      Division for Stamp 6.
+    </p>
+  </div>
+);
+
+const ChangeOfImmigrationFromStamp2 = () => (
+  <div className="criticalskillsbodyelement">
+    <h3>Change of Immigration from Stamp 2</h3>
+    <h4>Stamp 1</h4>
+    <p>
+      If you are issued with an Employment Permit by Department of Enterprise
+      Trade and Employment, you may apply for a Stamp 1.
+    </p>
+    <h4>Stamp 3</h4>
+    <p>
+      If you wish to become registered as a dependent – either as a spouse,
+      civil partner, or dependent child (between the age of 16 and 18) – of an
+      Irish resident please attend at GNIB, along with the Irish Resident, to
+      apply for a change of status to Stamp 3.
+    </p>
+    <p>
+      If you have been in a relationship akin to marriage (De Facto) with an
+      Irish Resident and cohabiting with that Irish Resident for at least two
+      years you may apply to Residence Division for a change of Status to a
+      Stamp 3.
+    </p>
+    <h4>Stamp 4</h4>
+    <p>
+      If you become a Spouse or Civil Partner of an Irish National, who is
+      resident in the State, you may attend at ISD Burgh Quay or your local
+      immigration office with the Irish National to apply for your change of
+      status to Stamp 4.
+    </p>
+    <p>
+      If you have been in a relationship akin to marriage (De Facto) with an
+      Irish National and cohabiting with that Irish National for at least two
+      years you may apply to Residence Division for a change of Status to a
+      Stamp 4.
+    </p>
+    <p>
+      If you become the parent of an Irish Citizen Child you may apply for a
+      change of status.
+    </p>
+  </div>
+);
+
+const ChangeOfImmigrationFromStamp3 = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h3>Spouse/Civil Partner Visa</h3>
-      <h4>Introduction</h4>
-      <p>
-        If you are married to or in a civil partnership with an Irish, UK, EEA,
-        or Swiss national, or a non-EEA national holding a work permit in
-        Ireland, you might be eligible to live in Ireland with your spouse or
-        partner. For those from visa-required countries wanting to stay for more
-        than three months, a long-stay visa or preclearance is necessary. If you
-        are from a non-visa-required country, no visa or preclearance is needed
-        unless your sponsor is a UK national.
-      </p>
-      <p>
-        The processing time for this visa typically ranges from four to six
-        months. It is advisable to wait for the visa decision before making any
-        travel arrangements.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
-      <ul>
-        <li>Your spouse or partner qualifies as a sponsor for this visa.</li>
-        <li>
-          Your sponsor meets the required minimum earnings threshold, which
-          varies based on their status.
-        </li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are of good character and standing.</li>
-        <li>You intend to live together permanently with your sponsor.</li>
-      </ul>
-      <p>
-        The application process is completed online. After filling out the
-        online form, print, sign, and date it, then submit it along with your
-        supporting documents. Biometrics may also be required.
-      </p>
-      <p>
-        <strong>Important:</strong> Providing false or misleading information
-        may result in visa refusal and could bar you from obtaining an Irish
-        visa for up to five years.
-      </p>
-      <h4>Eligibility & Work Permission</h4>
-      <p>
-        Sponsored by an Irish National: If your sponsor is an Irish national,
-        you can apply for this visa immediately and, if approved, receive a
-        Stamp 4, allowing you to live and work in Ireland without an employment
-        permit.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        You can apply immediately and will receive a Stamp 1G, permitting you to
-        live and work in Ireland without an employment permit.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        You may apply only after the sponsor has held the permit for one year.
-        If approved, you will receive a Stamp 3, which requires you to obtain a
-        separate work permit to work in Ireland.
-      </p>
-      <p>
-        Sponsored by a UK National: You can apply immediately and, if approved,
-        receive a Stamp 4, allowing you to live and work in Ireland without an
-        employment permit.
-      </p>
-      <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 4 if approved, allowing you to live and work in Ireland without an
-        employment permit.
-      </p>
+      <h2>Change of Immigration from Stamp 3</h2>
+      <div>
+        <h4>Stamp 1</h4>
+        <p>
+          If you are issued with an Employment Permit by the Department of
+          Enterprise Trade and Employment, you can attend ISD Burgh Quay or your
+          local immigration office to apply for a Stamp 1.
+        </p>
+      </div>
+      <div>
+        <h4>Stamp 2</h4>
+        <p>
+          If you wish to become registered as a Student, you must attend ISD
+          Burgh Quay or your local immigration office with student documents –
+          4n acceptance letter from the school/college, evidence of private
+          medical insurance, and evidence of finances.
+        </p>
+      </div>
+      <div>
+        <h4>Stamp 4</h4>
+        <p>
+          If you become a Spouse or Civil Partner of an Irish National, who is
+          resident in the State, you may attend ISD Burgh Quay or your local
+          immigration office with the Irish National to apply for your change of
+          status to Stamp 4.
+        </p>
+        <p>
+          If you have been in a relationship akin to marriage (De Facto) with an
+          Irish National and cohabiting with that Irish National for at least
+          two years, you may apply to Residence Division for a change of Status
+          to a Stamp 4.
+        </p>
+        <p>
+          If you become the parent of an Irish Citizen Child, you may attend the
+          GNIB office to apply for a change of status. You may apply to
+          Residence Division for permission to remain in the State on the basis
+          of Parentage of an Irish Citizen Child – For Non-EEA.
+        </p>
+        <p>
+          If your parent becomes an Irish citizen, and you originally entered
+          the State as a dependent of your parent and are currently registered
+          with ISD Burgh Quay or your local immigration office, you may apply to
+          Residence Division INIS for Stamp 4.
+        </p>
+      </div>
+      <div>
+        <h3>Stamp 5</h3>
+        <p>
+          If you have 96 months reckonable residence, you may apply to Residence
+          Division for a Stamp 5.
+        </p>
+      </div>
+      <div>
+        <h4>Stamp 6</h4>
+        <p>
+          If you are granted citizenship, you may apply to Residence Division
+          for Stamp 6.
+        </p>
+      </div>
     </div>
   );
 };
 
-const DeFactoPartner = () => {
+const ChangeOfImmigrationFromStamp4 = () => {
   return (
     <div className="criticalskillsbodyelement">
-      <h3>De Facto Partner Visa</h3>
-      <h4>Introduction</h4>
-      <p>
-        A de facto partner is someone with whom you have a committed
-        relationship similar to marriage or civil partnership, but without legal
-        status. To qualify, your relationship must:
-      </p>
-      <ul>
-        <li>Be genuine and ongoing.</li>
-        <li>Have lasted at least two years of cohabitation.</li>
-        <li>Not be a familial relationship.</li>
-      </ul>
-      <p>
-        If you are a de facto partner of an Irish, UK, EEA, or Swiss national,
-        or a non-EEA national with a work permit in Ireland, you may be allowed
-        to live in Ireland with your partner. Visa requirements are similar to
-        those for spouses and civil partners.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
-      <ul>
-        <li>Your partner qualifies as a sponsor.</li>
-        <li>The sponsor meets the minimum earnings requirement.</li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are of good character.</li>
-        <li>You have lived together for at least two years.</li>
-      </ul>
-      <p>
-        Submit your application online, print, sign, and date the form, and
-        provide all required documentation. Biometrics may be necessary.
-      </p>
-      <p>
-        <strong>Important:</strong> Providing false information can lead to visa
-        refusal and a potential five-year ban from obtaining an Irish visa.
-      </p>
-      <h4>Eligibility & Work Permission</h4>
-      <p>
-        Sponsored by an Irish National: Apply immediately and, if approved,
-        receive a Stamp 4 to live and work in Ireland.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        Apply immediately and receive a Stamp 1G, permitting you to live and
-        work in Ireland.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        Apply only after the sponsor has held the permit for one year. If
-        approved, you will get a Stamp 3, requiring a separate work permit.
-      </p>
-      <p>
-        Sponsored by a UK National: Apply immediately and receive a Stamp 4 if
-        approved, allowing you to live and work in Ireland.
-      </p>
-      <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 4, allowing you to live and work in Ireland.
-      </p>
+      <h2>Change of Immigration from Stamp 4</h2>
+      <div>
+        <h4>Stamp 1</h4>
+        <p>Not applicable</p>
+      </div>
+      <div>
+        <h4>Stamp 2</h4>
+        <p>Not applicable</p>
+      </div>
+      <div>
+        <h4>Stamp 3</h4>
+        <p>Not applicable</p>
+      </div>
+      <div>
+        <h4>Stamp 5</h4>
+        <p>
+          If you have 96 months reckonable residence, you may apply to Residence
+          Division for a Stamp 5.
+        </p>
+      </div>
+      <div>
+        <h4>Stamp 6</h4>
+        <p>
+          If you are granted citizenship, you may apply to Residence Division
+          for Stamp 6.
+        </p>
+      </div>
     </div>
   );
 };
 
-const ElderlyParent = () => {
-  return (
-    <div className="criticalskillsbodyelement">
-      <h3>Elderly Parent Visa</h3>
-      <h4>Introduction</h4>
-      <p>
-        If you are an elderly relative of an Irish, UK, EEA, or Swiss national,
-        or a non-EEA national with a work permit in Ireland, you may be eligible
-        to live with your children in Ireland. If you are from a visa-required
-        country and wish to stay for more than three months, you must apply for
-        a long-stay visa. Non-visa-required country nationals do not need a visa
-        or preclearance unless the sponsor is a UK National.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
-      <ul>
-        <li>Your children qualify as sponsors.</li>
-        <li>The sponsor meets the minimum earnings requirement.</li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are of good character.</li>
-        <li>
-          The sponsor has been legally resident in Ireland for at least three
-          years.
-        </li>
-      </ul>
-      <p>
-        Submit your application online, print, sign, and date the form, and
-        provide necessary documentation. Biometrics may be required.
-      </p>
-      <p>
-        <strong>Important:</strong> Misleading information can result in visa
-        refusal and a potential five-year ban.
-      </p>
-      <h4>Eligibility & Work Permission</h4>
-      <p>
-        Sponsored by an Irish National: Apply immediately and, if approved,
-        receive a Stamp 0, allowing you to live in Ireland without being
-        involved in employment.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        Apply immediately and receive a Stamp 0 if approved, permitting you to
-        live in Ireland without employment.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        Apply only after the sponsor has held the permit for one year. If
-        approved, you will receive a Stamp 0.
-      </p>
-      <p>
-        Sponsored by a UK National: Apply immediately and receive a Stamp 0 if
-        approved, allowing you to live in Ireland.
-      </p>
-      <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 0 if approved, allowing you to live in Ireland.
-      </p>
-    </div>
-  );
-};
-
-const DependentChildren = () => {
-  return (
-    <div className="criticalskillsbodyelement">
-      <h3>Dependent Children Visa</h3>
-      <h4>Introduction</h4>
-      <p>
-        If you are a dependent child of an Irish, UK, EEA, or Swiss national, or
-        a non-EEA national work permit holder in Ireland, you may be eligible to
-        live with your parent in Ireland. If you are from a visa-required
-        country and wish to stay for more than three months, you need a
-        long-stay visa. If you are from a non-visa-required country, no visa or
-        preclearance is needed unless your sponsor is a UK National.
-      </p>
-      <h4>How to Apply</h4>
-      <p>Ensure that:</p>
-      <ul>
-        <li>Your parent qualifies as a sponsor.</li>
-        <li>The sponsor meets the minimum earnings requirement.</li>
-        <li>You are ordinarily resident outside Ireland.</li>
-        <li>You are under 18 or under 23 if in full-time education.</li>
-      </ul>
-      <p>
-        Submit your application online, print, sign, and date the form, and
-        provide required documentation. Biometrics may be required.
-      </p>
-      <p>
-        <strong>Important:</strong> Misleading information can result in visa
-        refusal and a potential five-year ban.
-      </p>
-      <h4>Eligibility & Work Permission</h4>
-      <p>
-        Sponsored by an Irish National: Apply immediately and, if approved,
-        receive a Stamp 3, allowing you to live in Ireland, but you will need a
-        separate work permit to work.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a Critical Skills Employment Permit:
-        Apply immediately and receive a Stamp 3 if approved, permitting you to
-        live in Ireland, though a separate work permit is needed to work.
-      </p>
-      <p>
-        Sponsored by a Non-EEA national on a General Skills Employment Permit:
-        Apply only after the sponsor has held the permit for one year. If
-        approved, you will receive a Stamp 3, requiring a separate work permit.
-      </p>
-      <p>
-        Sponsored by a UK National: Apply immediately and receive a Stamp 3 if
-        approved, allowing you to live in Ireland, though a separate work permit
-        is required.
-      </p>
-      <p>
-        Sponsored by an EEA or Swiss National: Apply immediately and receive a
-        Stamp 3 if approved, permitting you to live in Ireland with a separate
-        work permit required.
-      </p>
-    </div>
-  );
-};
 export default function ImmigrationPermission() {
   const [selectedMode, setSelectedMode] = useState(1);
   const navigate = useNavigate();
@@ -308,34 +295,39 @@ export default function ImmigrationPermission() {
               onClick={() => setSelectedMode(1)}
               className={selectedMode === 1 ? "selectedelement" : ""}
             >
-              Spouse/ Civil Partner Visa
+              Change in Circumstances
             </li>
             <li
               onClick={() => setSelectedMode(2)}
               className={selectedMode === 2 ? "selectedelement" : ""}
             >
-              De Factor Partner
+              Change of Immigration from Stamp 1
             </li>
             <li
               onClick={() => setSelectedMode(3)}
               className={selectedMode === 3 ? "selectedelement" : ""}
             >
-              Elderly Parent
+              Change of Immigration from Stamp 2
             </li>
             <li
               onClick={() => setSelectedMode(4)}
               className={selectedMode === 4 ? "selectedelement" : ""}
             >
-              Dependant Childern
+              Change of Immigration from Stamp 3
+            </li>
+            <li
+              onClick={() => setSelectedMode(5)}
+              className={selectedMode === 5 ? "selectedelement" : ""}
+            >
+              Change of Immigration from Stamp 4
             </li>
           </ul>
         </div>
-      </div>
-      <div className="criticalpagecontent">
-        {selectedMode === 1 && <SpouseCivilPartnerVisa />}
-        {selectedMode === 2 && <DeFactoPartner />}
-        {selectedMode === 3 && <ElderlyParent />}
-        {selectedMode === 4 && <DependentChildren />}
+        {selectedMode === 1 && <ChangeInCircumstances />}
+        {selectedMode === 2 && <ChangeOfImmigrationFromStamp1 />}
+        {selectedMode === 3 && <ChangeOfImmigrationFromStamp2 />}
+        {selectedMode === 4 && <ChangeOfImmigrationFromStamp3 />}
+        {selectedMode === 5 && <ChangeOfImmigrationFromStamp4 />}
       </div>
       <ContactForm />
       <Footer />

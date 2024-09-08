@@ -285,12 +285,19 @@ export default function OtherStamps() {
         <div className="workheaderleft">
           <p
             onClick={() => {
-              navigate("/"); // Navigate to homepage or desired route
+              navigate("/immigration");
             }}
           >
-            &lt; Back
+            <u>
+              <ion-icon name="arrow-back-outline"></ion-icon>
+              Back to Immigration
+            </u>
           </p>
-          <h1>Other Stamps</h1>
+          <h1>Other Irish Immigration Stamps</h1>
+          <p>
+            Discover Stamp 0, Stamp 1, Stamp 1H, Stamp 1A, Stamp 2, Stamp 2A,
+            Stamp 3, and Stamp 4D.
+          </p>
         </div>
         <div className="workheaderright">
           <img src={immigrationImage} alt="Immigration" />
