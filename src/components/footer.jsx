@@ -3,6 +3,7 @@ import "../styles/footer.css";
 import logo from "../images/icons/logo.jpeg";
 import instagram from "../images/icons/instagram.svg";
 import linkedin from "../images/icons/linkedin.svg";
+import facebook from "../images/icons/facebook.png";
 import { useNavigate, useLocation } from "react-router-dom";
 export default function Footer() {
   const [footercolumnone, setFootercolumnone] = useState(false);
@@ -239,8 +240,24 @@ export default function Footer() {
           </span>
         </div>
         <div className="footerbottomright">
-          <img src={instagram} alt="Instagram" />
-          <img src={linkedin} alt="LinkedIn" />
+          <a
+            href="https://www.instagram.com/poolbegimmigration?igsh=MWR4bnR0NXllaTJ1eA=="
+            target="_blank"
+          >
+            <img src={instagram} alt="Instagram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/poolbeg-immigration/"
+            target="_blank"
+          >
+            <img src={linkedin} alt="LinkedIn" />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61565391312086&mibextid=ZbWKwL"
+            target="_blank"
+          >
+            <img src={facebook} alt="Facebook" />
+          </a>
         </div>
       </div>
     </div>
