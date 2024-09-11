@@ -120,6 +120,7 @@
 }
 .contactelement p {
   color: #4d5b68;
+  text-wrap: nowrap;
   font-size: 12px;
 }
 @media screen and (max-width: 1000px) {

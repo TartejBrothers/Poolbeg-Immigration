@@ -147,7 +147,9 @@ export default function Footer() {
                   Stamp 5
                 </li>
                 <li onClick={() => navigateTo("immigration/stamp6")}>
-                  Stamp 6 (Irish Citizenship)
+                  {/* Stamp 6 (Irish Citizenship)
+                   */}
+                  Naturalisation/ Irish Citizenship
                 </li>
                 <li onClick={() => navigateTo("immigration/other-stamps")}>
                   Other Irish Immigration Stamps
