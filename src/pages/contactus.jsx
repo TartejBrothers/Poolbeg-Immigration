@@ -44,11 +44,13 @@ export default function ContactUs() {
             <div className="contactlocationelements">
               <h6>Visit Us At</h6>
               <p>
-                109 Windmill Park , Crumlin , Dublin, 12
+                3 Crumlin Village, Crumlin,
+                <br />
+                Dublin, 12
                 <br />
                 Ireland
                 <br />
-                D12Y0YX
+                D12X8N5
               </p>
             </div>
 
