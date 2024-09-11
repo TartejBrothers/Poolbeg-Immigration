@@ -5,6 +5,8 @@ import linkedin from "../images/icons/linkedincontact.svg";
 import phonecontact from "../images/icons/phonecontact.png";
 import emailcontact from "../images/icons/emailcontact.png";
 import ContactFormRight from "./contactformright";
+import facebookblack from "../images/icons/facebook.svg";
+import instagramblack from "../images/icons/instagramblack.svg";
 
 export default function ContactForm() {
   return (
@@ -19,10 +21,28 @@ export default function ContactForm() {
           <div className="contactsocials">
             <ul>
               <li>
-                <img src={twitter} alt="Twitter" />
+                <a
+                  href="https://www.instagram.com/poolbegimmigration?igsh=MWR4bnR0NXllaTJ1eA=="
+                  target="_blank"
+                >
+                  <img src={instagramblack} alt="Instagram" />
+                </a>
               </li>
               <li>
-                <img src={linkedin} alt="LinkedIn" />
+                <a
+                  href="https://www.linkedin.com/company/poolbeg-immigration/"
+                  target="_blank"
+                >
+                  <img src={linkedin} alt="LinkedIn" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61565391312086&mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <img src={facebookblack} alt="Facebook" />
+                </a>
               </li>
             </ul>
           </div>
