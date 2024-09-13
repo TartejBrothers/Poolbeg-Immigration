@@ -83,7 +83,7 @@ export default function Navbar() {
                 </ul>
               </div>
             </li>
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <span>
                 Stamp 1G <ion-icon name="chevron-down"></ion-icon>
               </span>
@@ -97,7 +97,7 @@ export default function Navbar() {
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> */}
             <li className="dropdown">
               <span onClick={() => navigateTo("immigration")}>
                 Immigration <ion-icon name="chevron-down"></ion-icon>
@@ -179,7 +179,7 @@ export default function Navbar() {
       <div className="navbarbottom">
         <ul>
           <li onClick={() => navigateTo("")}>Home</li>
-          <li onClick={() => navigateTo("news-updates")}>News & Updates</li>
+          {/* <li onClick={() => navigateTo("news-updates")}>News & Updates</li> */}
           <li onClick={() => navigateTo("about-us")}>About Us</li>
         </ul>
       </div>
@@ -252,7 +252,7 @@ export default function Navbar() {
                     </ul>
                   </div>
                 </li>
-                <li className="dropdown">
+                {/* <li className="dropdown">
                   <span>
                     Stamp 1G <ion-icon name="chevron-down"></ion-icon>
                   </span>
@@ -266,7 +266,7 @@ export default function Navbar() {
                       </li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
                 <li className="dropdown">
                   <span onClick={() => navigateTo("immigration")}>
                     Immigration <ion-icon name="chevron-down"></ion-icon>
@@ -344,7 +344,7 @@ export default function Navbar() {
           <div className="navbarbottom">
             <ul>
               <li onClick={() => navigateTo("")}>Home</li>
-              <li onClick={() => navigateTo("news-updates")}>News & Updates</li>
+              {/* <li onClick={() => navigateTo("news-updates")}>News & Updates</li> */}
               <li onClick={() => navigateTo("about-us")}>About Us</li>
             </ul>
           </div>
@@ -407,7 +407,7 @@ export default function Navbar() {
                 </li>
               </ul>
             </div>
-            <div
+            {/* <div
               className={
                 footercolumntwo ? "footerchild activefooter" : "footerchild"
               }
@@ -431,7 +431,7 @@ export default function Navbar() {
                   Stamp 1G Extension
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div
               className={
                 footercolumnthree ? "footerchild activefooter" : "footerchild"
