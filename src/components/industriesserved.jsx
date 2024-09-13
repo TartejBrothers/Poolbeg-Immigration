@@ -6,6 +6,9 @@ import it from "../images/icons/industries/it.png";
 import recruitment from "../images/icons/industries/recruitment.png";
 import finance from "../images/icons/industries/finance.png";
 import academic from "../images/icons/industries/academic.png";
+import Pharmaceuticals from "../images/icons/industries/pharmaceutical.png";
+import banking from "../images/icons/industries/banking.png";
+import hospitality from "../images/icons/industries/hospitality.png";
 export default function IndustriesServed() {
   return (
     <div className="homeindustries">
@@ -34,6 +37,21 @@ export default function IndustriesServed() {
         <IndustryCard
           image={recruitment}
           name={"Recruitment"}
+          content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+        />
+        <IndustryCard
+          image={Pharmaceuticals}
+          name={"Pharmaceuticals"}
+          content={""}
+        />
+        <IndustryCard
+          image={banking}
+          name={"Banking"}
+          content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
+        />
+        <IndustryCard
+          image={hospitality}
+          name={"Hospitality"}
           content={"Lorem ipsum dolor sit amet consectetur adipisicing elit"}
         />
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/home.css";
 import "../styles/industry.css";
 import Navbar from "../components/navbar";
@@ -10,12 +10,24 @@ import ContactForm from "../components/contactform";
 import Footer from "../components/footer";
 import IndustriesServed from "../components/industriesserved";
 import { useNavigate } from "react-router-dom";
+import ContactFormPopup from "../components/contactformpopup";
 export default function Home() {
   const navigateTo = useNavigate();
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
+  const togglePopup = () => {
+    setIsPopupVisible(!isPopupVisible);
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsPopupVisible(true);
+    }, 5000);
+  }, []);
 
   return (
     <div className="home">
       <Navbar />
+      <ContactFormPopup isVisible={isPopupVisible} onClose={togglePopup} />
 
       <div className="homeheader">
         <h1> Poolbeg Immigration</h1>
