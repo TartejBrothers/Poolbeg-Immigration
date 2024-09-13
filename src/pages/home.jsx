@@ -72,10 +72,10 @@ export default function Home() {
             }
             headingservice={"Top Services"}
             services={[
-              "Naturalisation/ s̄aIrish Citizenship",
+              "Naturalisation Irish Citizenship",
               "Employment Permits",
-              "Dependents/Spouses Visas",
-              "Stamp 1G Extension",
+              "Dependent Spouse Visa",
+              "Stamp 0",
             ]}
             link={"home"}
           />
