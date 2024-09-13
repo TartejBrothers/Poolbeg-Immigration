@@ -81,7 +81,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div
+        {/* <div
           className={
             footercolumntwo ? "footerchild activefooter" : "footerchild"
           }
@@ -102,7 +102,7 @@ export default function Footer() {
               Stamp 1G Extension
             </li>
           </ul>
-        </div>
+        </div> */}
         <div
           className={
             footercolumnthree ? "footerchild activefooter" : "footerchild"
@@ -223,14 +223,14 @@ export default function Footer() {
             >
               Home
             </p>
-            |
+            {/* |
             <p
               onClick={() => {
                 navigateTo("news-updates");
               }}
             >
               News and Updates
-            </p>
+            </p> */}
             |{" "}
             <p
               onClick={() => {
