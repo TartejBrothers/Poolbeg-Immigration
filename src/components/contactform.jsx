@@ -53,7 +53,7 @@ export default function ContactForm() {
               </div>
               <div className="rightcontactelement">
                 <h3>Contact Us</h3>
-                <p>+353 89 947 1396 </p>
+                <p>0874836445 </p>
               </div>
             </div>
 

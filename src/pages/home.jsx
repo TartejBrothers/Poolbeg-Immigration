@@ -53,7 +53,7 @@ export default function Home() {
             <hr />
           </div>
           <p>
-            <ion-icon name="call"></ion-icon> +353 89 947 1396
+            <ion-icon name="call"></ion-icon> 0874836445
           </p>
         </div>
       </div>
