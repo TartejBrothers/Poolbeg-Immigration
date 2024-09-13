@@ -87,7 +87,7 @@ export default function Home() {
               "Naturalisation",
               "Join Family Visa",
               "Dependent Spouse Visa",
-              "Stamp 0",
+              "Stamp 0 Dependent Parents",
             ]}
             link={"home"}
           />
