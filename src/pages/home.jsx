@@ -73,7 +73,7 @@ export default function Home() {
             headingservice={"Top Services"}
             services={[
               "Naturalisation",
-              "Employment Permits",
+              "Join Family Visa",
               "Dependent Spouse Visa",
               "Stamp 0",
             ]}
