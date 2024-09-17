@@ -240,4 +240,16 @@
   .homeheader h3 {
     font-size: 20px;
   }
+  .homeaboutus {
+    flex-direction: column;
+  }
+  .homeaboutusleft,
+  .homeaboutusright {
+    width: 100%;
+  }
+  .homeaboutusright img {
+    width: 300px;
+    max-width: 100%;
+    object-fit: contain;
+  }
 }
