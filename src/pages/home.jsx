@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/home.css";
 import "../styles/industry.css";
 import Navbar from "../components/navbar";
-import ServicesCard from "../components/elements/servicescard";
-import employeehome from "../images/employershome.jpg";
-import userhome from "../images/individualshome.png";
+import homeabout from "../images/homeaboutus.jpeg";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
 import Footer from "../components/footer";
@@ -18,11 +16,11 @@ export default function Home() {
     setIsPopupVisible(!isPopupVisible);
   };
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsPopupVisible(true);
-    }, 5000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsPopupVisible(true);
+  //   }, 5000);
+  // }, []);
 
   return (
     <div className="home">
@@ -57,42 +55,33 @@ export default function Home() {
           </p>
         </div>
       </div>
-
-      <div className="homeservices">
-        <h2>Our Services</h2>
-        <div className="servicesrow">
-          <ServicesCard
-            image={employeehome}
-            heading={"For Employers"}
-            content={
-              "We enable businesses to hire non-EU nationals by processing your work visa applications."
-            }
-            headingservice={"Top Services"}
-            services={[
-              "Trusted Partnership Registration",
-              "Critical Skills Employment Permits",
-              "General Employment Permits",
-              "Visa Applications",
-            ]}
-            link={"home"}
-          />
-          <ServicesCard
-            image={userhome}
-            heading={"For Individuals"}
-            content={
-              "We provide advice and assistance to individuals with immigration support in Ireland."
-            }
-            headingservice={"Top Services"}
-            services={[
-              "Naturalisation",
-              "Join Family Visa",
-              "Dependent Spouse Visa",
-              "Stamp 0 Dependent Parents",
-            ]}
-            link={"home"}
-          />
+      <div className="homeaboutus">
+        <div className="homeaboutusleft">
+          <h2>About Us</h2>
+          <p>One-Step Solution for All Your Immigration Needs in Ireland</p>
+          <ul>
+            <li>
+              Comprehensive immigration services for employers and individuals.
+            </li>
+            <li>
+              Tailored support for Irish citizenship and family reunification
+              visas.
+            </li>
+            <li>
+              Expertise in employment permits and visa applications for non-EU
+              nationals.
+            </li>
+            <li>
+              Trusted consultancy for visa appeals and complex immigration
+              cases.
+            </li>
+          </ul>
+        </div>
+        <div className="homeaboutusright">
+          <img src={homeabout} alt="Logo" />
         </div>
       </div>
+
       <IndustriesServed />
       <Testimonial />
       <ContactForm />
