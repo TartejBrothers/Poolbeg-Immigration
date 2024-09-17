@@ -170,7 +170,52 @@
   height: 100px;
   border-radius: 100%;
 }
+.homeaboutus {
+  display: flex;
+  width: 100%;
+  background-color: #cbe2f5;
 
+  align-items: stretch;
+}
+.homeaboutusleft,
+.homeaboutusright {
+  display: flex;
+  padding: 20px 40px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.homeaboutusleft {
+  width: 60%;
+}
+.homeaboutusright {
+  width: 40%;
+  align-items: center;
+}
+.homeaboutusleft h2 {
+  margin-bottom: 0px;
+  text-align: left !important;
+}
+.homeaboutusright img {
+  height: 300px;
+}
+.homeaboutusleft p {
+  color: #db291c;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.homeaboutusleft ul {
+  list-style: circle;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+.homeaboutusleft ul li {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 1000px) {
   .homeheader {
     padding: 60px 20px;

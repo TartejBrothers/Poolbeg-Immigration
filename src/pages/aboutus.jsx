@@ -4,6 +4,9 @@ import Footer from "../components/footer";
 import "../styles/aboutus.css";
 import ServicePoints from "../components/elements/servicepoints";
 import IndustriesServed from "../components/industriesserved";
+import ServicesCard from "../components/elements/servicescard";
+import employeehome from "../images/employershome.jpg";
+import userhome from "../images/individualshome.png";
 export default function AboutUs() {
   return (
     <div className="aboutmain">
@@ -22,6 +25,42 @@ export default function AboutUs() {
           With years of experience and a commitment to exceptional service,
           we’re here to make your immigration journey seamless and successful.
         </p>
+      </div>
+
+      <div className="homeservices servicemainbody">
+        <h1>Our Services</h1>
+        <div className="servicesrow">
+          <ServicesCard
+            image={employeehome}
+            heading={"For Employers"}
+            content={
+              "We enable businesses to hire non-EU nationals by processing your work visa applications."
+            }
+            headingservice={"Top Services"}
+            services={[
+              "Trusted Partnership Registration",
+              "Critical Skills Employment Permits",
+              "General Employment Permits",
+              "Visa Applications",
+            ]}
+            link={"home"}
+          />
+          <ServicesCard
+            image={userhome}
+            heading={"For Individuals"}
+            content={
+              "We provide advice and assistance to individuals with immigration support in Ireland."
+            }
+            headingservice={"Top Services"}
+            services={[
+              "Naturalisation",
+              "Join Family Visa",
+              "Dependent Spouse Visa",
+              "Stamp 0 Dependent Parents",
+            ]}
+            link={"home"}
+          />
+        </div>
       </div>
       <div className="servicemainbody">
         <h1>Our Approach</h1>
