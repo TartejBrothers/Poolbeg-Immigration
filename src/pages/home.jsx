@@ -16,11 +16,11 @@ export default function Home() {
     setIsPopupVisible(!isPopupVisible);
   };
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsPopupVisible(true);
-  //   }, 5000);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsPopupVisible(true);
+    }, 5000);
+  }, []);
 
   return (
     <div className="home">
