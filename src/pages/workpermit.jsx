@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/workpermit.css";
-import workpermit from "../images/workpermithome.png";
+// import workpermit from "../images/workpermithome.png";
+import workpermit from "../images/back/back7.jpg";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ContactForm from "../components/contactform";
@@ -14,8 +15,8 @@ export const WorkPermitComponentOne = () => {
         The Department of Enterprise, Trade, and Employment (DETE) oversees all
         employment permit applications in Ireland. This system is designed to
         enable non-EU/EEA nationals to work in Ireland in roles where there is a
-        labour shortage and where an employer has been unable to find an Irish or
-        EU national for the position. ​<br />
+        labour shortage and where an employer has been unable to find an Irish
+        or EU national for the position. ​<br />
         ​<br />
         Non-EEA nationals currently in Ireland on a Working Holiday
         Authorisation or Van Der Elst Transfer Permission cannot apply for an
@@ -213,7 +214,7 @@ export default function WorkPermit() {
           </button>
         </div>
         <div className="workheaderright">
-          <img src={workpermit} alt="Work Permit" />
+          <img src={workpermit} alt="Work Permit" className="roundedcorners" />
         </div>
       </div>
       <div className="workpagemainbody">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/home.css";
 import "../styles/industry.css";
 import Navbar from "../components/navbar";
-import homeabout from "../images/homeaboutus.jpeg";
+import homeabout from "../images/back/back3.jpg";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
 import Footer from "../components/footer";
@@ -58,27 +58,37 @@ export default function Home() {
       <div className="homeaboutus">
         <div className="homeaboutusleft">
           <h2>About Us</h2>
-          <p>One-Step Solution for All Your Immigration Needs in Ireland</p>
+          <p>
+            At Poolbeg Immigrations, we are proud to be a trusted leader in
+            providing end-to-end immigration solutions for both corporations and
+            individuals. With over four years of industry expertise, we have
+            built a solid reputation for delivering tailored and efficient
+            immigration services. Our deep knowledge of non-EU immigration laws
+            ensures that every client receives the most accurate and up-to-date
+            guidance.
+          </p>
+
+          <h3>Comprehensive Services</h3>
+          <p>
+            Our expertise spans a broad range of immigration services,
+            including:
+          </p>
           <ul>
+            <li>Naturalization Applications</li>
+            <li>Join Family Visas</li>
+            <li>Dependent Spouse and De Facto Partner Visas</li>
+            <li>Stamp 0 (Elderly Dependent Parent) Visas</li>
+            <li>Stamp 4 and Stamp 5 Applications</li>
             <li>
-              Comprehensive immigration services for employers and individuals.
+              Work Permits (Critical Skills Employment Permits and General Work
+              Permits)
             </li>
-            <li>
-              Tailored support for Irish citizenship and family reunification
-              visas.
-            </li>
-            <li>
-              Expertise in employment permits and visa applications for non-EU
-              nationals.
-            </li>
-            <li>
-              Trusted consultancy for visa appeals and complex immigration
-              cases.
-            </li>
+            <li>Short-Stay and Long-Stay Visas</li>
+            <li>Student Visa Applications</li>
           </ul>
         </div>
         <div className="homeaboutusright">
-          <img src={homeabout} alt="Logo" />
+          <img src={homeabout} alt="Logo" className="roundedcorners" />
         </div>
       </div>
 
