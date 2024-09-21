@@ -186,11 +186,11 @@
   text-align: left;
 }
 .homeaboutusleft {
-  width: 60%;
+  width: 70%;
 }
 .homeaboutusright {
-  width: 40%;
-  align-items: center;
+  width: 30%;
+  align-items: flex-end;
 }
 .homeaboutusleft h2 {
   margin-bottom: 0px;
@@ -202,9 +202,14 @@
 .homeaboutusleft p {
   color: #db291c;
   margin-top: 10px;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   margin-bottom: 20px;
+}
+.homeaboutusleft h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 .homeaboutusleft ul {
   list-style: circle;
