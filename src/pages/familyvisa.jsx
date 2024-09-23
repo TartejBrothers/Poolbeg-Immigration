@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "../styles/immigrationpage.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import immigrationImage from "../images/immigrationpages.jpeg";
+// import immigrationImage from "../images/immigrationpages.jpeg";
+import immigrationImage from "../images/back/back12.jpeg";
 import { useNavigate } from "react-router-dom";
 import ContactForm from "../components/contactform";
 const SpouseCivilPartnerVisa = () => {
@@ -297,7 +298,11 @@ export default function FamilyVisa() {
           </button>
         </div>
         <div className="workheaderright">
-          <img src={immigrationImage} alt="Immigration" />
+          <img
+            src={immigrationImage}
+            alt="Immigration"
+            className="roundedcorners"
+          />
         </div>
       </div>
       <div className="criticalskillbody">
