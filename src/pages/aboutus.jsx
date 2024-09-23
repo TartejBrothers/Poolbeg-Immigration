@@ -230,10 +230,10 @@ export default function AboutUs() {
             content="Full-time focus to operate efficiently and effectively to deliver
           results on time."
           />
-          <ServicePoints
+          {/* <ServicePoints
             header="Dedicated account manager"
             content="Access to the consultant on the phone for quick support without the barrier of a receptionist."
-          />
+          /> */}
           <ServicePoints
             header="Seamless application supports"
             content="Prepare files and manage immigration-related applications from start to finish for you."
