@@ -28,10 +28,9 @@
   margin-bottom: 20px;
 }
 .workheaderright img {
-  width: 75%;
-  min-height: 400px;
-  max-height: 400px;
-  object-fit: contain;
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
 }
 .workpagemainbody {
   padding: 40px 20px;
@@ -112,7 +111,7 @@
   margin-bottom: 20px;
 }
 .roundedcorners {
-  border-radius: 140px;
+  border-radius: 100%;
 }
 .workpagecontentelement p {
   color: #3a3a3a;

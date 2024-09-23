@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/immigrationpage.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import immigrationImage from "../images/immigrationpages.jpeg";
+import immigrationImage from "../images/back/back2.jpg";
 import { useNavigate } from "react-router-dom";
 import ContactForm from "../components/contactform";
 
@@ -124,7 +124,11 @@ export default function ChildVisa() {
           </button>
         </div>
         <div className="workheaderright">
-          <img src={immigrationImage} alt="Immigration" />
+          <img
+            src={immigrationImage}
+            alt="Immigration"
+            className="roundedcorners"
+          />
         </div>
       </div>
       <div className="criticalskillbody">

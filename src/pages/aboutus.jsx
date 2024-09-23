@@ -99,47 +99,12 @@ export default function AboutUs() {
         <div className="aboutusvision">
           <ul>
             <li>
-              To be the most trusted and empathetic immigration consultancy,
-              empowering individuals and businesses by delivering tailored,
-              reliable, and seamless solutions for building a future in Ireland.
-            </li>
-            <li>
-              Our vision is to make every immigration journey a pathway to
-              opportunity, success, and peace of mind, guided by our personal
-              experience and legal expertise.
-            </li>
-            <li>
-              To simplify and humanize the immigration process, ensuring that
-              every client feels supported, understood, and empowered to achieve
-              their dreams in Ireland.
-            </li>
-            <li>
               At Poolbeg Immigrations, we envision a world where immigration is
               not a barrier but a bridge—one that connects people with
               opportunities and new beginnings, guided by expertise and
               compassion.
             </li>
-            <li>
-              Our vision is to become Ireland's most reliable and empathetic
-              immigration partner, offering comprehensive and personalized
-              solutions that inspire trust and confidence in every step of the
-              journey.
-            </li>
-            <li>
-              To redefine the immigration experience by providing trusted,
-              compassionate, and personalized services, ensuring a smoother
-              journey for all who seek a new beginning in Ireland.
-            </li>
-            <li>
-              Our vision is to create a future where immigration is seamless,
-              transparent, and empowering—helping people and businesses thrive
-              through expert guidance and human-centric solutions.
-            </li>
-            <li>
-              To be Ireland’s foremost immigration consultancy, transforming
-              complex processes into opportunities for growth and success with
-              empathy and legal excellence at the heart of every case.
-            </li>
+
             <li>
               At Poolbeg Immigrations, we strive to lead with expertise,
               empathy, and a relentless commitment to delivering successful
@@ -151,11 +116,7 @@ export default function AboutUs() {
               challenge but a stepping stone to a brighter future, offering
               clarity, support, and expert solutions every step of the way.
             </li>
-            <li>
-              To set the standard for immigration services in Ireland, providing
-              customized, trustworthy, and compassionate guidance that turns the
-              dream of a new life into a reality.
-            </li>
+
             <li>
               We aspire to be the go-to partner for individuals and businesses
               navigating immigration, ensuring every journey is met with
