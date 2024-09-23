@@ -26,6 +26,7 @@ export default function AboutUs() {
         <p>
           Our expertise spans a broad range of immigration services, including:
         </p>
+        <br />
         <ul>
           <li>Naturalization Applications</li>
           <li>Join Family Visas</li>
