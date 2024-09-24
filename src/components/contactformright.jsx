@@ -5,6 +5,7 @@ export default function ContactFormRight() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [subject, setSubject] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
     const serviceId = "service_tnhmq86";
@@ -14,6 +15,7 @@ export default function ContactFormRight() {
       from_name: name,
       from_email: email,
       from_phone: phone,
+      from_subject: subject,
       message: message,
     };
     emailjs.send(serviceId, templateId, templateParams, publicKey).then(
@@ -22,6 +24,7 @@ export default function ContactFormRight() {
         setEmail("");
         setPhone("");
         setMessage("");
+        setSubject("");
 
         alert("Message Sent Successfully");
       },
@@ -59,12 +62,27 @@ export default function ContactFormRight() {
             onChange={(e) => setPhone(e.target.value)}
           />
         </div>
+        <input
+          type="text"
+          placeholder="Enter Your Subject"
+          required
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+        />
+
         <textarea
           placeholder="Enter Your Message"
           required
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
+        <div className="checkboxdiv">
+          <input type="checkbox" required className="checkboxbox" />
+          <label>
+            I confirm that I have read, understood, and agree to abide by the
+            Terms of Service, Privacy Policy, and all applicable guidelines.
+          </label>
+        </div>
         <button type="submit">Submit</button>
       </form>
     </>

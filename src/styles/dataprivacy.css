@@ -1,0 +1,34 @@
+.dataprivacy,
+.dataprivacybody {
+  text-align: left;
+  max-width: 1400px;
+  padding: 10px 30px;
+  margin: 0px auto;
+}
+.dataprivacy p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.dataprivacybody ul {
+  list-style: disc;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.dataprivacybody h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.dataprivacybody h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dataprivacybody {
+  margin-bottom: 40px !important;
+}

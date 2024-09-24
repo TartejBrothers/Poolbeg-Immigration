@@ -9,12 +9,23 @@ import Footer from "../components/footer";
 import IndustriesServed from "../components/industriesserved";
 import { useNavigate } from "react-router-dom";
 import ContactFormPopup from "../components/contactformpopup";
+import AcceptCookies from "../components/accept-cookies";
 export default function Home() {
   const navigateTo = useNavigate();
   const [isPopupVisible, setIsPopupVisible] = useState(false);
+  const [isCookiesAccepted, setIsCookiesAccepted] = useState(false);
   const togglePopup = () => {
     setIsPopupVisible(!isPopupVisible);
   };
+  const togglePopupCookie = () => {
+    setIsCookiesAccepted(!isCookiesAccepted);
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsCookiesAccepted(true);
+    }, 2000);
+  }, []);
 
   useEffect(() => {
     setTimeout(() => {
@@ -26,7 +37,10 @@ export default function Home() {
     <div className="home">
       <Navbar />
       <ContactFormPopup isVisible={isPopupVisible} onClose={togglePopup} />
-
+      <AcceptCookies
+        isVisible={isCookiesAccepted}
+        onClose={togglePopupCookie}
+      />
       <div className="homeheader">
         <h1> Poolbeg Immigration</h1>
         <h3>Irish Employment Permit and Immigration Specialists</h3>

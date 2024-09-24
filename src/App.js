@@ -32,6 +32,7 @@ import SpouseVisa from "./pages/spousevisa";
 import PartnerVisa from "./pages/partnervisa";
 import ChildVisa from "./pages/childvisa";
 import ImmigrationPermission from "./pages/immigiration-permission";
+import DataPrivacy from "./pages/data-privacy";
 function App() {
   return (
     <div className="App">
@@ -98,6 +99,7 @@ function App() {
             path="/immigration/immigration-permission"
             element={<ImmigrationPermission />}
           />
+          <Route path="/data-privacy" element={<DataPrivacy />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Router>
