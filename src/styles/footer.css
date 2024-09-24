@@ -89,7 +89,8 @@
   align-items: center;
   gap: 20px;
 }
-.footerbottomleft p {
+.footerbottomleft p,
+.footerbottomrightkey p {
   font-size: 17px;
   font-weight: 500;
 
@@ -108,11 +109,14 @@
   height: 30px;
   cursor: pointer;
 }
-.footerbottomleft span {
+.footerbottomleftkeytags,
+.footerbottomleftkey,
+.footerbottomrightkey {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 @media screen and (max-width: 1000px) {
   .footertop {
     justify-content: left;
@@ -171,5 +175,12 @@
   }
   .activefooter span h4 {
     color: #db291c;
+  }
+  .footerbottomrightkey {
+    margin-bottom: 20px;
+  }
+  .footerbottomleft p,
+  .footerbottomrightkey p {
+    font-size: 14px;
   }
 }

@@ -215,7 +215,7 @@ export default function Footer() {
       <div className="footerbottom">
         <div className="footerbottomleft">
           <img src={logo} alt="About" />
-          <span>
+          <div className="footerbottomleftkeytags">
             <p
               onClick={() => {
                 navigateTo("");
@@ -239,7 +239,24 @@ export default function Footer() {
             >
               About Us
             </p>
-          </span>
+          </div>
+        </div>
+        <div className="footerbottomrightkey">
+          <p
+            onClick={() => {
+              navigateTo("data-privacy");
+            }}
+          >
+            Data Privacy
+          </p>
+          |{" "}
+          <p
+            onClick={() => {
+              navigateTo("");
+            }}
+          >
+            Terms and Conditions
+          </p>
         </div>
         <div className="footerbottomright">
           <a
