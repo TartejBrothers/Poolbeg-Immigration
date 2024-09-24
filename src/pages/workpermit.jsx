@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/workpermit.css";
 // import workpermit from "../images/workpermithome.png";
-import workpermit from "../images/back/back7.jpg";
+import workpermit from "../images/back/back13.jpeg";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ContactForm from "../components/contactform";
