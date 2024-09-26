@@ -41,6 +41,7 @@ export default function AboutUs() {
           <li>Student Visa Applications</li>
           <li>EU Treaty Rights</li>
           <li>Labour Market Means Test</li>
+          <li>Entrepreneur Visa</li>
         </ul>
 
         <h2>Our Journey and Purpose</h2>
