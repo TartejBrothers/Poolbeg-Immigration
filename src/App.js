@@ -30,6 +30,7 @@ import Stamp6 from "./pages/stamp6";
 import OtherStamps from "./pages/otherstamps";
 import SpouseVisa from "./pages/spousevisa";
 import PartnerVisa from "./pages/partnervisa";
+import TandC from "./pages/termsandconditions";
 import ChildVisa from "./pages/childvisa";
 import ImmigrationPermission from "./pages/immigiration-permission";
 import DataPrivacy from "./pages/data-privacy";
@@ -100,6 +101,7 @@ function App() {
             element={<ImmigrationPermission />}
           />
           <Route path="/data-privacy" element={<DataPrivacy />} />
+          <Route path="/terms-and-conditions" element={<TandC />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Router>

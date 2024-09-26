@@ -252,7 +252,7 @@ export default function Footer() {
           |{" "}
           <p
             onClick={() => {
-              navigateTo("");
+              navigateTo("terms-and-conditions");
             }}
           >
             Terms and Conditions
