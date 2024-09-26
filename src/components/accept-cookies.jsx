@@ -19,7 +19,7 @@ export default function AcceptCookies({ isVisible, onClose }) {
           name="accept-cookies"
         />
         <label className="label" htmlFor="accept-cookies">
-          accept the use of cookies for a better browsing experience and
+          I accept the use of cookies for a better browsing experience and
           personalized content.
         </label>
       </div>

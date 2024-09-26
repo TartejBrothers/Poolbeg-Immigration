@@ -61,11 +61,12 @@ export default function Home() {
           </button>
           <div className="homeheaderdivider">
             <hr />
-            <p>or Call Us On</p>
+            <p>or We are Available At</p>
             <hr />
           </div>
           <p>
-            <ion-icon name="call"></ion-icon> 0874836445
+            <ion-icon name="logo-whatsapp"></ion-icon>/
+            <ion-icon name="call"></ion-icon> at 0874836445
           </p>
         </div>
       </div>
@@ -97,8 +98,10 @@ export default function Home() {
               Work Permits (Critical Skills Employment Permits and General Work
               Permits)
             </li>
-            <li>Short-Stay and Long-Stay Visas</li>
+            <li>Short-Stay and Tourist Visas</li>
             <li>Student Visa Applications</li>
+            <li>EU Treaty Rights</li>
+            <li>Labour Market Means Test</li>
           </ul>
         </div>
         <div className="homeaboutusright">
