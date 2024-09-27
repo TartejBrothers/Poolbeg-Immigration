@@ -34,6 +34,7 @@ import TandC from "./pages/termsandconditions";
 import ChildVisa from "./pages/childvisa";
 import ImmigrationPermission from "./pages/immigiration-permission";
 import DataPrivacy from "./pages/data-privacy";
+import CookiePolicy from "./pages/cookies-policy";
 function App() {
   return (
     <div className="App">
@@ -102,6 +103,7 @@ function App() {
           />
           <Route path="/data-privacy" element={<DataPrivacy />} />
           <Route path="/terms-and-conditions" element={<TandC />} />
+          <Route path="/cookie-policy" element={<CookiePolicy />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Router>
