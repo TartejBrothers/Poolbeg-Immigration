@@ -10,6 +10,7 @@ export default function DataPrivacy() {
     <div className="home">
       <Navbar />
       <div className="dataprivacy">
+        <h1>Our Data Privacy Policy</h1>
         <p>
           This document outlines how Poolbeg Immigration collect, use, store,
           and protect your personal information when you engage with our

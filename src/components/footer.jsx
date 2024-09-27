@@ -257,6 +257,14 @@ export default function Footer() {
           >
             Terms and Conditions
           </p>
+          |{" "}
+          <p
+            onClick={() => {
+              navigateTo("cookie-policy");
+            }}
+          >
+            Cookie Policy
+          </p>
         </div>
         <div className="footerbottomright">
           <a

@@ -14,6 +14,7 @@
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
+
   margin-top: 30px;
   color: #db291c;
 }
@@ -35,7 +36,12 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.dataprivacybody h4 {
+  margin-bottom: 5px;
+}
+.dataprivacybody p {
+  margin-bottom: 10px;
+}
 .dataprivacybody {
   margin-bottom: 40px !important;
 }
