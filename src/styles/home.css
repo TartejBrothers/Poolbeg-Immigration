@@ -221,6 +221,41 @@
   font-weight: 400;
   margin-bottom: 10px;
 }
+.whatsapp-button,
+.calendly-button {
+  position: fixed;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  z-index: 100;
+  justify-content: center;
+}
+.calendly-button {
+  bottom: 100px;
+  right: 20px;
+  background-color: #db291c;
+}
+.whatsapp-button {
+  bottom: 20px;
+  right: 20px;
+  background-color: #24d366;
+}
+.whatsapp-button a,
+.calendly-button a {
+  height: 100%;
+  color: #ffffff;
+  display: flex;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+}
+.calendly-button a {
+  font-size: 30px;
+}
 @media screen and (max-width: 1000px) {
   .homeheader {
     padding: 60px 20px;
