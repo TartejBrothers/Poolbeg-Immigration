@@ -58,9 +58,11 @@ export default function ContactForm() {
             </div>
 
             <div className="contactelement">
-              <div className="leftcontactelement">
-                <img src={emailcontact} alt="email" />
-              </div>
+              <a href="mailto:info@poolbegimmigration.com">
+                <div className="leftcontactelement">
+                  <img src={emailcontact} alt="email" />
+                </div>
+              </a>
               <div className="rightcontactelement">
                 <h3>Email Us</h3>
                 <p>info@poolbegimmigration.com</p>

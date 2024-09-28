@@ -10,6 +10,8 @@ import IndustriesServed from "../components/industriesserved";
 import { useNavigate } from "react-router-dom";
 import ContactFormPopup from "../components/contactformpopup";
 import AcceptCookies from "../components/accept-cookies";
+import WhatsAppButton from "../components/whatsappbutton";
+import CalendlyButton from "../components/calendly";
 export default function Home() {
   const navigateTo = useNavigate();
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -37,6 +39,8 @@ export default function Home() {
     <div className="home">
       <Navbar />
       <ContactFormPopup isVisible={isPopupVisible} onClose={togglePopup} />
+      <CalendlyButton />
+      <WhatsAppButton />
       <AcceptCookies
         isVisible={isCookiesAccepted}
         onClose={togglePopupCookie}
@@ -52,13 +56,9 @@ export default function Home() {
           individuals to secure their legal status in Ireland.
         </p>
         <div className="homeheaderbottom">
-          <button
-            onClick={() => {
-              navigateTo("contact-us");
-            }}
-          >
-            Contact Us
-          </button>
+          <a href="" target="_blank">
+            <button>Book A Free Consultation</button>
+          </a>
           <div className="homeheaderdivider">
             <hr />
             <p>or We are Available At</p>

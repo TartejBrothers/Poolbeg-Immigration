@@ -49,6 +49,25 @@
 }
 .contactleft {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chatwhatsapp {
+  background-color: #24d366;
+  color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 30px;
+}
+.chatwhatsapp p {
+  font-weight: 500;
+  font-size: 16px;
 }
 .contacticonleft {
   display: flex;
@@ -152,5 +171,9 @@
   }
   .contactusmainbody h5 {
     font-size: 14px;
+  }
+  .contactleft {
+    flex-direction: column;
+    gap: 20px;
   }
 }
