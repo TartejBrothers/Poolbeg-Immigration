@@ -15,21 +15,30 @@ export default function ContactUs() {
         </h4>
         <div className="contactusmainbody">
           <div className="contactleft">
-            <h6>For assistance on all things, contact us at:</h6>
-            <div className="contactelements">
-              <div className="contacticonleft">
-                <ion-icon name="call-outline"></ion-icon>
+            <div className="contactleftinner">
+              <h6>For assistance on all things, contact us at:</h6>
+
+              <div className="contactelements">
+                <div className="contacticonleft">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <div className="contactright">
+                  <h5>0874836445 </h5>
+                </div>
               </div>
-              <div className="contactright">
-                <h5>0874836445 </h5>
+              <div className="contactelements">
+                <div className="contacticonleft">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div className="contactright">
+                  <h5>info@poolbegimmigration.com</h5>
+                </div>
               </div>
             </div>
-            <div className="contactelements">
-              <div className="contacticonleft">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-              <div className="contactright">
-                <h5>info@poolbegimmigration.com</h5>
+            <div className="contactleftouter">
+              <div className="chatwhatsapp">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <p>Chat on WhatsApp</p>
               </div>
             </div>
           </div>
