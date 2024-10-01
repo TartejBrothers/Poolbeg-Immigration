@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import WhatsAppButton from "./components/whatsappbutton";
+import CalendlyButton from "./components/calendly";
 import Home from "./pages/home";
 import WorkPermit from "./pages/workpermit";
 import Stamp1GOverview from "./pages/stamp1g-overview";
@@ -38,6 +39,7 @@ import CookiePolicy from "./pages/cookies-policy";
 function App() {
   return (
     <div className="App">
+      <CalendlyButton />
       <WhatsAppButton />
       <Router>
         <Routes>
