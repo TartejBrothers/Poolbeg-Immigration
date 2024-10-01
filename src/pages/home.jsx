@@ -10,7 +10,7 @@ import IndustriesServed from "../components/industriesserved";
 import { useNavigate } from "react-router-dom";
 import ContactFormPopup from "../components/contactformpopup";
 import AcceptCookies from "../components/accept-cookies";
-import WhatsAppButton from "../components/whatsappbutton";
+
 import CalendlyButton from "../components/calendly";
 export default function Home() {
   const navigateTo = useNavigate();
@@ -40,7 +40,7 @@ export default function Home() {
       <Navbar />
       <ContactFormPopup isVisible={isPopupVisible} onClose={togglePopup} />
       <CalendlyButton />
-      <WhatsAppButton />
+      
       <AcceptCookies
         isVisible={isCookiesAccepted}
         onClose={togglePopupCookie}
