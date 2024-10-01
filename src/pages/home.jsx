@@ -39,7 +39,7 @@ export default function Home() {
     <div className="home">
       <Navbar />
       <ContactFormPopup isVisible={isPopupVisible} onClose={togglePopup} />
-      <CalendlyButton />
+      
       
       <AcceptCookies
         isVisible={isCookiesAccepted}
