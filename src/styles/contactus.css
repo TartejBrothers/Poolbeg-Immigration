@@ -53,6 +53,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.contactleftouter a {
+  text-decoration: none;
+}
 .chatwhatsapp {
   background-color: #24d366;
   color: #ffffff;
