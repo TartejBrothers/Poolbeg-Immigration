@@ -39,8 +39,7 @@ export default function Home() {
     <div className="home">
       <Navbar />
       <ContactFormPopup isVisible={isPopupVisible} onClose={togglePopup} />
-      
-      
+
       <AcceptCookies
         isVisible={isCookiesAccepted}
         onClose={togglePopupCookie}
@@ -98,7 +97,7 @@ export default function Home() {
               Work Permits (Critical Skills Employment Permits and General Work
               Permits)
             </li>
-            <li>Short-Stay and Tourist Visas</li>
+            <li>Short Stay - Tourist & Visit Visas</li>
             <li>Student Visa Applications</li>
             <li>EU Treaty Rights</li>
             <li>Labour Market Means Test</li>
