@@ -112,4 +112,10 @@
   .aboutheader p {
     text-align: left;
   }
+  .homeservices h1 {
+    font-size: 32px;
+  }
+  .aboutusmainheader h1 {
+    font-size: 32px;
+  }
 }
