@@ -36,10 +36,12 @@ export default function ContactUs() {
               </div>
             </div>
             <div className="contactleftouter">
-              <div className="chatwhatsapp">
-                <ion-icon name="logo-whatsapp"></ion-icon>
-                <p>Chat on WhatsApp</p>
-              </div>
+              <a href="https://wa.me/353874836445" target="_blank">
+                <div className="chatwhatsapp">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <p>Chat on WhatsApp</p>
+                </div>
+              </a>
             </div>
           </div>
           <div className="contactformright">
