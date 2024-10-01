@@ -38,7 +38,7 @@ export default function AboutUs() {
             Work Permits (Critical Skills Employment Permits and General Work
             Permits)
           </li>
-          <li>Short-Stay and Tourist Visas</li>
+          <li>Short Stay - Tourist & Visit Visas</li>
           <li>Student Visa Applications</li>
           <li>EU Treaty Rights</li>
           <li>Labour Market Means Test</li>
