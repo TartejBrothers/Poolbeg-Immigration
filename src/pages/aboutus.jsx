@@ -43,6 +43,7 @@ export default function AboutUs() {
           <li>EU Treaty Rights</li>
           <li>Labour Market Means Test</li>
           <li>Entrepreneur Visa</li>
+          <li>De Facto Partner Visa</li>
         </ul>
 
         <h2>Our Journey and Purpose</h2>

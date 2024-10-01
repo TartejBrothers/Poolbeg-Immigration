@@ -103,6 +103,7 @@ export default function Home() {
             <li>EU Treaty Rights</li>
             <li>Labour Market Means Test</li>
             <li>Entrepreneur Visa</li>
+            <li>De Facto Partner Visa</li>
           </ul>
         </div>
         <div className="homeaboutusright">
