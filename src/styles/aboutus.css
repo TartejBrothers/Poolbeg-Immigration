@@ -108,12 +108,19 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.homeservices h1 {
+  margin-bottom: 15px;
+}
+.corevalues {
+  background-color: #ecbeab;
+}
 @media screen and (max-width: 1000px) {
   .aboutheader p {
     text-align: left;
   }
   .homeservices h1 {
     font-size: 32px;
+    margin-bottom: 15px;
   }
   .aboutusmainheader h1 {
     font-size: 32px;
