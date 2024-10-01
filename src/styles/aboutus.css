@@ -6,6 +6,39 @@
 
   text-align: left;
 }
+.aboutusmainheader {
+  background-color: #ecbeab;
+  padding: 70px 30px;
+  width: 100%;
+
+  text-align: center;
+}
+.aboutusmainheader h1 {
+  color: #db291c;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.aboutusmainheader p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+.missionsection {
+  background-color: #ecbeab;
+  padding: 70px 30px;
+  width: 100%;
+}
+.missionsection h1 {
+  color: #db291c;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.missionsection p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
 .aboutheader ul {
   width: 100%;
   display: flex;
@@ -44,6 +77,18 @@
 .aboutheader p {
   line-height: 2;
   max-width: 1400px;
+}
+.corevalues ul strong {
+  color: #db291c;
+}
+.graybgsection {
+  background-color: #f1f1f1;
+}
+.graybgsection h1 {
+  font-size: 40px;
+  color: #db291c;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .aboutusvisionelement {
   background-color: #f1f1f1;

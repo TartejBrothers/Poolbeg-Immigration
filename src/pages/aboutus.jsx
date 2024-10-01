@@ -11,7 +11,7 @@ export default function AboutUs() {
   return (
     <div className="aboutmain">
       <Navbar />
-      <div className="aboutheader">
+      <div className="aboutusmainheader">
         <h1>About Poolbeg Immigrations</h1>
         <p>
           At Poolbeg Immigrations, we are proud to be a trusted leader in
@@ -21,7 +21,8 @@ export default function AboutUs() {
           services. Our deep knowledge of non-EU immigration laws ensures that
           every client receives the most accurate and up-to-date guidance.
         </p>
-
+      </div>
+      <div className="aboutheader">
         <h2>Comprehensive Services</h2>
         <p>
           Our expertise spans a broad range of immigration services, including:
@@ -85,7 +86,7 @@ export default function AboutUs() {
           certain, and fully supported.
         </p>
       </div>
-      <div className="homeservices">
+      <div className="homeservices missionsection">
         <h1 className="colorred">Mission Statement</h1>
 
         <p>
@@ -129,7 +130,7 @@ export default function AboutUs() {
           </ul>
         </div>
       </div>
-      <div className="homeservices ">
+      <div className="homeservices corevalues">
         <div className="aboutusvision">
           <h1 className="colorred centertext">Core Values</h1>
           <ul>
@@ -185,7 +186,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="homeservices servicemainbody">
+      <div className="homeservices servicemainbody graybgsection">
         <h1>Our Services</h1>
 
         <div className="servicesrow">
