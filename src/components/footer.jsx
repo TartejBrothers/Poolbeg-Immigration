@@ -135,7 +135,7 @@ export default function Footer() {
                   Short-Term Visas
                 </li>
                 <li onClick={() => navigateTo("immigration/family-visa")}>
-                  Family Visas
+                  Joint Family Visas
                 </li>
               </ul>
 
