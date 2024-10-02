@@ -43,7 +43,6 @@ export default function AboutUs() {
           <li>EU Treaty Rights</li>
           <li>Labour Market Means Test</li>
           <li>Entrepreneur Visa</li>
-          <li>De Facto Partner Visa</li>
         </ul>
 
         <h2>Our Journey and Purpose</h2>
@@ -80,8 +79,8 @@ export default function AboutUs() {
           Whether you’re a corporation seeking to bring international talent to
           Ireland or an individual navigating the intricacies of visa
           applications, Poolbeg Immigration is your reliable partner. Our unique
-          blend of legal expertise and personal experience empowers us to offer
-          tailored solutions that meet your specific needs. At Poolbeg
+          blend of immigration advice and personal experience empowers us to
+          offer tailored solutions that meet your specific needs. At Poolbeg
           Immigrations, we understand that your immigration journey is about
           building a future—and we’re here to make that journey smoother, more
           certain, and fully supported.

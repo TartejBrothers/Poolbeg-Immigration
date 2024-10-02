@@ -114,7 +114,7 @@ export default function Navbar() {
                     Short-Term Visas
                   </li>
                   <li onClick={() => navigateTo("immigration/family-visa")}>
-                    Family Visas
+                    Joint Family Visas
                   </li>
                   <li onClick={() => navigateTo("immigration/stamp4")}>
                     Stamp 4
@@ -287,7 +287,7 @@ export default function Navbar() {
                         Short-Term Visas
                       </li>
                       <li onClick={() => navigateTo("immigration/family-visa")}>
-                        Family Visas
+                        Joint Family Visas
                       </li>
                       <li onClick={() => navigateTo("immigration/stamp4")}>
                         Stamp 4
