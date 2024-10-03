@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/home.css";
 import "../styles/industry.css";
 import Navbar from "../components/navbar";
-import homeabout from "../images/back/back14.jpeg";
+import homeabout from "../images/back/back15.jpg";
 import Testimonial from "../components/testimonial";
 import ContactForm from "../components/contactform";
 import Footer from "../components/footer";

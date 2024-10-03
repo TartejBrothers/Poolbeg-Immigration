@@ -123,7 +123,7 @@ export default function Navbar() {
                     Stamp 5
                   </li>
                   <li onClick={() => navigateTo("immigration/stamp6")}>
-                    Stamp 6 (Irish Citizenship)
+                    Stamp 6
                   </li>
                   <li onClick={() => navigateTo("immigration/other-stamps")}>
                     Other Irish Immigration Stamps
@@ -296,7 +296,7 @@ export default function Navbar() {
                         Stamp 5
                       </li>
                       <li onClick={() => navigateTo("immigration/stamp6")}>
-                        Stamp 6 (Irish Citizenship)
+                        Stamp 6
                       </li>
                       <li
                         onClick={() => navigateTo("immigration/other-stamps")}
@@ -481,7 +481,7 @@ export default function Navbar() {
                       Stamp 5
                     </li>
                     <li onClick={() => navigateTo("immigration/stamp6")}>
-                      Stamp 6 (Irish Citizenship)
+                      Stamp 6
                     </li>
                     <li onClick={() => navigateTo("immigration/other-stamps")}>
                       Other Irish Immigration Stamps
