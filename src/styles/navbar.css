@@ -64,7 +64,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px 10px;
+  padding: 00px 30px 0px;
 }
 
 .navbarleft,
@@ -75,8 +75,11 @@
   height: 100%;
 }
 
+.navbarleft {
+  height: 100px;
+}
 .navbarmain img {
-  height: 70px;
+  height: 135px;
   border-radius: 5px;
 }
 
@@ -173,9 +176,15 @@
 
 @media screen and (max-width: 1000px) {
   .navbarmain {
-    padding: 20px 10px;
+    padding: 0px 10px;
   }
-
+  .navbarleft {
+    height: 90px;
+  }
+  .navbarmain img {
+    height: 120px;
+    border-radius: 5px;
+  }
   .navbarright ul {
     display: none;
   }
