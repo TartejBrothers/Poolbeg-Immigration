@@ -52,7 +52,7 @@ export default function Home() {
           Join Family Visa, Family Re unification visa, De Facto Partner Visa,
           EU Treaty Rights, Entrepreneur Visa, Bringing Elderly parents to
           Ireland, Child Passport Applications, Stamp 4 and Stamp 5
-          applications, Work visa, Trusted Partner Student visa, Tourist and
+          applications, Work visa, Trusted Partner, Student visa, Tourist and
           Visit Visa Applications and many more.
         </p>
         <h4> Turn your Ambiguities into Certainties</h4>
