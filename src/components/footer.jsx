@@ -74,7 +74,7 @@ export default function Footer() {
               Labour Market Need Test
             </li>
             <li onClick={() => navigateTo("work-permit/trusted-partnership")}>
-              Trusted Partnership
+              Trusted Partner
             </li>
             <li onClick={() => navigateTo("work-permit/critical-occupation")}>
               Critical Skills Occupation Lists

@@ -46,13 +46,14 @@ export default function Home() {
       />
       <div className="homeheader">
         <h1> Poolbeg Immigration</h1>
-        <h3>Irish Employment Permit and Immigration Specialists</h3>
+        <h3>End To End Irish Immigration Specialists</h3>
         <p className="headercentertext">
-          At Poolbeg Immigration, we specialise in Critical Skills Employment
-          Permits, General Employment Permits, and Visa Applications.
-          <br />
-          Our services enable businesses to hire non-EEA nationals and
-          individuals to secure their legal status in Ireland.
+          Your Immigration Partner for Naturalization, Dependent Spouse Visa,
+          Join Family Visa, Family Re unification visa, De Facto Partner Visa,
+          EU Treaty Rights, Entrepreneur Visa, Bringing Elderly parents to
+          Ireland, Child Passport Applications, Stamp 4 and Stamp 5
+          applications, Work visa, Trusted Partner Student visa, Tourist and
+          Visit Visa Applications and many more.
         </p>
         <h4> Turn your Ambiguities into Certainties</h4>
         <div className="homeheaderbottom">

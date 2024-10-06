@@ -71,7 +71,7 @@ export default function Navbar() {
                       navigateTo("work-permit/trusted-partnership")
                     }
                   >
-                    Trusted Partnership
+                    Trusted Partner
                   </li>
                   <li
                     onClick={() =>
@@ -246,7 +246,7 @@ export default function Navbar() {
                           navigateTo("work-permit/trusted-partnership")
                         }
                       >
-                        Trusted Partnership
+                        Trusted Partner
                       </li>
                       <li>Critical Skills Occupation Lists</li>
                     </ul>
@@ -398,7 +398,7 @@ export default function Navbar() {
                 <li
                   onClick={() => navigateTo("work-permit/trusted-partnership")}
                 >
-                  Trusted Partnership
+                  Trusted Partner
                 </li>
                 <li
                   onClick={() => navigateTo("work-permit/critical-occupation")}
