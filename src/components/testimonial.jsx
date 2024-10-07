@@ -76,6 +76,14 @@ export default function Testimonial() {
       <div className="wrapper">
         <div className="card-wrapper" ref={cardWrapperRef}>
           <TestimonialCard
+            name="Suarabh Kapoor"
+            content="I recently had the opportunity to consult Sanhita Deb from Poolbeg Immigration, and I can't recommend their services enough! Navigating the immigration process can be overwhelming, especially with the new guidelines and the ever-evolving landscape here in Ireland.
+
+What stood out to me was the personalized approach they took in handling my case. From securing the right documents to offering clear guidance, they made the entire process feel much more manageable and stress-free. If you're dealing with work permits, naturalization, or any other immigration matters, I'd highly recommend reaching out to them for expert advice.
+
+It's great to have a team like Poolbeg Immigration by your side when you're navigating such important life decisions!"
+          />{" "}
+          <TestimonialCard
             name="Damien Abraham"
             content="I am very grateful for the exceptional service provided by CareerIreland. Their team managed my work permit application with such professionalism and efficiency that the process felt remarkably stress-free.
             
