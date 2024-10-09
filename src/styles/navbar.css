@@ -38,7 +38,8 @@
 .navbarbottom {
   display: flex;
   padding: 20px 10px;
-  background-color: #000000;
+  background-color: #bbbbbb;
+  color: #000000;
   justify-content: center;
 }
 
@@ -64,7 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 00px 30px 0px;
+  padding: 0px 30px 0px 0px;
 }
 
 .navbarleft,
@@ -76,10 +77,10 @@
 }
 
 .navbarleft {
-  height: 100px;
+  height: 120px;
 }
 .navbarmain img {
-  height: 135px;
+  height: 180px;
   border-radius: 5px;
 }
 
@@ -180,6 +181,7 @@
   }
   .navbarleft {
     height: 90px;
+    overflow: hidden;
   }
   .navbarmain img {
     height: 120px;

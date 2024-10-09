@@ -8,7 +8,7 @@ export default function Testimonial() {
   const cardWrapperRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [testimonialsPerView, setTestimonialsPerView] = useState(3);
-  const totalTestimonials = 18;
+  const totalTestimonials = 21;
 
   const updateTestimonialsPerView = () => {
     if (window.innerWidth <= 1000) {
@@ -82,6 +82,15 @@ export default function Testimonial() {
 What stood out to me was the personalized approach they took in handling my case. From securing the right documents to offering clear guidance, they made the entire process feel much more manageable and stress-free. If you're dealing with work permits, naturalization, or any other immigration matters, I'd highly recommend reaching out to them for expert advice.
 
 It's great to have a team like Poolbeg Immigration by your side when you're navigating such important life decisions!"
+          />
+          <TestimonialCard
+            name="Charul Sharma"
+            content="I recently had a consultation with San from Poolbeg Immigration, and I can’t recommend her enough. Navigating immigration processes can be stressful, but San  made the entire experience much more manageable. She listened carefully, provided clear and practical advice, and explained everything in a way that was easy to understand. What stood out most was her genuine care and empathy—she didn’t just focus on the paperwork, but also took the time to ease my concerns. If you're facing any immigration challenges, I highly recommend reaching out to Poolbeg Immigration. 
+"
+          />{" "}
+          <TestimonialCard
+            name="Mahesh T"
+            content="A big thank you to Poolbeg Immigration for an incredibly insightful consultation. They took the time to really understand my situation, provided clear and practical advice, and made me feel at ease with the whole De Facto Partner Visa process. I highly recommend reaching out to them if you’re planning to take the next plunge in your immigration journey."
           />{" "}
           <TestimonialCard
             name="Damien Abraham"
