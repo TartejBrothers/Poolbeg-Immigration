@@ -176,10 +176,17 @@
 }
 .homeaboutus {
   display: flex;
-  width: 100%;
-  background-color: #cbe2f5;
-
+  width: 90%;
+  background-color: #ffffff;
+  border: 1px solid #535353;
+  margin: 20px auto 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(120, 120, 120, 0.3);
   align-items: stretch;
+  transition: all 0.3s ease;
+}
+.homeaboutus:hover {
+  transform: scale(1.01);
 }
 .homeaboutusleft,
 .homeaboutusright {
