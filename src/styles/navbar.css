@@ -38,8 +38,8 @@
 .navbarbottom {
   display: flex;
   padding: 20px 10px;
-  background-color: #bbbbbb;
-  color: #000000;
+  background-color: #141414;
+  border-bottom: 1px solid #626262;
   justify-content: center;
 }
 
@@ -48,6 +48,7 @@
   font-weight: 600;
   list-style-type: none;
   gap: 70px;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -78,6 +79,7 @@
 
 .navbarleft {
   height: 120px;
+  overflow: hidden;
 }
 .navbarmain img {
   height: 180px;
@@ -87,7 +89,8 @@
 .navbarright ul {
   list-style-type: none;
   display: flex;
-  gap: 50px;
+  gap: 35px;
+  color: #000000;
   font-weight: 500;
   font-size: 16px;
   margin-right: 20px;
