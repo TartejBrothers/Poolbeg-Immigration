@@ -33,6 +33,9 @@ export default function Navbar() {
         <div className="navbarcenter"></div>
         <div className="navbarright">
           <ul>
+            <li onClick={() => navigateTo("")}>Home</li>
+
+            <li onClick={() => navigateTo("about-us")}>About Us</li>
             <li className="dropdown">
               <span onClick={() => navigateTo("work-permit")}>
                 Work Permits <ion-icon name="chevron-down"></ion-icon>
@@ -176,13 +179,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="navbarbottom">
-        <ul>
-          <li onClick={() => navigateTo("")}>Home</li>
-          {/* <li onClick={() => navigateTo("news-updates")}>News & Updates</li> */}
-          <li onClick={() => navigateTo("about-us")}>About Us</li>
-        </ul>
-      </div>
+
       {showDropdown && (
         <div className="navbarmobile-dropdown">
           <div className="navbarmain">

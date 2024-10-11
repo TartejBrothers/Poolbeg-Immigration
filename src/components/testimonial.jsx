@@ -8,7 +8,7 @@ export default function Testimonial() {
   const cardWrapperRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [testimonialsPerView, setTestimonialsPerView] = useState(3);
-  const totalTestimonials = 21;
+  const totalTestimonials = 4;
 
   const updateTestimonialsPerView = () => {
     if (window.innerWidth <= 1000) {
@@ -101,7 +101,7 @@ I have a long-term plan in place.
 San's approach truly stands out because she doesn't just give you information-she helps you build a step-by-step plan, turning large tasks into small, achievable goals. For someone like me with an entrepreneurial background, she also provided valuable insights into the Entrepreneur Visa.
 For anyone looking to navigate the immigration landscape with confidence, San's the expert to guide you through it. She'll help you see the big picture while focusing on the immediate steps that will get you there."
           />{" "}
-          <TestimonialCard
+          {/* <TestimonialCard
             name="Damien Abraham"
             content="I am very grateful for the exceptional service provided by CareerIreland. Their team managed my work permit application with such professionalism and efficiency that the process felt remarkably stress-free.
             
@@ -214,7 +214,7 @@ Lot of international students struggle with their application. I'd suggest if yo
           <TestimonialCard
             name="Vishal Goda"
             content="I would like to give my sincere thanks to the CareerIreland team and Raghav Dixit - MBA,PMP® for helping me with all kinds of immigration and career guidance, especially at the time of helping me to get Stamp 1G extensions. I would recommend them to all my friends and colleagues. I wish the CareerIreland Team all the best and hope you have more such happy customers."
-          />
+          /> */}
         </div>
       </div>
     </div>
