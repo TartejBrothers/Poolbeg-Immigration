@@ -22,7 +22,7 @@ export default function Footer() {
     <div className="footer">
       <div className="footerabout">
         <div className="footeraboutheader">
-          <img src={logo} alt="Logo" />
+          {/* <img src={logo} alt="Logo" /> */}
           <p>
             At Poolbeg Immigration, we specialize in navigating all aspects of
             immigration to Ireland, from visas and work permits to residency and

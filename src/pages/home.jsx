@@ -46,7 +46,7 @@ export default function Home() {
       />
       <div className="homeheader">
         <h1> Poolbeg Immigration</h1>
-        <h3>End To End Irish Immigration Specialists</h3>
+        <h3>End To End Irish Immigration Partners</h3>
         <p className="headercentertext">
           Your Immigration Partner for Naturalization, Dependent Spouse Visa,
           Join Family Visa, Family Re unification visa, De Facto Partner Visa,
