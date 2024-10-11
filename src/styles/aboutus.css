@@ -7,7 +7,7 @@
   text-align: left;
 }
 .aboutusmainheader {
-  background-color: #ecbeab;
+  background-color: #fce4bf;
   padding: 70px 30px;
   width: 100%;
 
@@ -24,7 +24,7 @@
   text-align: left;
 }
 .missionsection {
-  background-color: #ecbeab;
+  background-color: #fce4bf;
   padding: 70px 30px;
   width: 100%;
 }
@@ -112,7 +112,7 @@
   margin-bottom: 15px;
 }
 .corevalues {
-  background-color: #ecbeab;
+  background-color: #fce4bf;
 }
 @media screen and (max-width: 1000px) {
   .aboutheader p {
