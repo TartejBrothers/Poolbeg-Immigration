@@ -93,6 +93,15 @@ It's great to have a team like Poolbeg Immigration by your side when you're navi
             content="A big thank you to Poolbeg Immigration for an incredibly insightful consultation. They took the time to really understand my situation, provided clear and practical advice, and made me feel at ease with the whole De Facto Partner Visa process. I highly recommend reaching out to them if you’re planning to take the next plunge in your immigration journey."
           />{" "}
           <TestimonialCard
+            name="Raj Nadigottu"
+            content="I recently had the pleasure of speaking with San, the Associate Director of Poolbeg Immigration, about my future immigration plans in Ireland. As a student on Stamp 2, I was unsure about what steps to take after my graduation. San was able to cut through the complexity and give me a clear, manageable path forward.
+Instead of dealing with the complications of Stamp 1G, she suggested moving directly from Stamp 2 to Stamp
+1. She also took the time to explain all my future options for when my Stamp 1G is about to expire, making sure
+I have a long-term plan in place.
+San's approach truly stands out because she doesn't just give you information-she helps you build a step-by-step plan, turning large tasks into small, achievable goals. For someone like me with an entrepreneurial background, she also provided valuable insights into the Entrepreneur Visa.
+For anyone looking to navigate the immigration landscape with confidence, San's the expert to guide you through it. She'll help you see the big picture while focusing on the immediate steps that will get you there."
+          />{" "}
+          <TestimonialCard
             name="Damien Abraham"
             content="I am very grateful for the exceptional service provided by CareerIreland. Their team managed my work permit application with such professionalism and efficiency that the process felt remarkably stress-free.
             

@@ -26,12 +26,36 @@
   top: 10px;
   right: 10px;
 }
+.closeiconcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+.closeiconcontainer img {
+  height: 20px;
+  width: 20px;
+}
 .popup-content .contactusmainbody {
   box-shadow: none;
   margin-top: 0px;
 }
 
+.testimonial-popup {
+  width: 600px;
+  max-width: 80%;
+  max-height: calc(100vh - 100px);
+}
+.testimonial-popup p {
+  max-height: calc(100vh - 314px);
+  overflow-y: auto;
+}
 .popup-content .contactusbody {
   background-color: #ffffff;
   padding: 10px 0px;
+}
+@media screen and (max-width: 1000px) {
+  .testimonial-popup {
+    padding: 15px;
+  }
 }

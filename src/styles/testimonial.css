@@ -74,6 +74,11 @@
   scale: 1.1;
 }
 
+.readmore {
+  color: #dc291c;
+  font-size: 13px;
+  margin-left: 2px;
+}
 .card-wrapper {
   width: 100%;
   display: grid;
@@ -110,9 +115,18 @@
   background-color: #ffffff;
 }
 
+.splitstars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.splitstarscross {
+  margin-bottom: 5px;
+}
 .testimonial {
   font-family: "outfit", sans-serif;
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   border: 1px solid #dedede;
@@ -138,10 +152,10 @@
 }
 
 .testimonial p {
-  width: 85%;
+  width: 95%;
   color: #000000;
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -151,6 +165,10 @@
   font-size: 14px;
   font-size: 14px;
 }
+.testimonial-card {
+  height: 300px;
+}
+
 @media screen and (max-width: 1000px) {
   .testimonialheader {
     flex-direction: column;
@@ -182,5 +200,14 @@
   }
   .card-item {
     padding: 0px;
+  }
+
+  .readmore {
+    color: #dc291c;
+    font-size: 16px;
+    margin-left: 2px;
+  }
+  .testimonial-card {
+    height: 350px;
   }
 }
