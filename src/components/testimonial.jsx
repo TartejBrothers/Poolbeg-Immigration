@@ -8,7 +8,7 @@ export default function Testimonial() {
   const cardWrapperRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [testimonialsPerView, setTestimonialsPerView] = useState(3);
-  const totalTestimonials = 4;
+  const totalTestimonials = 6;
 
   const updateTestimonialsPerView = () => {
     if (window.innerWidth <= 1000) {
