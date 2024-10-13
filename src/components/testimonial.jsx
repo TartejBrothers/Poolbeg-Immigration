@@ -101,6 +101,20 @@ I have a long-term plan in place.
 San's approach truly stands out because she doesn't just give you information-she helps you build a step-by-step plan, turning large tasks into small, achievable goals. For someone like me with an entrepreneurial background, she also provided valuable insights into the Entrepreneur Visa.
 For anyone looking to navigate the immigration landscape with confidence, San's the expert to guide you through it. She'll help you see the big picture while focusing on the immediate steps that will get you there."
           />{" "}
+          <TestimonialCard
+            name="Nishant G"
+            content="I recently consulted with San from Poolbeg Immigration about bringing my partner to Ireland on a long-term visa. I was initially exploring a few options, but San's expertise and thorough understanding of immigration laws made everything so much clearer. She carefully explained the timelines and benefits of each option, especially the De Facto Partner Visa, which turned out to be the best fit for our situation.
+
+Thanks to her detailed guidance, I now have a clear path forward and feel confident in planning the next steps. If you're looking for an immigration consultant who is not only knowledgeable but also genuinely cares about your journey, I highly recommend San and the team at Poolbeg Immigration!"
+          />
+          <TestimonialCard
+            name="Mahesh B"
+            content="I recently sought San's expertise at Poolbeg Immigration to help bring my dependent children to Ireland on a long-term visa. After being separated from my kids for over a year, I was feeling utterly distraught. San was more than just a consultant – she became a trusted confidante during one of the most stressful times in my life.
+
+            Not only did she guide me through the paperwork with precision, but she also offered heartfelt reassurance that I'd be reunited with my children soon. She took the time to explain every step, including the timelines, and helped me take prompt action on what needed to be done next.
+            
+            Her support went beyond professional advice – it was truly personal and compassionate. If you’re looking for someone who will care about your case as much as you do, I can't recommend San and Poolbeg Immigration enough!"
+          />
           {/* <TestimonialCard
             name="Damien Abraham"
             content="I am very grateful for the exceptional service provided by CareerIreland. Their team managed my work permit application with such professionalism and efficiency that the process felt remarkably stress-free.
