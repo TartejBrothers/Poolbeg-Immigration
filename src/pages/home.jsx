@@ -57,7 +57,10 @@ export default function Home() {
         </p>
         <h4> Turn your Immigration Ambiguities into Certainties</h4>
         <div className="homeheaderbottom">
-          <a href="https://calendly.com/debs-tcd" target="_blank">
+          <a
+            href="https://calendly.com/debs-tcd/30min?back=1&month=2024-10"
+            target="_blank"
+          >
             <button>Book A Free Consultation</button>
           </a>
           <div className="homeheaderdivider">
