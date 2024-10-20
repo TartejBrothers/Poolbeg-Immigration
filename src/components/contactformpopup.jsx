@@ -48,7 +48,10 @@ export default function ContactFormPopup({ isVisible, onClose }) {
                     <p>Chat on WhatsApp</p>
                   </div>
                 </a>
-                <a href="https://calendly.com/debs-tcd" target="_blank">
+                <a
+                  href="https://calendly.com/debs-tcd/30min?back=1&month=2024-10"
+                  target="_blank"
+                >
                   <button className="consulationbutton">
                     <ion-icon name="calendar-outline"></ion-icon>Book A Free
                     Consultation
