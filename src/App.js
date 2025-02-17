@@ -39,7 +39,7 @@ import CookiePolicy from "./pages/cookies-policy";
 function App() {
   return (
     <div className="App">
-      <CalendlyButton />
+      {/* <CalendlyButton /> */}
       <WhatsAppButton />
       <Router>
         <Routes>
