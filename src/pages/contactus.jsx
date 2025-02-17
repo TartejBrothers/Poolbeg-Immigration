@@ -42,7 +42,7 @@ export default function ContactUs() {
                   <p>Chat on WhatsApp</p>
                 </div>
               </a>
-              <a
+              {/* <a
                 href="https://calendly.com/debs-tcd/30min?back=1&month=2024-10"
                 target="_blank"
               >
@@ -50,7 +50,7 @@ export default function ContactUs() {
                   <ion-icon name="calendar-outline"></ion-icon>Book A Free
                   Consultation
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="contactformright">
