@@ -44,6 +44,12 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route
+            path="/google5917ab67f2c84f62.html"
+            element={
+              <div>google-site-verification: google5917ab67f2c84f62.html</div>
+            }
+          />
           <Route path="/work-permit" element={<WorkPermit />} />
           <Route path="/stamp1g-overview" element={<Stamp1GOverview />} />
           <Route path="/stamp1g-extension" element={<Stamp1GExtension />} />
